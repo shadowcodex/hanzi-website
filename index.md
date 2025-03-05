@@ -42,3 +42,6 @@ layout: default
     <li>Grammar Sections are a little ... meh... Need to fluff those a bit.</li>
     <li></li>
 </ul>
+<br />
+<br />
+Built with 💖 by <a href="https://github.com/shadowcodex">shadowcodex</a>
