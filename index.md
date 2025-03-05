@@ -21,7 +21,7 @@ layout: default
 <h2>All Reading</h2>
 <ul>
 {% for story in site.readings %}
-    <li><a href="{{ story.url }}">{{ story.title }}</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}/{{ story.url }}">{{ story.title }}</a></li>
 {% endfor %}
 </ul>
 <br />
@@ -29,7 +29,7 @@ layout: default
 <h2>All Lessons</h2>
 <ul>
   {% for lesson in site.lessons %}
-    <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}/{{ lesson.url }}">{{ lesson.title }}</a></li>
   {% endfor %}
 </ul>
 <br />
