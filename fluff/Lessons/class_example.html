@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Line Hanzi with Auto Pinyin & Popovers</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Pinyin Pro -->
+    <script src="https://cdn.jsdelivr.net/npm/pinyin-pro"></script>
+
+    <!-- Include Marked.js (Markdown parser) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <style>
+        h1 {
+            font-size: 48px;
+            font-weight:bolder;
+        }
+        h2 {
+            font-size: 36px;
+            font-weight:bolder;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .dialog-container {
+            margin-top: 20px;
+        }
+        .dialog {
+            margin-bottom: 10px; /* Reduced spacing */
+            line-height: 1.5; /* Reduced line height */
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start; /* Left align text */
+            flex-direction: column;
+        }
+        .dialog-new-words {
+            margin-bottom: 10px; /* Reduced spacing */
+            line-height: 1; /* Reduced line height */
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start; /* Left align text */
+            flex-direction: column;
+        }
+        .hanzi-line {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+        .hanzi-group {
+            position: relative;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 24px;
+            margin: 3px;
+            cursor: pointer;
+            min-width: 1em;
+        }
+        .pinyin {
+            display: none;
+            font-size: 16px;
+            color: gray;
+            line-height: 1;
+        }
+        .show-pinyin .pinyin {
+            display: block;
+        }
+        .pinyin-dictionary {
+            font-size: 20px;
+            margin: 3px;
+            display: inline;
+            vertical-align: baseline;
+            color: gray;
+        }
+        .plain-text {
+            font-size: 24px;
+            margin: 3px;
+            display: inline;
+            vertical-align: baseline;
+        }
+        .plain-text-body {
+            font-size: 24px;
+            margin: 3px;
+            display: inline;
+            color: #444444;
+            vertical-align: baseline;
+        }
+        .plain-text-title {
+            font-size: 24px;
+            font-weight:bold;
+            margin: 3px;
+            display: inline;
+            vertical-align: baseline;
+        }
+        .translation {
+            line-height: 1;
+            display: none;
+            font-size: 18px;
+            color: gray;
+            margin-top: 3px; /* Reduced spacing */
+        }
+        .show-translation .translation {
+            display: block;
+        }
+        .section-markdown-container {
+            background-color: #f1f1f1;
+            padding: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1>Example Lesson Title</h1>
+        </div>
+        <p class="plain-text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl eget fermentum tincidunt, urna ligula facilisis ex, sed molestie dolor turpis et nunc. Fusce quis sapien in elit tincidunt pharetra. Nam vitae risus non metus luctus bibendum. Integer vitae velit non justo tincidunt ullamcorper. Pellentesque nec erat nec augue vestibulum vestibulum ut vel eros. Nulla facilisi. Vestibulum pharetra vehicula mi, at tincidunt erat dapibus vel.</p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="new-words-section"
+            data-dictionary="%7B%0A%20%20%20%20%22%E6%B2%A1%E9%97%AE%E9%A2%98%22%3A%20%22phr.%20no%20problem%22%2C%0A%20%20%20%20%22%E5%86%99%22%3A%20%22v.%20to%20write%22%2C%0A%20%20%20%20%22%E6%B1%89%E5%AD%97%22%3A%20%22n.%20Chinese%20characters%22%2C%0A%20%20%20%20%22%E7%BB%83%22%3A%20%22v.%20to%20practice%22%2C%0A%20%20%20%20%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%0A%20%20%20%20%22%E8%AF%B4%22%3A%20%22v.%20to%20say%2C%20to%20speak%22%2C%0A%20%20%20%20%22%E5%BE%97%22%3A%20%22part.%20used%20to%20link%20a%20verb%20with%20a%20complement%22%2C%0A%20%20%20%20%22%E5%AF%B9%22%3A%20%22adj.%20correct%2C%20right%22%2C%0A%20%20%20%20%22%E7%8E%B0%E5%9C%A8%22%3A%20%22n.%20now%22%2C%0A%20%20%20%20%22%E5%86%99%E5%AD%97%22%3A%20%22n.%20writing%20characters%22%2C%0A%20%20%20%20%22%E4%B8%8D%E6%98%AF%22%3A%20%22phr.%20is%20not%22%0A%7D"
+        ></div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>Dialogs</h2>
+            <div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="togglePinyin">
+                    <label class="form-check-label" for="togglePinyin">Show Pinyin</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="toggleTranslation">
+                    <label class="form-check-label" for="toggleTranslation">Show Translation</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="hanzi-section" 
+             data-title="Message from Teacher"
+             data-hanzi="没问题，\n写汉字可以以后再练。\n你说得对！\n现在写字不是最重要的，\n听说读更重要。\n你的汉字阅读器听起来很有趣，\n期待在课上看看" 
+             data-translation="No problem,\nWriting Chinese characters can be practiced later.\nYou're right!\nWriting characters is not the most important thing right now,\nListening, speaking, and reading are more important.\nYour Chinese character reader sounds very interesting,\nLooking forward to seeing it in class."
+             data-dictionary="%7B%0A%20%20%20%20%22%E6%B2%A1%E9%97%AE%E9%A2%98%22%3A%20%22phr.%20no%20problem%22%2C%0A%20%20%20%20%22%E5%86%99%22%3A%20%22v.%20to%20write%22%2C%0A%20%20%20%20%22%E6%B1%89%E5%AD%97%22%3A%20%22n.%20Chinese%20characters%22%2C%0A%20%20%20%20%22%E5%8F%AF%E4%BB%A5%22%3A%20%22aux.%20can%2C%20may%22%2C%0A%20%20%20%20%22%E4%BB%A5%E5%90%8E%22%3A%20%22n.%20later%2C%20in%20the%20future%22%2C%0A%20%20%20%20%22%E5%86%8D%22%3A%20%22adv.%20again%22%2C%0A%20%20%20%20%22%E7%BB%83%22%3A%20%22v.%20to%20practice%22%2C%0A%20%20%20%20%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%0A%20%20%20%20%22%E8%AF%B4%22%3A%20%22v.%20to%20say%2C%20to%20speak%22%2C%0A%20%20%20%20%22%E5%BE%97%22%3A%20%22part.%20used%20to%20link%20a%20verb%20with%20a%20complement%22%2C%0A%20%20%20%20%22%E5%AF%B9%22%3A%20%22adj.%20correct%2C%20right%22%2C%0A%20%20%20%20%22%E7%8E%B0%E5%9C%A8%22%3A%20%22n.%20now%22%2C%0A%20%20%20%20%22%E5%86%99%E5%AD%97%22%3A%20%22n.%20writing%20characters%22%2C%0A%20%20%20%20%22%E4%B8%8D%E6%98%AF%22%3A%20%22phr.%20is%20not%22%2C%0A%20%20%20%20%22%E6%9C%80%22%3A%20%22adv.%20most%22%2C%0A%20%20%20%20%22%E9%87%8D%E8%A6%81%22%3A%20%22adj.%20important%22%2C%0A%20%20%20%20%22%E5%90%AC%22%3A%20%22v.%20to%20listen%22%2C%0A%20%20%20%20%22%E8%AF%B4%22%3A%20%22v.%20to%20speak%22%2C%0A%20%20%20%20%22%E8%AF%BB%22%3A%20%22v.%20to%20read%22%2C%0A%20%20%20%20%22%E6%9B%B4%22%3A%20%22adv.%20more%22%2C%0A%20%20%20%20%22%E4%BD%A0%E7%9A%84%22%3A%20%22pron.%20your%22%2C%0A%20%20%20%20%22%E9%98%85%E8%AF%BB%E5%99%A8%22%3A%20%22n.%20reader%22%2C%0A%20%20%20%20%22%E5%90%AC%E8%B5%B7%E6%9D%A5%22%3A%20%22v.%20sounds%20like%22%2C%0A%20%20%20%20%22%E5%BE%88%22%3A%20%22adv.%20very%22%2C%0A%20%20%20%20%22%E6%9C%89%E8%B6%A3%22%3A%20%22adj.%20interesting%22%2C%0A%20%20%20%20%22%E6%9C%9F%E5%BE%85%22%3A%20%22v.%20to%20look%20forward%20to%22%2C%0A%20%20%20%20%22%E5%9C%A8%22%3A%20%22prep.%20at%2C%20in%22%2C%0A%20%20%20%20%22%E8%AF%BE%E4%B8%8A%22%3A%20%22n.%20in%20class%22%2C%0A%20%20%20%20%22%E7%9C%8B%E7%9C%8B%22%3A%20%22v.%20to%20take%20a%20look%22%0A%7D"
+             data-markdown="%23%20Mandarin%20Grammar%20Rules%20Used%20in%20the%20Text%0A%0A%23%23%201.%20%2A%2A%E6%B2%A1%E9%97%AE%E9%A2%98%20%28m%C3%A9i%20w%C3%A8nt%C3%AD%29%20-%20%22No%20problem%22%2A%2A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2ANegation%20with%20%E6%B2%A1%20%28m%C3%A9i%29%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E6%B2%A1%20%28m%C3%A9i%29%20is%20used%20to%20negate%20actions%20or%20states%2C%20often%20with%20verbs%20like%20%E6%9C%89%20%28y%C7%92u%2C%20%22to%20have%22%29%20or%20past%20actions.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E6%88%91%20%2A%2A%E6%B2%A1%2A%2A%20%E6%9C%89%E6%97%B6%E9%97%B4%E3%80%82%28W%C7%92%20m%C3%A9i%20y%C7%92u%20sh%C3%ADji%C4%81n.%29%20%E2%86%92%20I%20don%E2%80%99t%20have%20time.%0A%0A---%0A%0A%23%23%202.%20%2A%2A%E5%86%99%E6%B1%89%E5%AD%97%E5%8F%AF%E4%BB%A5%E4%BB%A5%E5%90%8E%E5%86%8D%E7%BB%83%20%28xi%C4%9B%20h%C3%A0nz%C3%AC%20k%C4%9By%C7%90%20y%C7%90h%C3%B2u%20z%C3%A0i%20li%C3%A0n%29%20-%20%22Writing%20Chinese%20characters%20can%20be%20practiced%20later.%22%2A%2A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E5%8F%AF%E4%BB%A5%20%28k%C4%9By%C7%90%29%20for%20permission/possibility%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E5%8F%AF%E4%BB%A5%20%28k%C4%9By%C7%90%29%20is%20used%20to%20express%20permission%20or%20possibility%2C%20similar%20to%20%22can%22%20or%20%22may%22%20in%20English.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E4%BD%A0%20%2A%2A%E5%8F%AF%E4%BB%A5%2A%2A%20%E7%94%A8%E8%BF%99%E4%B8%AA%E3%80%82%28N%C7%90%20k%C4%9By%C7%90%20y%C3%B2ng%20zh%C3%A8ge.%29%20%E2%86%92%20You%20can%20use%20this.%0A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E4%BB%A5%E5%90%8E%20%28y%C7%90h%C3%B2u%29%20for%20%22after/later%22%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E4%BB%A5%E5%90%8E%20%28y%C7%90h%C3%B2u%29%20means%20%22after%22%20or%20%22later%22%20and%20is%20used%20to%20indicate%20a%20time%20in%20the%20future.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E5%90%83%E9%A5%AD%20%2A%2A%E4%BB%A5%E5%90%8E%2A%2A%20%E5%8E%BB%E5%85%AC%E5%9B%AD%E3%80%82%28Ch%C4%ABf%C3%A0n%20y%C7%90h%C3%B2u%20q%C3%B9%20g%C5%8Dngyu%C3%A1n.%29%20%E2%86%92%20After%20eating%2C%20go%20to%20the%20park.%0A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E5%86%8D%20%28z%C3%A0i%29%20for%20%22again%22%20or%20%22later%22%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E5%86%8D%20%28z%C3%A0i%29%20is%20used%20to%20indicate%20that%20an%20action%20will%20be%20repeated%20or%20delayed%20to%20a%20later%20time.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E6%88%91%20%2A%2A%E5%86%8D%2A%2A%20%E7%BB%99%E4%BD%A0%E6%89%93%E7%94%B5%E8%AF%9D%E3%80%82%28W%C7%92%20z%C3%A0i%20g%C4%9Bi%20n%C7%90%20d%C7%8E%20di%C3%A0nhu%C3%A0.%29%20%E2%86%92%20I%20will%20call%20you%20again.%0A%0A---%0A%0A%23%23%203.%20%2A%2A%E4%BD%A0%E8%AF%B4%E5%BE%97%E5%AF%B9%20%28n%C7%90%20shu%C5%8D%20de%20du%C3%AC%29%20-%20%22You%27re%20right%21%22%2A%2A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E5%BE%97%20%28de%29%20for%20complement%20of%20degree%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20The%20structure%20%2A%2A%5Bverb%5D%20%2B%20%E5%BE%97%20%2B%20%5Badjective/adverb%5D%2A%2A%20is%20used%20to%20describe%20how%20an%20action%20is%20performed.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E4%BB%96%E8%B7%91%20%2A%2A%E5%BE%97%2A%2A%20%E5%BE%88%E5%BF%AB%E3%80%82%28T%C4%81%20p%C7%8Eo%20de%20h%C4%9Bn%20ku%C3%A0i.%29%20%E2%86%92%20He%20runs%20very%20fast.%0A%0A---%0A%0A%23%23%204.%20%2A%2A%E7%8E%B0%E5%9C%A8%E5%86%99%E5%AD%97%E4%B8%8D%E6%98%AF%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%20%28xi%C3%A0nz%C3%A0i%20xi%C4%9Bz%C3%AC%20b%C3%B9%20sh%C3%AC%20zu%C3%AC%20zh%C3%B2ngy%C3%A0o%20de%29%20-%20%22Writing%20characters%20is%20not%20the%20most%20important%20thing%20now.%22%2A%2A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E7%8E%B0%E5%9C%A8%20%28xi%C3%A0nz%C3%A0i%29%20for%20%22now%22%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E7%8E%B0%E5%9C%A8%20%28xi%C3%A0nz%C3%A0i%29%20is%20used%20to%20indicate%20the%20present%20time.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%2A%2A%E7%8E%B0%E5%9C%A8%2A%2A%20%E5%A4%A9%E6%B0%94%E5%BE%88%E5%86%B7%E3%80%82%28Xi%C3%A0nz%C3%A0i%20ti%C4%81nq%C3%AC%20h%C4%9Bn%20l%C4%9Bng.%29%20%E2%86%92%20It%20is%20cold%20now.%0A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E4%B8%8D%E6%98%AF%20%28b%C3%B9%20sh%C3%AC%29%20for%20negating%20a%20noun%20phrase%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E4%B8%8D%E6%98%AF%20%28b%C3%B9%20sh%C3%AC%29%20negates%20a%20statement%20where%20%E6%98%AF%20%28sh%C3%AC%29%20is%20used%20to%20link%20a%20subject%20with%20a%20description.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E8%BF%99%20%2A%2A%E4%B8%8D%E6%98%AF%2A%2A%20%E6%88%91%E7%9A%84%E4%B9%A6%E3%80%82%28Zh%C3%A8%20b%C3%B9%20sh%C3%AC%20w%C7%92%20de%20sh%C5%AB.%29%20%E2%86%92%20This%20is%20not%20my%20book.%0A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E6%9C%80%20%28zu%C3%AC%29%20for%20superlative%20degree%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E6%9C%80%20%28zu%C3%AC%29%20is%20used%20to%20indicate%20the%20%22most%22%20or%20%22highest%20degree%22%20of%20something.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E4%BB%96%E6%98%AF%20%2A%2A%E6%9C%80%2A%2A%20%E9%AB%98%E7%9A%84%E5%AD%A6%E7%94%9F%E3%80%82%28T%C4%81%20sh%C3%AC%20zu%C3%AC%20g%C4%81o%20de%20xu%C3%A9sh%C4%93ng.%29%20%E2%86%92%20He%20is%20the%20tallest%20student.%0A%0A---%0A%0A%23%23%205.%20%2A%2A%E5%90%AC%E8%AF%B4%E8%AF%BB%E6%9B%B4%E9%87%8D%E8%A6%81%20%28t%C4%ABng%20shu%C5%8D%20d%C3%BA%20g%C3%A8ng%20zh%C3%B2ngy%C3%A0o%29%20-%20%22Listening%2C%20speaking%2C%20and%20reading%20are%20more%20important.%22%2A%2A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2AVerb%20as%20a%20noun%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20Verbs%20such%20as%20%E5%90%AC%20%28t%C4%ABng%2C%20%22to%20listen%22%29%2C%20%E8%AF%B4%20%28shu%C5%8D%2C%20%22to%20speak%22%29%2C%20and%20%E8%AF%BB%20%28d%C3%BA%2C%20%22to%20read%22%29%20can%20function%20as%20nouns%20in%20lists%20like%20this.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E5%AD%A6%E4%B9%A0%E5%8C%85%E6%8B%AC%20%2A%2A%E5%90%AC%E3%80%81%E8%AF%B4%E3%80%81%E8%AF%BB%E3%80%81%E5%86%99%2A%2A%E3%80%82%28Xu%C3%A9x%C3%AD%20b%C4%81oku%C3%B2%20t%C4%ABng%2C%20shu%C5%8D%2C%20d%C3%BA%2C%20xi%C4%9B.%29%20%E2%86%92%20Learning%20includes%20listening%2C%20speaking%2C%20reading%2C%20and%20writing.%0A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E6%9B%B4%20%28g%C3%A8ng%29%20for%20%22more%22%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E6%9B%B4%20%28g%C3%A8ng%29%20is%20used%20to%20compare%20two%20things%2C%20meaning%20%22more%22%20in%20English.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E8%BF%99%E4%B8%AA%E9%97%AE%E9%A2%98%20%2A%2A%E6%9B%B4%2A%2A%20%E5%A4%8D%E6%9D%82%E3%80%82%28Zh%C3%A8ge%20w%C3%A8nt%C3%AD%20g%C3%A8ng%20f%C3%B9z%C3%A1.%29%20%E2%86%92%20This%20problem%20is%20more%20complicated.%0A%0A---%0A%0A%23%23%206.%20%2A%2A%E4%BD%A0%E7%9A%84%E6%B1%89%E5%AD%97%E9%98%85%E8%AF%BB%E5%99%A8%E5%90%AC%E8%B5%B7%E6%9D%A5%E5%BE%88%E6%9C%89%E8%B6%A3%20%28n%C7%90%20de%20h%C3%A0nz%C3%AC%20yu%C3%A8d%C3%BAq%C3%AC%20t%C4%ABng%20q%C7%90l%C3%A1i%20h%C4%9Bn%20y%C7%92uq%C3%B9%29%20-%20%22Your%20Chinese%20character%20reader%20sounds%20very%20interesting.%22%2A%2A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E7%9A%84%20%28de%29%20for%20possession%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E7%9A%84%20%28de%29%20is%20used%20to%20indicate%20possession%2C%20linking%20a%20noun%20to%20its%20owner.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E8%BF%99%E6%98%AF%20%2A%2A%E6%88%91%E7%9A%84%2A%2A%20%E4%B9%A6%E3%80%82%28Zh%C3%A8%20sh%C3%AC%20w%C7%92%20de%20sh%C5%AB.%29%20%E2%86%92%20This%20is%20my%20book.%0A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E5%90%AC%E8%B5%B7%E6%9D%A5%20%28t%C4%ABng%20q%C7%90l%C3%A1i%29%20for%20%22sounds%20like%22%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E5%90%AC%E8%B5%B7%E6%9D%A5%20%28t%C4%ABng%20q%C7%90l%C3%A1i%29%20means%20%22to%20sound%20like%22%20and%20is%20used%20to%20describe%20impressions%20from%20hearing.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E8%BF%99%E9%A6%96%E6%AD%8C%20%2A%2A%E5%90%AC%E8%B5%B7%E6%9D%A5%2A%2A%20%E5%BE%88%E5%8A%A8%E4%BA%BA%E3%80%82%28Zh%C3%A8%20sh%C7%92u%20g%C4%93%20t%C4%ABng%20q%C7%90l%C3%A1i%20h%C4%9Bn%20d%C3%B2ngr%C3%A9n.%29%20%E2%86%92%20This%20song%20sounds%20very%20touching.%0A%0A---%0A%0A%23%23%207.%20%2A%2A%E6%9C%9F%E5%BE%85%E5%9C%A8%E8%AF%BE%E4%B8%8A%E7%9C%8B%E7%9C%8B%20%28q%C4%ABd%C3%A0i%20z%C3%A0i%20k%C3%A8%20sh%C3%A0ng%20k%C3%A0nkan%29%20-%20%22Looking%20forward%20to%20seeing%20it%20in%20class.%22%2A%2A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E6%9C%9F%E5%BE%85%20%28q%C4%ABd%C3%A0i%29%20for%20%22looking%20forward%20to%22%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E6%9C%9F%E5%BE%85%20%28q%C4%ABd%C3%A0i%29%20is%20used%20to%20express%20anticipation%20or%20expectation.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E6%88%91%20%2A%2A%E6%9C%9F%E5%BE%85%2A%2A%20%E6%98%8E%E5%A4%A9%E7%9A%84%E6%AF%94%E8%B5%9B%E3%80%82%28W%C7%92%20q%C4%ABd%C3%A0i%20m%C3%ADngti%C4%81n%20de%20b%C7%90s%C3%A0i.%29%20%E2%86%92%20I%20am%20looking%20forward%20to%20tomorrow%E2%80%99s%20game.%0A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E5%9C%A8%20%28z%C3%A0i%29%20for%20location/time%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20%E5%9C%A8%20%28z%C3%A0i%29%20is%20used%20before%20a%20noun%20to%20indicate%20a%20location%20or%20time%20where%20something%20happens.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E4%BB%96%20%2A%2A%E5%9C%A8%2A%2A%20%E5%8C%97%E4%BA%AC%E5%B7%A5%E4%BD%9C%E3%80%82%28T%C4%81%20z%C3%A0i%20B%C4%9Bij%C4%ABng%20g%C5%8Dngzu%C3%B2.%29%20%E2%86%92%20He%20works%20in%20Beijing.%0A%0A%20%20%20-%20%2A%2AGrammar%20Rule%3A%2A%2A%20%2A%2A%E7%9C%8B%E7%9C%8B%20%28k%C3%A0nkan%29%20as%20a%20reduplicated%20verb%2A%2A%0A%20%20%20-%20%2A%2AExplanation%3A%2A%2A%20Reduplication%20of%20a%20verb%20%28like%20%E7%9C%8B%20%E2%86%92%20%E7%9C%8B%E7%9C%8B%29%20softens%20the%20tone%2C%20making%20it%20more%20casual%20or%20polite.%0A%20%20%20-%20%2A%2AExample%3A%2A%2A%0A%20%20%20%20%20-%20%E4%BD%A0%E5%8F%AF%E4%BB%A5%20%2A%2A%E8%AF%95%E8%AF%95%2A%2A%E3%80%82%28N%C7%90%20k%C4%9By%C7%90%20sh%C3%ACshi.%29%20%E2%86%92%20You%20can%20try%20it%20out.%0A">
+        </div>
+        <!-- <hr />
+        <div class="markdown-container"
+            data-markdown="%0A%23%20Markdown%20Title%0AThis%20is%20a%20%2A%2Abold%2A%2A%20text.%20%20%0AHere%20is%20a%20list%3A%0A-%20Item%201%0A-%20Item%202%0A-%20Item%203%0A%0A%5BClick%20here%5D%28https%3A//example.com%29%20for%20a%20link.%0A"
+        ></div> -->
+        <!-- <hr />
+        <div class="hanzi-section" 
+             data-title="Hello 2"
+             data-hanzi="老师：你叫什么名字？\n学生：我叫小明。\n老师：你几岁了？\n学生：我七岁了。" 
+             data-translation="Teacher: What's your name?\nStudent: My name is Xiao Ming.\nTeacher: How old are you?\nStudent: I am seven years old."
+             data-dictionary="%7B%22%5Cu4f60%5Cu597d%22%3A%20%22phr.%20hello%22%2C%20%22%5Cu4eca%5Cu5929%22%3A%20%22n.%20today%22%2C%20%22%5Cu600e%5Cu4e48%5Cu6837%22%3A%20%22phr.%20how%20about%22%2C%20%22%5Cu6211%22%3A%20%22pron.%20I%2C%20me%22%2C%20%22%5Cu5f88%5Cu597d%22%3A%20%22adj.%20very%20good%22%2C%20%22%5Cu8c22%5Cu8c22%22%3A%20%22v.%20thank%20you%22%2C%20%22%5Cu4f60%5Cu5462%22%3A%20%22phr.%20and%20you%3F%22%2C%20%22%5Cu4e5f%22%3A%20%22adv.%20also%22%2C%20%22%5Cu6211%5Cu4eec%22%3A%20%22pron.%20we%2C%20us%22%2C%20%22%5Cu53bb%22%3A%20%22v.%20go%22%2C%20%22%5Cu559d%22%3A%20%22v.%20drink%22%2C%20%22%5Cu5496%5Cu5561%22%3A%20%22n.%20coffee%22%2C%20%22%5Cu5427%22%3A%20%22part.%20suggestion%20particle%22%2C%20%22%5Cu597d%5Cu554a%22%3A%20%22phr.%20okay%21%22%2C%20%22%5Cu5f20%5Cu4f1f%22%3A%20%22n.%20Zhang%20Wei%20%28a%20common%20Chinese%20name%29%22%2C%20%22%5Cu674e%5Cu5a1c%22%3A%20%22n.%20Li%20Na%20%28a%20common%20Chinese%20name%29%22%7D"
+             >
+        </div> -->
+    </div>
+
+    <!-- Bootstrap JS (for Popovers) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function isHanzi(char) {
+            return /[\u4e00-\u9fff]/.test(char);
+        }
+
+        function decodeDictionary(encodedString) {
+            return JSON.parse(decodeURIComponent(encodedString));
+        }
+
+        let activePopover = null; // Track the currently open popover
+
+        function generateMarkdowns() {
+            document.querySelectorAll(".markdown-container").forEach(markdownSection => {
+                dataMarkdown = decodeURIComponent(markdownSection.getAttribute("data-markdown"));
+                markdownSection.innerHTML = marked.parse(dataMarkdown);
+            })
+        }
+
+
+        function generateSections() {
+            document.querySelectorAll(".new-words-section").forEach(newWordsSection => {
+                const dataDictionary = decodeDictionary(newWordsSection.getAttribute("data-dictionary"))
+                newWordsSection.innerHTML = "";
+                const newWordsDialog = document.createElement("div");
+                newWordsDialog.classList.add("dialog-new-words");
+
+                const title = document.createElement("p");
+                title.classList.add("hanzi-line")
+
+                const titleSpan = document.createElement("span");
+                titleSpan.classList.add("plain-text-title");
+                titleSpan.textContent = "New Words";
+                title.appendChild(titleSpan);
+                newWordsDialog.appendChild(title);
+
+                for(let word in dataDictionary) {
+                    const entry = document.createElement("p");
+                    entry.classList.add("hanzi-line");
+                    createHanziSpan(entry, word, dataDictionary);
+
+                    const pinyinSpan = document.createElement("span");
+                    pinyinSpan.classList.add("pinyin-dictionary");
+                    pinyinSpan.textContent = "   " + (pinyinPro.pinyin(word, { toneType: "mark" }) || "")
+                    entry.appendChild(pinyinSpan);
+
+
+                    const entrySpan = document.createElement("span");
+                    entrySpan.classList.add("plain-text");
+                    entrySpan.textContent = "  :  " + dataDictionary[word];
+                    entry.appendChild(entrySpan)
+                    newWordsDialog.appendChild(entry)
+                }
+                newWordsSection.replaceWith(newWordsDialog);
+            })
+
+            document.querySelectorAll(".hanzi-section").forEach(section => {
+                const hanziText = section.getAttribute("data-hanzi");
+                const translationText = section.getAttribute("data-translation");
+                const dataDictionary = decodeDictionary(section.getAttribute("data-dictionary"))
+                const dataTitle = section.getAttribute("data-title");
+                const dataMarkdown = section.getAttribute("data-markdown");
+
+                const sectionDiv = document.createElement("div");
+                sectionDiv.classList.add("dialog-container");
+
+                generateDialogFromText(sectionDiv, dataTitle, hanziText, translationText, dataDictionary, dataMarkdown);
+
+                section.replaceWith(sectionDiv);
+            });
+
+            updatePinyinDisplay();
+            updateTranslationDisplay();
+            initializePopovers();
+        }
+
+function generateDialogFromText(contentDiv, dataTitle, text, translationText, dataDictionary, dataMarkdown) {
+    contentDiv.innerHTML = ""; // Clear previous content
+
+    
+    const titleDialog = document.createElement("div");
+    titleDialog.classList.add("dialog")
+
+    const title = document.createElement("p");
+    title.classList.add("hanzi-line")
+
+    const titleSpan = document.createElement("span");
+    titleSpan.classList.add("plain-text-title");
+    titleSpan.textContent = dataTitle;
+
+    title.appendChild(titleSpan);
+    titleDialog.appendChild(title);
+    contentDiv.appendChild(titleDialog);  
+    
+    const hanziLines = text.trim().split("\\n");
+    const translationLines = translationText.trim().split("\\n");
+
+    hanziLines.forEach((line, index) => {
+        const container = document.createElement("div");
+        container.classList.add("dialog");
+
+        const paragraph = document.createElement("p");
+        paragraph.classList.add("hanzi-line");
+
+        let indexChar = 0;
+        while (indexChar < line.length) {
+            let foundWord = false;
+
+            for (let word in dataDictionary) {
+                if (line.startsWith(word, indexChar)) {
+                    createHanziSpan(paragraph, word, dataDictionary);
+                    indexChar += word.length;
+                    foundWord = true;
+                    break;
+                }
+            }
+
+            if (!foundWord) {
+                let char = line[indexChar];
+
+                if (isHanzi(char)) {
+                    createHanziSpan(paragraph, char, dataDictionary);
+                } else {
+                    createPlainTextSpan(paragraph, char);
+                }
+                indexChar++;
+            }
+        }
+
+        container.appendChild(paragraph);
+
+        // Create translation line
+        if (index < translationLines.length) {
+            const translationPara = document.createElement("p");
+            translationPara.classList.add("translation");
+            translationPara.textContent = translationLines[index].trim();
+            container.appendChild(translationPara);
+        }
+
+        contentDiv.appendChild(container);
+
+    });
+
+    if(dataMarkdown !== null) {
+        markdownContainer = document.createElement("div");
+        markdownContainer.classList.add("section-markdown-container");
+        markdownContent = document.createElement("div");
+        markdownContent.innerHTML = marked.parse(decodeURIComponent(dataMarkdown));
+        markdownContainer.appendChild(markdownContent);
+        contentDiv.appendChild(markdownContainer);
+        
+    }
+
+    // updatePinyinDisplay();
+    // updateTranslationDisplay();
+    // initializePopovers(); // **Fix: Ensure popovers are initialized**
+}
+
+function createHanziSpan(parent, hanziWord, dataDictionary) {
+        const pinyinText = pinyinPro.pinyin(hanziWord, { toneType: "mark" }) || "";
+        const definition = dataDictionary[hanziWord] || "No definition available";
+
+        const span = document.createElement("span");
+        span.classList.add("hanzi-group");
+        span.dataset.pinyin = pinyinText;
+        span.dataset.bsToggle = "popover";
+        span.dataset.bsTrigger = "manual"; 
+        span.dataset.bsPlacement = "top";
+        span.dataset.bsContent = `<strong>${hanziWord}</strong><br>${pinyinText}<br>${definition}`;
+        span.dataset.bsHtml = "true";
+
+        if (pinyinText) {
+            const pinyinSpan = document.createElement("span");
+            pinyinSpan.classList.add("pinyin");
+            pinyinSpan.textContent = pinyinText;
+            span.appendChild(pinyinSpan);
+        }
+
+        span.appendChild(document.createTextNode(hanziWord));
+        parent.appendChild(span);
+    }
+
+        function createPlainTextSpan(parent, text) {
+            const span = document.createElement("span");
+            span.classList.add("plain-text");
+            span.textContent = text;
+            parent.appendChild(span);
+        }
+
+        function updatePinyinDisplay() {
+            const isPinyinEnabled = localStorage.getItem("showPinyin") === "true";
+            document.querySelectorAll(".dialog-container").forEach(section => {
+                section.classList.toggle("show-pinyin", isPinyinEnabled);
+            });
+            document.getElementById("togglePinyin").checked = isPinyinEnabled;
+        }
+
+        function updateTranslationDisplay() {
+            const isTranslationEnabled = localStorage.getItem("showTranslation") === "true";
+            document.querySelectorAll(".dialog-container").forEach(section => {
+                section.classList.toggle("show-translation", isTranslationEnabled);
+            });
+            document.getElementById("toggleTranslation").checked = isTranslationEnabled;
+        }
+
+        document.getElementById("togglePinyin").addEventListener("change", function () {
+            localStorage.setItem("showPinyin", this.checked);
+            updatePinyinDisplay();
+        });
+
+        document.getElementById("toggleTranslation").addEventListener("change", function () {
+            localStorage.setItem("showTranslation", this.checked);
+            updateTranslationDisplay();
+        });
+
+        function initializePopovers() {
+        document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
+            const popover = new bootstrap.Popover(el);
+
+            el.addEventListener("click", function (event) {
+                event.stopPropagation();
+
+                if (activePopover && activePopover !== popover) {
+                    activePopover.hide();
+                }
+
+                if (activePopover === popover) {
+                    activePopover.hide();
+                    activePopover = null;
+                } else {
+                    popover.show();
+                    activePopover = popover;
+                }
+            });
+        });
+
+        // Close popovers when clicking outside
+        document.addEventListener("click", function (event) {
+            if (activePopover && !event.target.closest(".hanzi-group")) {
+                activePopover.hide();
+                activePopover = null;
+            }
+        });
+    }
+
+        // generateDialogFromText(textBlob, translation);
+        generateSections()
+        generateMarkdowns()
+    </script>
+
+</body>
+</html>

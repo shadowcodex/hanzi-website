@@ -1,0 +1,43 @@
+没问题，\n写汉字可以以后再练。\n你说得对！\n现在写字不是最重要的，\n听说读更重要。\n你的汉字阅读器听起来很有趣，\n期待在课上看看
+No problem,\nWriting Chinese characters can be practiced later.\nYou're right!\nWriting characters is not the most important thing right now,\nListening, speaking, and reading are more important.\nYour Chinese character reader sounds very interesting,\nLooking forward to seeing it in class.
+%7B%0A%20%20%20%20%22%E6%B2%A1%E9%97%AE%E9%A2%98%22%3A%20%22phr.%20no%20problem%22%2C%0A%20%20%20%20%22%E5%86%99%22%3A%20%22v.%20to%20write%22%2C%0A%20%20%20%20%22%E6%B1%89%E5%AD%97%22%3A%20%22n.%20Chinese%20characters%22%2C%0A%20%20%20%20%22%E5%8F%AF%E4%BB%A5%22%3A%20%22aux.%20can%2C%20may%22%2C%0A%20%20%20%20%22%E4%BB%A5%E5%90%8E%22%3A%20%22n.%20later%2C%20in%20the%20future%22%2C%0A%20%20%20%20%22%E5%86%8D%22%3A%20%22adv.%20again%22%2C%0A%20%20%20%20%22%E7%BB%83%22%3A%20%22v.%20to%20practice%22%2C%0A%20%20%20%20%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%0A%20%20%20%20%22%E8%AF%B4%22%3A%20%22v.%20to%20say%2C%20to%20speak%22%2C%0A%20%20%20%20%22%E5%BE%97%22%3A%20%22part.%20used%20to%20link%20a%20verb%20with%20a%20complement%22%2C%0A%20%20%20%20%22%E5%AF%B9%22%3A%20%22adj.%20correct%2C%20right%22%2C%0A%20%20%20%20%22%E7%8E%B0%E5%9C%A8%22%3A%20%22n.%20now%22%2C%0A%20%20%20%20%22%E5%86%99%E5%AD%97%22%3A%20%22n.%20writing%20characters%22%2C%0A%20%20%20%20%22%E4%B8%8D%E6%98%AF%22%3A%20%22phr.%20is%20not%22%2C%0A%20%20%20%20%22%E6%9C%80%22%3A%20%22adv.%20most%22%2C%0A%20%20%20%20%22%E9%87%8D%E8%A6%81%22%3A%20%22adj.%20important%22%2C%0A%20%20%20%20%22%E5%90%AC%22%3A%20%22v.%20to%20listen%22%2C%0A%20%20%20%20%22%E8%AF%B4%22%3A%20%22v.%20to%20speak%22%2C%0A%20%20%20%20%22%E8%AF%BB%22%3A%20%22v.%20to%20read%22%2C%0A%20%20%20%20%22%E6%9B%B4%22%3A%20%22adv.%20more%22%2C%0A%20%20%20%20%22%E4%BD%A0%E7%9A%84%22%3A%20%22pron.%20your%22%2C%0A%20%20%20%20%22%E9%98%85%E8%AF%BB%E5%99%A8%22%3A%20%22n.%20reader%22%2C%0A%20%20%20%20%22%E5%90%AC%E8%B5%B7%E6%9D%A5%22%3A%20%22v.%20sounds%20like%22%2C%0A%20%20%20%20%22%E5%BE%88%22%3A%20%22adv.%20very%22%2C%0A%20%20%20%20%22%E6%9C%89%E8%B6%A3%22%3A%20%22adj.%20interesting%22%2C%0A%20%20%20%20%22%E6%9C%9F%E5%BE%85%22%3A%20%22v.%20to%20look%20forward%20to%22%2C%0A%20%20%20%20%22%E5%9C%A8%22%3A%20%22prep.%20at%2C%20in%22%2C%0A%20%20%20%20%22%E8%AF%BE%E4%B8%8A%22%3A%20%22n.%20in%20class%22%2C%0A%20%20%20%20%22%E7%9C%8B%E7%9C%8B%22%3A%20%22v.%20to%20take%20a%20look%22%0A%7D
+
+
+
+{
+    "没问题": "phr. no problem",
+    "写": "v. to write",
+    "汉字": "n. Chinese characters",
+    "可以": "aux. can, may",
+    "以后": "n. later, in the future",
+    "再": "adv. again",
+    "练": "v. to practice",
+    "你": "pron. you",
+    "说": "v. to say, to speak",
+    "得": "part. used to link a verb with a complement",
+    "对": "adj. correct, right",
+    "现在": "n. now",
+    "写字": "n. writing characters",
+    "不是": "phr. is not",
+    "最": "adv. most",
+    "重要": "adj. important",
+    "听": "v. to listen",
+    "说": "v. to speak",
+    "读": "v. to read",
+    "更": "adv. more",
+    "你的": "pron. your",
+    "阅读器": "n. reader",
+    "听起来": "v. sounds like",
+    "很": "adv. very",
+    "有趣": "adj. interesting",
+    "期待": "v. to look forward to",
+    "在": "prep. at, in",
+    "课上": "n. in class",
+    "看看": "v. to take a look"
+}
+
+%7B%0A%20%20%20%20%22%E6%B2%A1%E9%97%AE%E9%A2%98%22%3A%20%22phr.%20no%20problem%22%2C%0A%20%20%20%20%22%E5%86%99%22%3A%20%22v.%20to%20write%22%2C%0A%20%20%20%20%22%E6%B1%89%E5%AD%97%22%3A%20%22n.%20Chinese%20characters%22%2C%0A%20%20%20%20%22%E5%8F%AF%E4%BB%A5%22%3A%20%22aux.%20can%2C%20may%22%2C%0A%20%20%20%20%22%E4%BB%A5%E5%90%8E%22%3A%20%22n.%20later%2C%20in%20the%20future%22%2C%0A%20%20%20%20%22%E5%86%8D%22%3A%20%22adv.%20again%22%2C%0A%20%20%20%20%22%E7%BB%83%22%3A%20%22v.%20to%20practice%22%2C%0A%20%20%20%20%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%0A%20%20%20%20%22%E8%AF%B4%22%3A%20%22v.%20to%20say%2C%20to%20speak%22%2C%0A%20%20%20%20%22%E5%BE%97%22%3A%20%22part.%20used%20to%20link%20a%20verb%20with%20a%20complement%22%2C%0A%20%20%20%20%22%E5%AF%B9%22%3A%20%22adj.%20correct%2C%20right%22%2C%0A%20%20%20%20%22%E7%8E%B0%E5%9C%A8%22%3A%20%22n.%20now%22%2C%0A%20%20%20%20%22%E5%86%99%E5%AD%97%22%3A%20%22n.%20writing%20characters%22%2C%0A%20%20%20%20%22%E4%B8%8D%E6%98%AF%22%3A%20%22phr.%20is%20not%22%2C%0A%20%20%20%20%22%E6%9C%80%22%3A%20%22adv.%20most%22%2C%0A%20%20%20%20%22%E9%87%8D%E8%A6%81%22%3A%20%22adj.%20important%22%2C%0A%20%20%20%20%22%E5%90%AC%22%3A%20%22v.%20to%20listen%22%2C%0A%20%20%20%20%22%E8%AF%B4%22%3A%20%22v.%20to%20speak%22%2C%0A%20%20%20%20%22%E8%AF%BB%22%3A%20%22v.%20to%20read%22%2C%0A%20%20%20%20%22%E6%9B%B4%22%3A%20%22adv.%20more%22%2C%0A%20%20%20%20%22%E4%BD%A0%E7%9A%84%22%3A%20%22pron.%20your%22%2C%0A%20%20%20%20%22%E9%98%85%E8%AF%BB%E5%99%A8%22%3A%20%22n.%20reader%22%2C%0A%20%20%20%20%22%E5%90%AC%E8%B5%B7%E6%9D%A5%22%3A%20%22v.%20sounds%20like%22%2C%0A%20%20%20%20%22%E5%BE%88%22%3A%20%22adv.%20very%22%2C%0A%20%20%20%20%22%E6%9C%89%E8%B6%A3%22%3A%20%22adj.%20interesting%22%2C%0A%20%20%20%20%22%E6%9C%9F%E5%BE%85%22%3A%20%22v.%20to%20look%20forward%20to%22%2C%0A%20%20%20%20%22%E5%9C%A8%22%3A%20%22prep.%20at%2C%20in%22%2C%0A%20%20%20%20%22%E8%AF%BE%E4%B8%8A%22%3A%20%22n.%20in%20class%22%2C%0A%20%20%20%20%22%E7%9C%8B%E7%9C%8B%22%3A%20%22v.%20to%20take%20a%20look%22%0A%7D
+
+
+
+Grammar:

@@ -1,0 +1,434 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A New Friend (新朋友)</title>
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Pinyin Pro -->
+        <script src="https://cdn.jsdelivr.net/npm/pinyin-pro"></script>
+    
+        <!-- Include Marked.js (Markdown parser) -->
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        
+        <style>
+            h1 {
+                font-size: 48px;
+                font-weight:bolder;
+            }
+            h2 {
+                font-size: 36px;
+                font-weight:bolder;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+            .dialog-container {
+                margin-top: 20px;
+            }
+            .dialog {
+                margin-bottom: 10px; /* Reduced spacing */
+                line-height: 1.5; /* Reduced line height */
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start; /* Left align text */
+                flex-direction: column;
+            }
+            .dialog-new-words {
+                margin-bottom: 10px; /* Reduced spacing */
+                line-height: 1; /* Reduced line height */
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start; /* Left align text */
+                flex-direction: column;
+            }
+            .hanzi-line {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-end;
+            }
+            .hanzi-group {
+                position: relative;
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 24px;
+                margin: 3px;
+                cursor: pointer;
+                min-width: 1em;
+            }
+            .pinyin {
+                display: none;
+                font-size: 16px;
+                color: gray;
+                line-height: 1;
+            }
+            .show-pinyin .pinyin {
+                display: block;
+            }
+            .pinyin-dictionary {
+                font-size: 20px;
+                margin: 3px;
+                display: inline;
+                vertical-align: baseline;
+                color: gray;
+            }
+            .plain-text {
+                font-size: 24px;
+                margin: 3px;
+                display: inline;
+                vertical-align: baseline;
+            }
+            .plain-text-body {
+                font-size: 24px;
+                margin: 3px;
+                display: inline;
+                color: #444444;
+                vertical-align: baseline;
+            }
+            .plain-text-title {
+                font-size: 24px;
+                font-weight:bold;
+                margin: 3px;
+                display: inline;
+                vertical-align: baseline;
+            }
+            .translation {
+                line-height: 1;
+                display: none;
+                font-size: 18px;
+                color: gray;
+                margin-top: 3px; /* Reduced spacing */
+            }
+            .show-translation .translation {
+                display: block;
+            }
+            .section-markdown-container {
+                background-color: #f1f1f1;
+                padding: 1.2em;
+            }
+        </style>
+    </head>
+  <body>
+    <H3><a href="/">Home</a>&nbsp;&nbsp;<a href="/lessons">Lessons</a>&nbsp;&nbsp;<a href="/readings">Readings</a></H3>
+    <div class="container">
+    <br />
+    <br />
+    <div class="d-flex justify-content-between align-items-center">
+        <h1>A New Friend (新朋友)</h1>
+    </div>
+    <p class="plain-text-body">
+</p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="d-flex justify-content-between align-items-center">
+        <h2>Dialogs</h2>
+        <div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="togglePinyin">
+                <label class="form-check-label" for="togglePinyin">Show Pinyin</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="toggleTranslation">
+                <label class="form-check-label" for="toggleTranslation">Show Translation</label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hanzi-section" 
+        data-title="A New Friend (新朋友)"
+        data-hanzi="今天是星期三，天气很好，不下雨，也不太热。
+李月是学生，她在中国学习汉语。今年她二十一岁了。
+上午，她去学校看书，学习汉字。老师问：“请问，你叫什么名字？” 她说：“我叫李月。”
+老师笑了，说：“你是中国人吗？” 李月说：“不，我是美国人。”
+中午，她去饭店吃饭。她想吃米饭和菜，也想喝茶。她问：“请问，这些菜多少钱？”
+先生说：“一个菜八块，一个杯子三块。” 她说：“好，我买这些。”
+下午，她去商店买东西。她买了一点儿水果和一本书。她在商店看见一个学生。
+她问：“请问，你叫什么名字？” 他说：“我叫王方。”
+李月说：“你是我的同学吗？” 王方说：“是！我们在一个学校学习。”
+李月高兴地说：“太好了！我们是朋友。”
+晚上，他们一起去看电影。王方问：“你喜欢这个电影吗？” 李月说：“喜欢！”
+他们很高兴。" 
+        data-translation="Today is Wednesday. The weather is nice. It is not raining and not too hot.
+Li Yue is a student. She is studying Chinese in China. This year, she is 21 years old.
+In the morning, she goes to school to read and learn Chinese characters. The teacher asks, 'Excuse me, what is your name?' She says, 'My name is Li Yue.'
+The teacher smiles and says, 'Are you Chinese?' Li Yue says, 'No, I am American.'
+At noon, she goes to the restaurant to eat. She wants to eat rice and vegetables and also drink tea. She asks, 'Excuse me, how much do these dishes cost?'
+The gentleman says, 'One dish is eight yuan, and one cup is three yuan.' She says, 'Okay, I'll buy these.'
+In the afternoon, she goes to the store to buy things. She buys some fruit and a book. In the store, she sees a student.
+She asks, 'Excuse me, what is your name?' He says, 'My name is Wang Fang.'
+Li Yue says, 'Are you my classmate?' Wang Fang says, 'Yes! We study at the same school.'
+Li Yue happily says, 'Great! We are friends.'
+In the evening, they go to watch a movie together. Wang Fang asks, 'Do you like this movie?' Li Yue says, 'Yes!'
+They are very happy."
+        data-dictionary="%7B%22%E4%BB%8A%E5%A4%A9%22%3A%20%22n.%20today%22%2C%20%22%E6%98%9F%E6%9C%9F%E4%B8%89%22%3A%20%22n.%20Wednesday%22%2C%20%22%E5%A4%A9%E6%B0%94%22%3A%20%22n.%20weather%22%2C%20%22%E5%BE%88%E5%A5%BD%22%3A%20%22adj.%20very%20good%22%2C%20%22%E4%B8%8D%E4%B8%8B%E9%9B%A8%22%3A%20%22phr.%20not%20raining%22%2C%20%22%E4%B8%8D%E5%A4%AA%E7%83%AD%22%3A%20%22phr.%20not%20too%20hot%22%2C%20%22%E6%9D%8E%E6%9C%88%22%3A%20%22n.%20Li%20Yue%20(name)%22%2C%20%22%E5%AD%A6%E7%94%9F%22%3A%20%22n.%20student%22%2C%20%22%E4%B8%AD%E5%9B%BD%22%3A%20%22n.%20China%22%2C%20%22%E5%AD%A6%E4%B9%A0%22%3A%20%22v.%20study%22%2C%20%22%E6%B1%89%E8%AF%AD%22%3A%20%22n.%20Chinese%20language%22%2C%20%22%E4%BB%8A%E5%B9%B4%22%3A%20%22n.%20this%20year%22%2C%20%22%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B2%81%22%3A%20%22phr.%2021%20years%20old%22%2C%20%22%E4%B8%8A%E5%8D%88%22%3A%20%22n.%20morning%22%2C%20%22%E5%AD%A6%E6%A0%A1%22%3A%20%22n.%20school%22%2C%20%22%E7%9C%8B%E4%B9%A6%22%3A%20%22v.%20read%20books%22%2C%20%22%E5%AD%A6%E4%B9%A0%E6%B1%89%E5%AD%97%22%3A%20%22phr.%20learn%20Chinese%20characters%22%2C%20%22%E8%80%81%E5%B8%88%22%3A%20%22n.%20teacher%22%2C%20%22%E8%AF%B7%E9%97%AE%22%3A%20%22phr.%20excuse%20me%2C%20may%20I%20ask%22%7D">
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="new-words-section"
+        data-dictionary="%7B%22%E4%BB%8A%E5%A4%A9%22%3A%20%22n.%20today%22%2C%20%22%E6%98%9F%E6%9C%9F%E4%B8%89%22%3A%20%22n.%20Wednesday%22%2C%20%22%E5%A4%A9%E6%B0%94%22%3A%20%22n.%20weather%22%2C%20%22%E5%BE%88%E5%A5%BD%22%3A%20%22adj.%20very%20good%22%2C%20%22%E4%B8%8D%E4%B8%8B%E9%9B%A8%22%3A%20%22phr.%20not%20raining%22%2C%20%22%E4%B8%8D%E5%A4%AA%E7%83%AD%22%3A%20%22phr.%20not%20too%20hot%22%2C%20%22%E6%9D%8E%E6%9C%88%22%3A%20%22n.%20Li%20Yue%20(name)%22%2C%20%22%E5%AD%A6%E7%94%9F%22%3A%20%22n.%20student%22%2C%20%22%E4%B8%AD%E5%9B%BD%22%3A%20%22n.%20China%22%2C%20%22%E5%AD%A6%E4%B9%A0%22%3A%20%22v.%20study%22%2C%20%22%E6%B1%89%E8%AF%AD%22%3A%20%22n.%20Chinese%20language%22%2C%20%22%E4%BB%8A%E5%B9%B4%22%3A%20%22n.%20this%20year%22%2C%20%22%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B2%81%22%3A%20%22phr.%2021%20years%20old%22%2C%20%22%E4%B8%8A%E5%8D%88%22%3A%20%22n.%20morning%22%2C%20%22%E5%AD%A6%E6%A0%A1%22%3A%20%22n.%20school%22%2C%20%22%E7%9C%8B%E4%B9%A6%22%3A%20%22v.%20read%20books%22%2C%20%22%E5%AD%A6%E4%B9%A0%E6%B1%89%E5%AD%97%22%3A%20%22phr.%20learn%20Chinese%20characters%22%2C%20%22%E8%80%81%E5%B8%88%22%3A%20%22n.%20teacher%22%2C%20%22%E8%AF%B7%E9%97%AE%22%3A%20%22phr.%20excuse%20me%2C%20may%20I%20ask%22%7D"
+    ></div>
+</div>
+  </body>
+  <!-- Bootstrap JS (for Popovers) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+      function isHanzi(char) {
+          return /[\u4e00-\u9fff]/.test(char);
+      }
+
+      function decodeDictionary(encodedString) {
+          return JSON.parse(decodeURIComponent(encodedString));
+      }
+
+      let activePopover = null; // Track the currently open popover
+
+      function generateMarkdowns() {
+          document.querySelectorAll(".markdown-container").forEach(markdownSection => {
+              dataMarkdown = decodeURIComponent(markdownSection.getAttribute("data-markdown"));
+              markdownSection.innerHTML = marked.parse(dataMarkdown);
+          })
+      }
+
+
+      function generateSections() {
+          document.querySelectorAll(".new-words-section").forEach(newWordsSection => {
+              const dataDictionary = decodeDictionary(newWordsSection.getAttribute("data-dictionary"))
+              newWordsSection.innerHTML = "";
+              const newWordsDialog = document.createElement("div");
+              newWordsDialog.classList.add("dialog-new-words");
+
+              const title = document.createElement("p");
+              title.classList.add("hanzi-line")
+
+              const titleSpan = document.createElement("span");
+              titleSpan.classList.add("plain-text-title");
+              titleSpan.textContent = "New Words";
+              title.appendChild(titleSpan);
+              newWordsDialog.appendChild(title);
+
+              for(let word in dataDictionary) {
+                  const entry = document.createElement("p");
+                  entry.classList.add("hanzi-line");
+                  createHanziSpan(entry, word, dataDictionary);
+
+                  const pinyinSpan = document.createElement("span");
+                  pinyinSpan.classList.add("pinyin-dictionary");
+                  pinyinSpan.textContent = "   " + (pinyinPro.pinyin(word, { toneType: "mark" }) || "")
+                  entry.appendChild(pinyinSpan);
+
+
+                  const entrySpan = document.createElement("span");
+                  entrySpan.classList.add("plain-text");
+                  entrySpan.textContent = "  :  " + dataDictionary[word];
+                  entry.appendChild(entrySpan)
+                  newWordsDialog.appendChild(entry)
+              }
+              newWordsSection.replaceWith(newWordsDialog);
+          })
+
+          document.querySelectorAll(".hanzi-section").forEach(section => {
+              const hanziText = section.getAttribute("data-hanzi");
+              const translationText = section.getAttribute("data-translation");
+              const dataDictionary = decodeDictionary(section.getAttribute("data-dictionary"))
+              const dataTitle = section.getAttribute("data-title");
+              const dataMarkdown = section.getAttribute("data-markdown");
+
+              const sectionDiv = document.createElement("div");
+              sectionDiv.classList.add("dialog-container");
+
+              generateDialogFromText(sectionDiv, dataTitle, hanziText, translationText, dataDictionary, dataMarkdown);
+
+              section.replaceWith(sectionDiv);
+          });
+
+          updatePinyinDisplay();
+          updateTranslationDisplay();
+          initializePopovers();
+      }
+
+function generateDialogFromText(contentDiv, dataTitle, text, translationText, dataDictionary, dataMarkdown) {
+  contentDiv.innerHTML = ""; // Clear previous content
+
+  
+  const titleDialog = document.createElement("div");
+  titleDialog.classList.add("dialog")
+
+  const title = document.createElement("p");
+  title.classList.add("hanzi-line")
+
+  const titleSpan = document.createElement("span");
+  titleSpan.classList.add("plain-text-title");
+  titleSpan.textContent = dataTitle;
+
+  title.appendChild(titleSpan);
+  titleDialog.appendChild(title);
+  contentDiv.appendChild(titleDialog);  
+  
+  const hanziLines = text.trim().split("\n");
+  const translationLines = translationText.trim().split("\n");
+
+  hanziLines.forEach((line, index) => {
+      const container = document.createElement("div");
+      container.classList.add("dialog");
+
+      const paragraph = document.createElement("p");
+      paragraph.classList.add("hanzi-line");
+
+      let indexChar = 0;
+      while (indexChar < line.length) {
+          let foundWord = false;
+
+          for (let word in dataDictionary) {
+              if (line.startsWith(word, indexChar)) {
+                  createHanziSpan(paragraph, word, dataDictionary);
+                  indexChar += word.length;
+                  foundWord = true;
+                  break;
+              }
+          }
+
+          if (!foundWord) {
+              let char = line[indexChar];
+
+              if (isHanzi(char)) {
+                  createHanziSpan(paragraph, char, dataDictionary);
+              } else {
+                  createPlainTextSpan(paragraph, char);
+              }
+              indexChar++;
+          }
+      }
+
+      container.appendChild(paragraph);
+
+      // Create translation line
+      if (index < translationLines.length) {
+          const translationPara = document.createElement("p");
+          translationPara.classList.add("translation");
+          translationPara.textContent = translationLines[index].trim();
+          container.appendChild(translationPara);
+      }
+
+      contentDiv.appendChild(container);
+
+  });
+
+  if(dataMarkdown !== null) {
+      markdownContainer = document.createElement("div");
+      markdownContainer.classList.add("section-markdown-container");
+      markdownContent = document.createElement("div");
+      markdownContent.innerHTML = marked.parse(decodeURIComponent(dataMarkdown));
+      markdownContainer.appendChild(markdownContent);
+      contentDiv.appendChild(markdownContainer);
+      
+  }
+
+  // updatePinyinDisplay();
+  // updateTranslationDisplay();
+  // initializePopovers(); // **Fix: Ensure popovers are initialized**
+}
+
+function createHanziSpan(parent, hanziWord, dataDictionary) {
+      const pinyinText = pinyinPro.pinyin(hanziWord, { toneType: "mark" }) || "";
+      const definition = dataDictionary[hanziWord] || "No definition available";
+
+      const span = document.createElement("span");
+      span.classList.add("hanzi-group");
+      span.dataset.pinyin = pinyinText;
+      span.dataset.bsToggle = "popover";
+      span.dataset.bsTrigger = "manual"; 
+      span.dataset.bsPlacement = "top";
+      span.dataset.bsContent = `<strong>${hanziWord}</strong><br>${pinyinText}<br>${definition}`;
+      span.dataset.bsHtml = "true";
+
+      if (pinyinText) {
+          const pinyinSpan = document.createElement("span");
+          pinyinSpan.classList.add("pinyin");
+          pinyinSpan.textContent = pinyinText;
+          span.appendChild(pinyinSpan);
+      }
+
+      span.appendChild(document.createTextNode(hanziWord));
+      parent.appendChild(span);
+  }
+
+      function createPlainTextSpan(parent, text) {
+          const span = document.createElement("span");
+          span.classList.add("plain-text");
+          span.textContent = text;
+          parent.appendChild(span);
+      }
+
+      function updatePinyinDisplay() {
+          const isPinyinEnabled = localStorage.getItem("showPinyin") === "true";
+          document.querySelectorAll(".dialog-container").forEach(section => {
+              section.classList.toggle("show-pinyin", isPinyinEnabled);
+          });
+          document.getElementById("togglePinyin").checked = isPinyinEnabled;
+      }
+
+      function updateTranslationDisplay() {
+          const isTranslationEnabled = localStorage.getItem("showTranslation") === "true";
+          document.querySelectorAll(".dialog-container").forEach(section => {
+              section.classList.toggle("show-translation", isTranslationEnabled);
+          });
+          document.getElementById("toggleTranslation").checked = isTranslationEnabled;
+      }
+
+      document.getElementById("togglePinyin").addEventListener("change", function () {
+          localStorage.setItem("showPinyin", this.checked);
+          updatePinyinDisplay();
+      });
+
+      document.getElementById("toggleTranslation").addEventListener("change", function () {
+          localStorage.setItem("showTranslation", this.checked);
+          updateTranslationDisplay();
+      });
+
+      function initializePopovers() {
+      document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
+          const popover = new bootstrap.Popover(el);
+
+          el.addEventListener("click", function (event) {
+              event.stopPropagation();
+
+              if (activePopover && activePopover !== popover) {
+                  activePopover.hide();
+              }
+
+              if (activePopover === popover) {
+                  activePopover.hide();
+                  activePopover = null;
+              } else {
+                  popover.show();
+                  activePopover = popover;
+              }
+          });
+      });
+
+      // Close popovers when clicking outside
+      document.addEventListener("click", function (event) {
+          if (activePopover && !event.target.closest(".hanzi-group")) {
+              activePopover.hide();
+              activePopover = null;
+          }
+      });
+  }
+
+      // generateDialogFromText(textBlob, translation);
+      generateSections()
+      generateMarkdowns()
+  </script>
+</html>

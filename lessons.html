@@ -1,0 +1,11 @@
+---
+layout: default
+title: Lessons
+---
+
+<h1>All Lessons</h1>
+<ul>
+  {% for lesson in site.lessons %}
+    <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+  {% endfor %}
+</ul>

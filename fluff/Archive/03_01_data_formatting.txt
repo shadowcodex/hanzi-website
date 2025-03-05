@@ -1,0 +1,48 @@
+        const textBlob = `
+Hello! 
+张伟：你好3！你今天怎么样？
+李娜：我很好，谢谢！你呢？
+张伟：我也很好！
+李娜：我们去喝咖啡吧？
+张伟：好啊！
+        `;
+
+        const translation = `
+Hello!
+Zhang Wei: Hi! How are you today?
+Li Na: I'm very good, thank you! And you?
+Zhang Wei: I'm also very good!
+Li Na: Shall we go have some coffee?
+Zhang Wei: Sure!
+        `;
+
+        const hanziDictionary = {
+    "你好": "phr. hello",
+    "今天": "n. today",
+    "怎么样": "phr. how about",
+    "我": "pron. I, me",
+    "很好": "adj. very good",
+    "谢谢": "v. thank you",
+    "你呢": "phr. and you?",
+    "也": "adv. also",
+    "我们": "pron. we, us",
+    "去": "v. go",
+    "喝": "v. drink",
+    "咖啡": "n. coffee",
+    "吧": "part. suggestion particle",
+    "好啊": "phr. okay!",
+    "张伟": "n. Zhang Wei (a common Chinese name)",
+    "李娜": "n. Li Na (a common Chinese name)"
+};
+
+
+
+to
+
+
+<div class="hanzi-section" 
+             data-title="Hello 1"
+             data-hanzi="张伟：你好！你今天怎么样？\n李娜：我很好，谢谢！你呢？\n张伟：我也很好！\n李娜：我们去喝咖啡吧？\n张伟：好啊！" 
+             data-translation="Zhang Wei: Hi! How are you today?\nLi Na: I'm very good, thank you! And you?\nZhang Wei: I'm also very good!\nLi Na: Shall we go have some coffee?\nZhang Wei: Sure!"
+             data-dictionary="%7B%22%5Cu4f60%5Cu597d%22%3A%20%22phr.%20hello%22%2C%20%22%5Cu4eca%5Cu5929%22%3A%20%22n.%20today%22%2C%20%22%5Cu600e%5Cu4e48%5Cu6837%22%3A%20%22phr.%20how%20about%22%2C%20%22%5Cu6211%22%3A%20%22pron.%20I%2C%20me%22%2C%20%22%5Cu5f88%5Cu597d%22%3A%20%22adj.%20very%20good%22%2C%20%22%5Cu8c22%5Cu8c22%22%3A%20%22v.%20thank%20you%22%2C%20%22%5Cu4f60%5Cu5462%22%3A%20%22phr.%20and%20you%3F%22%2C%20%22%5Cu4e5f%22%3A%20%22adv.%20also%22%2C%20%22%5Cu6211%5Cu4eec%22%3A%20%22pron.%20we%2C%20us%22%2C%20%22%5Cu53bb%22%3A%20%22v.%20go%22%2C%20%22%5Cu559d%22%3A%20%22v.%20drink%22%2C%20%22%5Cu5496%5Cu5561%22%3A%20%22n.%20coffee%22%2C%20%22%5Cu5427%22%3A%20%22part.%20suggestion%20particle%22%2C%20%22%5Cu597d%5Cu554a%22%3A%20%22phr.%20okay%21%22%2C%20%22%5Cu5f20%5Cu4f1f%22%3A%20%22n.%20Zhang%20Wei%20%28a%20common%20Chinese%20name%29%22%2C%20%22%5Cu674e%5Cu5a1c%22%3A%20%22n.%20Li%20Na%20%28a%20common%20Chinese%20name%29%22%7D">
+        </div>

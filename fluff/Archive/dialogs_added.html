@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Line Hanzi with Auto Pinyin</title>
+    <script src="https://cdn.jsdelivr.net/npm/pinyin-pro"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .hanzi {
+            position: relative;
+            display: inline-block;
+            font-size: 24px;
+            margin: 2px;
+            cursor: pointer;
+        }
+        .pinyin {
+            display: none;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            color: gray;
+        }
+        .show-pinyin .pinyin {
+            display: block;
+        }
+        .dialog {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="togglePinyin">Toggle Pinyin</button>
+    <div id="content"></div>
+
+    <script>
+        const dialogText = [
+            "张伟：你好！你今天怎么样？",
+            "李娜：我很好，谢谢！你呢？",
+            "张伟：我也很好！",
+            "李娜：我们去喝咖啡吧？",
+            "张伟：好啊！"
+        ];
+
+        function generateDialog(dialogArray) {
+            const contentDiv = document.getElementById("content");
+            contentDiv.innerHTML = ""; // Clear previous content
+
+            dialogArray.forEach(line => {
+                const paragraph = document.createElement("p");
+                paragraph.classList.add("dialog");
+
+                for (const char of line) {
+                    const pinyinText = pinyinPro.pinyin(char, { toneType: "mark" }) || "";
+
+                    const span = document.createElement("span");
+                    span.classList.add("hanzi");
+                    span.dataset.pinyin = pinyinText;
+
+                    if (pinyinText) {
+                        const pinyinSpan = document.createElement("span");
+                        pinyinSpan.classList.add("pinyin");
+                        pinyinSpan.textContent = pinyinText;
+                        span.appendChild(pinyinSpan);
+                    }
+
+                    span.appendChild(document.createTextNode(char));
+                    paragraph.appendChild(span);
+                }
+
+                contentDiv.appendChild(paragraph);
+            });
+        }
+
+        generateDialog(dialogText);
+
+        document.getElementById("togglePinyin").addEventListener("click", function () {
+            document.body.classList.toggle("show-pinyin");
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+---
+layout: default
+title: Readings
+---
+
+<h1>All Readings</h1>
+<ul>
+  {% for story in site.readings %}
+    <li><a href="{{ story.url }}">{{ story.title }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Pinyin Toggle</title>
+    <script src="https://cdn.jsdelivr.net/npm/pinyin-pro"></script> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .hanzi {
+            position: relative;
+            display: inline-block;
+            font-size: 24px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .pinyin {
+            display: none;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            color: gray;
+        }
+        .show-pinyin .pinyin {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="togglePinyin">Toggle Pinyin</button>
+    <div id="content"></div>
+
+    <script>
+        const text = "你好，世界！"; // Example Hanzi text
+
+        function generateHanziParagraph(text) {
+            const paragraph = document.createElement("p");
+
+            for (const char of text) {
+                const pinyinText = pinyinPro.pinyin(char, { toneType: "mark" }) || ""; // Convert Hanzi to Pinyin
+                
+                const span = document.createElement("span");
+                span.classList.add("hanzi");
+                span.dataset.pinyin = pinyinText;
+
+                if (pinyinText) {
+                    const pinyinSpan = document.createElement("span");
+                    pinyinSpan.classList.add("pinyin");
+                    pinyinSpan.textContent = pinyinText;
+                    span.appendChild(pinyinSpan);
+                }
+
+                span.appendChild(document.createTextNode(char));
+                paragraph.appendChild(span);
+            }
+
+            return paragraph;
+        }
+
+        document.getElementById("content").appendChild(generateHanziParagraph(text));
+
+        document.getElementById("togglePinyin").addEventListener("click", function () {
+            document.body.classList.toggle("show-pinyin");
+        });
+    </script>
+
+</body>
+</html>

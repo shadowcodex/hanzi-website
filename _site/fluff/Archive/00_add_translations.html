@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Line Hanzi with Auto Pinyin & Popovers</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Pinyin Pro -->
+    <script src="https://cdn.jsdelivr.net/npm/pinyin-pro"></script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .dialog-container {
+            margin-top: 20px;
+        }
+        .dialog {
+            margin-bottom: 15px;
+            line-height: 2.5;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            flex-direction: column;
+        }
+        .hanzi-group {
+            position: relative;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 24px;
+            margin: 3px;
+            cursor: pointer;
+            min-width: 1em;
+        }
+        .pinyin {
+            display: none;
+            font-size: 16px;
+            color: gray;
+            line-height: 1;
+        }
+        .show-pinyin .hanzi-group .pinyin {
+            display: block;
+        }
+        .plain-text {
+            font-size: 24px;
+            margin: 3px;
+            display: inline;
+            vertical-align: baseline;
+        }
+        .translation {
+            display: none;
+            font-size: 18px;
+            color: gray;
+            margin-top: 5px;
+        }
+        .show-translation .translation {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>Hanzi & Pinyin Toggle</h2>
+            <div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="togglePinyin">
+                    <label class="form-check-label" for="togglePinyin">Show Pinyin</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="toggleTranslation">
+                    <label class="form-check-label" for="toggleTranslation">Show Translation</label>
+                </div>
+            </div>
+        </div>
+
+        <div id="content" class="dialog-container"></div>
+    </div>
+
+    <!-- Bootstrap JS (for Popovers) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const textBlob = `
+Hello! 
+张伟：你好3！你今天怎么样？
+李娜：我很好，谢谢！你呢？
+张伟：我也很好！
+李娜：我们去喝咖啡吧？
+张伟：好啊！
+        `;
+
+        const translation = `
+Hello!
+Zhang Wei: Hi! How are you today?
+Li Na: I'm very good, thank you! And you?
+Zhang Wei: I'm also very good!
+Li Na: Shall we go have some coffee?
+Zhang Wei: Sure!
+        `;
+
+        const hanziDictionary = {
+            "你好": "hello",
+            "今天": "today",
+            "怎么样": "how about",
+            "我": "I, me",
+            "很好": "very good",
+            "谢谢": "thank you",
+            "你呢": "and you?",
+            "也": "also",
+            "我们": "we, us",
+            "去": "go",
+            "喝": "drink",
+            "咖啡": "coffee",
+            "吧": "suggestion particle",
+            "好啊": "okay!",
+            "张伟": "Zhang Wei (a common Chinese name)",
+            "李娜": "Li Na (a common Chinese name)"
+        };
+
+        function isHanzi(char) {
+            return /[\u4e00-\u9fff]/.test(char);
+        }
+
+        function generateDialogFromText(text, translationText) {
+            const contentDiv = document.getElementById("content");
+            contentDiv.innerHTML = ""; // Clear previous content
+            
+            const hanziLines = text.trim().split("\n");
+            const translationLines = translationText.trim().split("\n");
+
+            hanziLines.forEach((line, index) => {
+                const container = document.createElement("div");
+                container.classList.add("dialog");
+
+                const paragraph = document.createElement("p");
+                paragraph.classList.add("hanzi-line");
+
+                let indexChar = 0;
+                while (indexChar < line.length) {
+                    let foundWord = false;
+
+                    for (let word in hanziDictionary) {
+                        if (line.startsWith(word, indexChar)) {
+                            createHanziSpan(paragraph, word);
+                            indexChar += word.length;
+                            foundWord = true;
+                            break;
+                        }
+                    }
+
+                    if (!foundWord) {
+                        let char = line[indexChar];
+
+                        if (isHanzi(char)) {
+                            createHanziSpan(paragraph, char);
+                        } else {
+                            createPlainTextSpan(paragraph, char);
+                        }
+                        indexChar++;
+                    }
+                }
+
+                container.appendChild(paragraph);
+
+                // Create translation line
+                if (index < translationLines.length) {
+                    const translationPara = document.createElement("p");
+                    translationPara.classList.add("translation");
+                    translationPara.textContent = translationLines[index].trim();
+                    container.appendChild(translationPara);
+                }
+
+                contentDiv.appendChild(container);
+            });
+
+            updateTranslationDisplay();
+        }
+
+        function createHanziSpan(parent, hanziWord) {
+            const pinyinText = pinyinPro.pinyin(hanziWord, { toneType: "mark" }) || "";
+            const definition = hanziDictionary[hanziWord] || "No definition available";
+
+            const span = document.createElement("span");
+            span.classList.add("hanzi-group");
+            span.dataset.pinyin = pinyinText;
+            span.dataset.bsToggle = "popover";
+            span.dataset.bsTrigger = "manual";
+            span.dataset.bsPlacement = "top";
+            span.dataset.bsContent = `<strong>${hanziWord}</strong><br>${pinyinText}<br>${definition}`;
+            span.dataset.bsHtml = "true";
+
+            if (pinyinText) {
+                const pinyinSpan = document.createElement("span");
+                pinyinSpan.classList.add("pinyin");
+                pinyinSpan.textContent = pinyinText;
+                span.appendChild(pinyinSpan);
+            }
+
+            span.appendChild(document.createTextNode(hanziWord));
+            parent.appendChild(span);
+        }
+
+        function createPlainTextSpan(parent, text) {
+            const span = document.createElement("span");
+            span.classList.add("plain-text");
+            span.textContent = text;
+            parent.appendChild(span);
+        }
+
+        function updatePinyinDisplay() {
+            const isPinyinEnabled = localStorage.getItem("showPinyin") === "true";
+            document.body.classList.toggle("show-pinyin", isPinyinEnabled);
+            document.getElementById("togglePinyin").checked = isPinyinEnabled;
+        }
+
+        function updateTranslationDisplay() {
+            const isTranslationEnabled = localStorage.getItem("showTranslation") === "true";
+            document.body.classList.toggle("show-translation", isTranslationEnabled);
+            document.getElementById("toggleTranslation").checked = isTranslationEnabled;
+        }
+
+        document.getElementById("togglePinyin").addEventListener("change", function () {
+            const isChecked = this.checked;
+            localStorage.setItem("showPinyin", isChecked);
+            document.body.classList.toggle("show-pinyin", isChecked);
+        });
+
+        document.getElementById("toggleTranslation").addEventListener("change", function () {
+            const isChecked = this.checked;
+            localStorage.setItem("showTranslation", isChecked);
+            updateTranslationDisplay();
+        });
+
+        generateDialogFromText(textBlob, translation);
+        updatePinyinDisplay();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+[
+    {
+        "title": "HSK 1 - Chapter 1",
+        "slug": "hsk_1_chapter_1",
+        "hanzi": "%7B%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%20%22%E5%A5%BD%22%3A%20%22adj.%20good%22%2C%20%22%E6%82%A8%22%3A%20%22pron.%20you%20%28polite/formal%29%22%2C%20%22%E4%BD%A0%E4%BB%AC%22%3A%20%22pron.%20you%20%28plural%29%20%28you%20all%29%22%2C%20%22%E5%AF%B9%E4%B8%8D%E8%B5%B7%22%3A%20%22phr.%20sorry%2C%20excuse%20me%2C%20apology%22%2C%20%22%E6%B2%A1%E5%85%B3%E7%B3%BB%22%3A%20%22phr.%20it%20doesn%27t%20matter%22%7D",
+        "dialogs": [
+            {
+                "title": "Dialogue 1: Greeting a Friend",
+                "lines": "A: 你好！\nB: 你好！",
+                "dictionary": "%7B%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%20%22%E5%A5%BD%22%3A%20%22adj.%20good%22%7D",
+                "translation": "A: Hello!\nB: Hello!",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%23%23%23%201.%20Basic%20Greetings%20using%20%E4%BD%A0%E5%A5%BD%20%28N%C7%90%20h%C7%8Eo%29%0A-%20%E4%BD%A0%E5%A5%BD%20%28N%C7%90%20h%C7%8Eo%29%20is%20the%20most%20common%20greeting%20in%20Mandarin%20and%20literally%20means%20%22you%20good.%22%0A-%20It%20follows%20the%20structure%3A%20%2A%2APronoun%20%2B%20%E5%A5%BD%2A%2A%20to%20indicate%20a%20greeting.%0A%0AExample%3A%0A-%20%E4%BD%A0%E5%A5%BD%EF%BC%81%20%28N%C7%90%20h%C7%8Eo%21%29%20%E2%86%92%20%22Hello%21%22%0A-%20%E6%82%A8%E5%A5%BD%EF%BC%81%20%28N%C3%ADn%20h%C7%8Eo%21%29%20%E2%86%92%20%22Hello%21%22%20%28formal%29%0A"
+            },
+            {
+                "title": "Dialogue 2: Apologizing",
+                "lines": "A: 对不起！\nB: 没关系。",
+                "dictionary": "%7B%22%E5%AF%B9%E4%B8%8D%E8%B5%B7%22%3A%20%22phr.%20sorry%2C%20excuse%20me%2C%20apology%22%2C%20%22%E6%B2%A1%E5%85%B3%E7%B3%BB%22%3A%20%22phr.%20it%20doesn%27t%20matter%22%7D",
+                "translation": "A: Sorry!\nB: It's okay.",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%23%23%23%202.%20Expressing%20Apologies%20with%20%E5%AF%B9%E4%B8%8D%E8%B5%B7%20%28Du%C3%ACbuq%C7%90%29%0A-%20%E5%AF%B9%E4%B8%8D%E8%B5%B7%20%28Du%C3%ACbuq%C7%90%29%20is%20used%20to%20apologize%20in%20various%20contexts.%0A-%20Common%20responses%20include%3A%0A%20%20-%20%E6%B2%A1%E5%85%B3%E7%B3%BB%20%28M%C3%A9i%20gu%C4%81nxi%29%20%E2%86%92%20%22It%27s%20okay.%22%20%28common%2C%20polite%20response%29%0A%20%20-%20%E6%B2%A1%E4%BA%8B%20%28M%C3%A9i%20sh%C3%AC%29%20%E2%86%92%20%22No%20problem.%22%0A%0AExample%3A%0A-%20A%3A%20%E5%AF%B9%E4%B8%8D%E8%B5%B7%EF%BC%81%28Du%C3%ACbuq%C7%90%21%29%20%E2%86%92%20%22Sorry%21%22%0A-%20B%3A%20%E6%B2%A1%E5%85%B3%E7%B3%BB%E3%80%82%28M%C3%A9i%20gu%C4%81nxi.%29%20%E2%86%92%20%22It%E2%80%99s%20okay.%22%0A"
+            },
+            {
+                "title": "Dialogue 3: Greeting a Group",
+                "lines": "A: 你们好！\nB: 你好！\nC: 你好！",
+                "dictionary": "%7B%22%E4%BD%A0%E4%BB%AC%22%3A%20%22pron.%20you%20%28plural%29%20%28you%20all%29%22%2C%20%22%E5%A5%BD%22%3A%20%22adj.%20good%22%7D",
+                "translation": "A: Hello (everyone)!\nB: Hello!\nC: Hello!",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%23%23%23%203.%20Greeting%20a%20Group%20using%20%E4%BD%A0%E4%BB%AC%E5%A5%BD%20%28N%C7%90men%20h%C7%8Eo%29%0A-%20%E4%BD%A0%E4%BB%AC%20%28N%C7%90men%29%20is%20the%20plural%20form%20of%20%E4%BD%A0%20%28N%C7%90%29%2C%20meaning%20%22you%20all.%22%0A-%20The%20structure%20remains%20the%20same%20as%20the%20singular%20form%3A%20%2A%2A%E4%BD%A0%E4%BB%AC%20%2B%20%E5%A5%BD%2A%2A%0A%0AExample%3A%0A-%20A%3A%20%E4%BD%A0%E4%BB%AC%E5%A5%BD%EF%BC%81%28N%C7%90men%20h%C7%8Eo%21%29%20%E2%86%92%20%22Hello%20%28everyone%29%21%22%0A-%20B%3A%20%E4%BD%A0%E5%A5%BD%EF%BC%81%28N%C7%90%20h%C7%8Eo%21%29%20%E2%86%92%20%22Hello%21%22%0A"
+            }
+        ]
+    },
+    {
+        "title": "HSK 1 - Chapter 2",
+        "slug": "hsk_1_chapter_2",
+        "hanzi": "%7B%22%E8%B0%A2%E8%B0%A2%22%3A%20%22phr.%20thank%20you%22%2C%20%22%E4%B8%8D%22%3A%20%22adv.%20not%2C%20no%22%2C%20%22%E4%B8%8D%E5%AE%A2%E6%B0%94%22%3A%20%22phr.%20you%27re%20welcome%22%2C%20%22%E5%86%8D%E8%A7%81%22%3A%20%22phr.%20goodbye%22%7D",
+        "dialogs": [
+            {
+                "title": "Dialogue 1: Polite Greetings",
+                "lines": "A: 你好！\nB: 你好！谢谢！\nA: 不客气。",
+                "dictionary": "%7B%22%E4%BD%A0%E5%A5%BD%22%3A%20%22phr.%20hello%22%2C%20%22%E8%B0%A2%E8%B0%A2%22%3A%20%22phr.%20thank%20you%22%2C%20%22%E4%B8%8D%E5%AE%A2%E6%B0%94%22%3A%20%22phr.%20you%27re%20welcome%22%7D",
+                "translation": "A: Hello!\nB: Hello! Thank you!\nA: You're welcome.",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%20Expressing%20Gratitude%0A-%20%2A%2A%E8%B0%A2%E8%B0%A2%20%28xi%C3%A8xi%C3%A8%29%2A%2A%3A%20Used%20to%20express%20thanks.%20Can%20be%20followed%20by%20a%20name%20or%20a%20pronoun%20%28e.g.%2C%20%E8%B0%A2%E8%B0%A2%E4%BD%A0%EF%BC%81%20%3D%20Thank%20you%21%29.%0A%0A%23%23%23%20Responding%20to%20Thanks%0A-%20%2A%2A%E4%B8%8D%E5%AE%A2%E6%B0%94%20%28b%C3%B9%20k%C3%A8q%C3%AC%29%2A%2A%3A%20A%20polite%20way%20to%20respond%20to%20%22%E8%B0%A2%E8%B0%A2%2C%22%20meaning%20%22You%27re%20welcome.%22%0A"
+            },
+            {
+                "title": "Dialogue 2: Apologizing and Thanking",
+                "lines": "A: 对不起！\nB: 没关系。\nA: 谢谢！\nB: 不客气。",
+                "dictionary": "%7B%22%E5%AF%B9%E4%B8%8D%E8%B5%B7%22%3A%20%22phr.%20sorry%22%2C%20%22%E6%B2%A1%E5%85%B3%E7%B3%BB%22%3A%20%22phr.%20it%20doesn%27t%20matter%22%2C%20%22%E8%B0%A2%E8%B0%A2%22%3A%20%22phr.%20thank%20you%22%2C%20%22%E4%B8%8D%E5%AE%A2%E6%B0%94%22%3A%20%22phr.%20you%27re%20welcome%22%7D",
+                "translation": "A: Sorry!\nB: It's okay.\nA: Thank you!\nB: You're welcome.",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%20Apologizing%0A-%20%2A%2A%E5%AF%B9%E4%B8%8D%E8%B5%B7%20%28du%C3%ACbuq%C7%90%29%2A%2A%3A%20Common%20phrase%20for%20%22sorry%22%20in%20formal%20and%20informal%20settings.%0A%0A%23%23%23%20Accepting%20Apologies%0A-%20%2A%2A%E6%B2%A1%E5%85%B3%E7%B3%BB%20%28m%C3%A9i%20gu%C4%81nxi%29%2A%2A%3A%20Equivalent%20to%20%22It%27s%20okay%22%20or%20%22No%20problem.%22%0A%0A%23%23%23%20Gratitude%20%26%20Response%0A-%20%2A%2A%E8%B0%A2%E8%B0%A2%2A%2A%20and%20%2A%2A%E4%B8%8D%E5%AE%A2%E6%B0%94%2A%2A%20follow%20the%20same%20gratitude%20rules%20as%20in%20Dialogue%201.%0A"
+            },
+            {
+                "title": "Dialogue 3: Parting Ways",
+                "lines": "A: 你们好！\nB: 你好！\nA: 再见！\nB: 再见！",
+                "dictionary": "%7B%22%E4%BD%A0%E4%BB%AC%E5%A5%BD%22%3A%20%22phr.%20hello%20%28to%20a%20group%29%22%2C%20%22%E4%BD%A0%E5%A5%BD%22%3A%20%22phr.%20hello%22%2C%20%22%E5%86%8D%E8%A7%81%22%3A%20%22phr.%20goodbye%22%7D",
+                "translation": "A: Hello, everyone!\nB: Hello!\nA: Goodbye!\nB: Goodbye!",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%20Greeting%20Multiple%20People%0A-%20%2A%2A%E4%BD%A0%E4%BB%AC%E5%A5%BD%20%28n%C7%90men%20h%C7%8Eo%29%2A%2A%3A%20Used%20when%20greeting%20a%20group%20of%20people.%0A%0A%23%23%23%20Saying%20Goodbye%0A-%20%2A%2A%E5%86%8D%E8%A7%81%20%28z%C3%A0iji%C3%A0n%29%2A%2A%3A%20A%20common%20way%20to%20say%20%22goodbye%2C%22%20often%20used%20in%20both%20formal%20and%20informal%20settings.%0A"
+            }
+        ]
+    },
+    {
+        "title": "HSK 1 - Chapter 3",
+        "slug": "hsk_1_chapter_3",
+        "hanzi": "%7B%22%E5%8F%AB%22%3A%20%22v.%20to%20be%20called%2C%20to%20call%22%2C%20%22%E4%BB%80%E4%B9%88%22%3A%20%22pron.%20what%22%2C%20%22%E5%90%8D%E5%AD%97%22%3A%20%22n.%20name%22%2C%20%22%E6%88%91%22%3A%20%22pron.%20I%2C%20me%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E8%80%81%E5%B8%88%22%3A%20%22n.%20teacher%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E5%AD%A6%E7%94%9F%22%3A%20%22n.%20student%22%2C%20%22%E4%BA%BA%22%3A%20%22n.%20person%22%2C%20%22%E6%9D%8E%E6%9C%88%22%3A%20%22pn.%20Li%20Yue%20%28name%29%22%2C%20%22%E4%B8%AD%E5%9B%BD%22%3A%20%22pn.%20China%22%2C%20%22%E7%BE%8E%E5%9B%BD%22%3A%20%22pn.%20United%20States%22%7D",
+        "dialogs": [
+            {
+                "title": "Dialogue 1: Introducing Yourself",
+                "lines": "A: 你好！你叫什么名字？\nB: 我叫李月。你呢？\nA: 我是美国人。你是中国人吗？\nB: 是，我是中国人。",
+                "dictionary": "%7B%22%E4%BD%A0%E5%A5%BD%22%3A%20%22phr.%20hello%22%2C%20%22%E5%8F%AB%22%3A%20%22v.%20to%20be%20called%2C%20to%20call%22%2C%20%22%E4%BB%80%E4%B9%88%22%3A%20%22pron.%20what%22%2C%20%22%E5%90%8D%E5%AD%97%22%3A%20%22n.%20name%22%2C%20%22%E6%88%91%22%3A%20%22pron.%20I%2C%20me%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E7%BE%8E%E5%9B%BD%E4%BA%BA%22%3A%20%22n.%20American%22%2C%20%22%E4%B8%AD%E5%9B%BD%E4%BA%BA%22%3A%20%22n.%20Chinese%20person%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%7D",
+                "translation": "A: Hello! What is your name?\nB: My name is Li Yue. And you?\nA: I am American. Are you Chinese?\nB: Yes, I am Chinese.",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%23%23%23%201.%20Asking%20for%20Names%20with%20%E4%BD%A0%E5%8F%AB%E4%BB%80%E4%B9%88%E5%90%8D%E5%AD%97%3F%0A-%20Structure%3A%20%E4%BD%A0%20%2B%20%E5%8F%AB%20%2B%20%E4%BB%80%E4%B9%88%20%2B%20%E5%90%8D%E5%AD%97%0A-%20Used%20to%20ask%20for%20someone's%20name.%0A-%20Example%3A%0A%20%20-%20%E4%BD%A0%E5%8F%AB%E4%BB%80%E4%B9%88%E5%90%8D%E5%AD%97%3F%20%28What%20is%20your%20name%3F%29"
+            },
+            {
+                "title": "Dialogue 2: Asking About Occupation",
+                "lines": "A: 你是老师吗？\nB: 不，我是学生。你呢？\nA: 我也是学生。",
+                "dictionary": "%7B%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E8%80%81%E5%B8%88%22%3A%20%22n.%20teacher%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E4%B8%8D%22%3A%20%22adv.%20no%2C%20not%22%2C%20%22%E5%AD%A6%E7%94%9F%22%3A%20%22n.%20student%22%2C%20%22%E4%B9%9F%22%3A%20%22adv.%20also%22%7D",
+                "translation": "A: Are you a teacher?\nB: No, I am a student. What about you?\nA: I am also a student.",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%23%23%23%202.%20Asking%20About%20Occupation%20with%20%E4%BD%A0%E6%98%AF%E2%80%A6%E5%90%97%3F%0A-%20Structure%3A%20%E4%BD%A0%20%2B%20%E6%98%AF%20%2B%20%5BOccupation%5D%20%2B%20%E5%90%97%0A-%20Used%20to%20ask%20if%20someone%20is%20in%20a%20certain%20profession."
+            },
+            {
+                "title": "Dialogue 3: Apologizing and Parting",
+                "lines": "A: 对不起！\nB: 没关系。\nA: 谢谢！\nB: 不客气。\nA: 再见！\nB: 再见！",
+                "dictionary": "%7B%22%E5%AF%B9%E4%B8%8D%E8%B5%B7%22%3A%20%22phr.%20sorry%22%2C%20%22%E6%B2%A1%E5%85%B3%E7%B3%BB%22%3A%20%22phr.%20it's%20okay%22%2C%20%22%E8%B0%A2%E8%B0%A2%22%3A%20%22phr.%20thank%20you%22%2C%20%22%E4%B8%8D%E5%AE%A2%E6%B0%94%22%3A%20%22phr.%20you're%20welcome%22%2C%20%22%E5%86%8D%E8%A7%81%22%3A%20%22phr.%20goodbye%22%7D",
+                "translation": "A: Sorry!\nB: It's okay.\nA: Thank you!\nB: You're welcome.\nA: Goodbye!\nB: Goodbye!",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%23%23%23%203.%20Apologizing%20and%20Parting%0A-%20%E5%AF%B9%E4%B8%8D%E8%B5%B7%20%28Sorry%29%0A-%20%E8%B0%A2%E8%B0%A2%20%28Thank%20you%29%0A-%20%E5%86%8D%E8%A7%81%20%28Goodbye%29"
+            }
+        ]
+    },
+    {
+        "title": "HSK 1 - Chapter 4",
+        "slug": "hsk_1_chapter_4",
+        "hanzi": "%7B%22%E5%A5%B9%22%3A%20%22pron.%20she%2C%20her%22%2C%20%22%E8%B0%81%22%3A%20%22pron.%20who%22%2C%20%22%E7%9A%84%22%3A%20%22part.%20possessive%20marker%20%28%27s%29%22%2C%20%22%E6%B1%89%E8%AF%AD%22%3A%20%22n.%20Chinese%20language%22%2C%20%22%E5%93%AA%22%3A%20%22pron.%20which%22%2C%20%22%E5%9B%BD%22%3A%20%22n.%20country%22%2C%20%22%E5%91%A2%22%3A%20%22part.%20question%20marker%22%2C%20%22%E4%BB%96%22%3A%20%22pron.%20he%2C%20him%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E6%9C%8B%E5%8F%8B%22%3A%20%22n.%20friend%22%7D",
+        "dialogs": [
+            {
+                "title": "Dialogue 1: Introducing a Friend",
+                "lines": "A: 你好！她是谁？\nB: 她是我的同学。她叫李月。\nA: 她是中国人吗？\nB: 是，她是中国人。你呢？\nA: 我是美国人。",
+                "dictionary": "%7B%22%E4%BD%A0%E5%A5%BD%22%3A%20%22phr.%20hello%22%2C%20%22%E5%A5%B9%22%3A%20%22pron.%20she%2C%20her%22%2C%20%22%E8%B0%81%22%3A%20%22pron.%20who%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E7%9A%84%22%3A%20%22part.%20possessive%20marker%20%28%27s%29%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E5%8F%AB%22%3A%20%22v.%20to%20be%20called%22%2C%20%22%E4%B8%AD%E5%9B%BD%E4%BA%BA%22%3A%20%22n.%20Chinese%20person%22%2C%20%22%E7%BE%8E%E5%9B%BD%E4%BA%BA%22%3A%20%22n.%20American%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E4%BD%A0%E5%91%A2%22%3A%20%22phr.%20and%20you%3F%22%7D",
+                "translation": "A: Hello! Who is she?\nB: She is my classmate. Her name is Li Yue.\nA: Is she Chinese?\nB: Yes, she is Chinese. What about you?\nA: I am American.",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%201.%20Asking%20%22Who%20is%20%E2%80%A6%3F%22%20with%20%E8%B0%81%20%28Sh%C3%A9i%29%0A-%20%2A%2AStructure%2A%2A%3A%20%5BSubject%5D%20%2B%20%E6%98%AF%20%2B%20%E8%B0%81%EF%BC%9F%0A-%20Used%20to%20inquire%20about%20someone%27s%20identity.%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E5%A5%B9%E6%98%AF%E8%B0%81%EF%BC%9F%20%28T%C4%81%20sh%C3%AC%20sh%C3%A9i%3F%29%20%E2%86%92%20%22Who%20is%20she%3F%22%0A%20%20-%20%E4%BB%96%E6%98%AF%E8%B0%81%EF%BC%9F%20%28T%C4%81%20sh%C3%AC%20sh%C3%A9i%3F%29%20%E2%86%92%20%22Who%20is%20he%3F%22%0A%0A%23%23%23%202.%20Possession%20with%20%E7%9A%84%20%28de%29%0A-%20%2A%2AStructure%2A%2A%3A%20%5BOwner%5D%20%2B%20%E7%9A%84%20%2B%20%5BPossession%5D%0A-%20Used%20to%20indicate%20possession.%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E5%A5%B9%E6%98%AF%E6%88%91%E7%9A%84%E5%90%8C%E5%AD%A6%E3%80%82%20%28T%C4%81%20sh%C3%AC%20w%C7%92%20de%20t%C3%B3ngxu%C3%A9.%29%20%E2%86%92%20%22She%20is%20my%20classmate.%22%0A%0A%23%23%23%203.%20Using%20%E5%90%97%20%28ma%29%20for%20Yes/No%20Questions%0A-%20%2A%2AStructure%2A%2A%3A%20Statement%20%2B%20%E5%90%97%EF%BC%9F%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E5%A5%B9%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%90%97%EF%BC%9F%20%28T%C4%81%20sh%C3%AC%20Zh%C5%8Dnggu%C3%B3%20r%C3%A9n%20ma%3F%29%20%E2%86%92%20%22Is%20she%20Chinese%3F%22%0A"
+            },
+            {
+                "title": "Dialogue 2: Talking About Language",
+                "lines": "A: 你是学生吗？\nB: 是，我是学生。你呢？\nA: 我也是学生。我学汉语。\nB: 你同学是哪国人？\nA: 他是美国人。",
+                "dictionary": "%7B%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E5%AD%A6%E7%94%9F%22%3A%20%22n.%20student%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E4%B9%9F%22%3A%20%22adv.%20also%22%2C%20%22%E5%AD%A6%22%3A%20%22v.%20to%20learn%2C%20study%22%2C%20%22%E6%B1%89%E8%AF%AD%22%3A%20%22n.%20Chinese%20language%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E5%93%AA%22%3A%20%22pron.%20which%22%2C%20%22%E5%9B%BD%22%3A%20%22n.%20country%22%2C%20%22%E4%BA%BA%22%3A%20%22n.%20person%22%2C%20%22%E4%BB%96%22%3A%20%22pron.%20he%2C%20him%22%2C%20%22%E7%BE%8E%E5%9B%BD%E4%BA%BA%22%3A%20%22n.%20American%22%7D",
+                "translation": "A: Are you a student?\nB: Yes, I am a student. What about you?\nA: I am also a student. I study Chinese.\nB: What nationality is your classmate?\nA: He is American.",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%201.%20Asking%20About%20Nationality%20with%20%E5%93%AA%E5%9B%BD%E4%BA%BA%20%28N%C7%8E%20gu%C3%B3%20r%C3%A9n%29%0A-%20%2A%2AStructure%2A%2A%3A%20%5BSubject%5D%20%2B%20%E6%98%AF%20%2B%20%E5%93%AA%E5%9B%BD%E4%BA%BA%EF%BC%9F%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E4%BD%A0%E5%90%8C%E5%AD%A6%E6%98%AF%E5%93%AA%E5%9B%BD%E4%BA%BA%EF%BC%9F%20%28N%C7%90%20t%C3%B3ngxu%C3%A9%20sh%C3%AC%20n%C7%8E%20gu%C3%B3%20r%C3%A9n%3F%29%20%E2%86%92%20%22What%20nationality%20is%20your%20classmate%3F%22%0A%0A%23%23%23%202.%20Expressing%20%22Also%22%20with%20%E4%B9%9F%20%28Y%C4%9B%29%0A-%20%2A%2AStructure%2A%2A%3A%20Subject%20%2B%20%E4%B9%9F%20%2B%20Verb%20%2B%20Object.%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E6%88%91%E4%B9%9F%E6%98%AF%E5%AD%A6%E7%94%9F%E3%80%82%20%28W%C7%92%20y%C4%9B%20sh%C3%AC%20xu%C3%A9sh%C4%93ng.%29%20%E2%86%92%20%22I%20am%20also%20a%20student.%22%0A%0A%23%23%23%203.%20Using%20%E5%AD%A6%20%28Xu%C3%A9%29%20to%20Mean%20%22To%20Learn%22%20or%20%22To%20Study%22%0A-%20%2A%2AStructure%2A%2A%3A%20Subject%20%2B%20%E5%AD%A6%20%2B%20Object.%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E6%88%91%E5%AD%A6%E6%B1%89%E8%AF%AD%E3%80%82%20%28W%C7%92%20xu%C3%A9%20H%C3%A0ny%C7%94.%29%20%E2%86%92%20%22I%20study%20Chinese.%22%0A"
+            },
+            {
+                "title": "Dialogue 3: Saying Goodbye to a Friend",
+                "lines": "A: 你们好！\nB: 你好！你是谁？\nA: 我是李月的朋友。你是她的同学吗？\nB: 是，我是她的同学。\nA: 好的，谢谢！再见！\nB: 不客气，再见！",
+                "dictionary": "%7B%22%E4%BD%A0%E4%BB%AC%E5%A5%BD%22%3A%20%22phr.%20hello%20%28to%20a%20group%29%22%2C%20%22%E4%BD%A0%E5%A5%BD%22%3A%20%22phr.%20hello%22%2C%20%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E8%B0%81%22%3A%20%22pron.%20who%22%2C%20%22%E6%9D%8E%E6%9C%88%22%3A%20%22pn.%20Li%20Yue%22%2C%20%22%E7%9A%84%22%3A%20%22part.%20possessive%20marker%20%28%27s%29%22%2C%20%22%E6%9C%8B%E5%8F%8B%22%3A%20%22n.%20friend%22%2C%20%22%E5%A5%B9%22%3A%20%22pron.%20she%2C%20her%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E5%A5%BD%E7%9A%84%22%3A%20%22phr.%20okay%22%2C%20%22%E8%B0%A2%E8%B0%A2%22%3A%20%22phr.%20thank%20you%22%2C%20%22%E4%B8%8D%E5%AE%A2%E6%B0%94%22%3A%20%22phr.%20you%27re%20welcome%22%2C%20%22%E5%86%8D%E8%A7%81%22%3A%20%22phr.%20goodbye%22%7D",
+                "translation": "A: Hello, everyone!\nB: Hello! Who are you?\nA: I am Li Yue's friend. Are you her classmate?\nB: Yes, I am her classmate.\nA: Okay, thanks! Goodbye!\nB: You're welcome, goodbye!",
+                "grammar": "%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%201.%20Asking%20%22Who%20Are%20You%3F%22%20with%20%E4%BD%A0%E6%98%AF%E8%B0%81%EF%BC%9F%28N%C7%90%20sh%C3%AC%20sh%C3%A9i%3F%29%0A-%20%2A%2AStructure%2A%2A%3A%20%E4%BD%A0%20%2B%20%E6%98%AF%20%2B%20%E8%B0%81%EF%BC%9F%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E4%BD%A0%E6%98%AF%E8%B0%81%EF%BC%9F%20%28N%C7%90%20sh%C3%AC%20sh%C3%A9i%3F%29%20%E2%86%92%20%22Who%20are%20you%3F%22%0A%0A%23%23%23%202.%20Saying%20Goodbye%20with%20%E5%86%8D%E8%A7%81%20%28Z%C3%A0iji%C3%A0n%29%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E5%86%8D%E8%A7%81%EF%BC%81%20%28Z%C3%A0iji%C3%A0n%21%29%20%E2%86%92%20%22Goodbye%21%22%0A%0A%23%23%23%203.%20Using%20%E7%9A%84%20%28de%29%20for%20Possession%0A-%20%2A%2AStructure%2A%2A%3A%20%5BOwner%5D%20%2B%20%E7%9A%84%20%2B%20%5BPossession%5D%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E6%88%91%E6%98%AF%E6%9D%8E%E6%9C%88%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%82%20%28W%C7%92%20sh%C3%AC%20L%C7%90%20Yu%C3%A8%20de%20p%C3%A9ngy%C7%92u.%29%20%E2%86%92%20%22I%20am%20Li%20Yue%27s%20friend.%22%0A"
+            }
+        ]
+    }
+]

@@ -1,0 +1,472 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HSK 1 - Chapter 4</title>
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Pinyin Pro -->
+        <script src="https://cdn.jsdelivr.net/npm/pinyin-pro"></script>
+    
+        <!-- Include Marked.js (Markdown parser) -->
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        
+        <style>
+            h1 {
+                font-size: 48px;
+                font-weight:bolder;
+            }
+            h2 {
+                font-size: 36px;
+                font-weight:bolder;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+            .dialog-container {
+                margin-top: 20px;
+            }
+            .dialog {
+                margin-bottom: 10px; /* Reduced spacing */
+                line-height: 1.5; /* Reduced line height */
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start; /* Left align text */
+                flex-direction: column;
+            }
+            .dialog-new-words {
+                margin-bottom: 10px; /* Reduced spacing */
+                line-height: 1; /* Reduced line height */
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start; /* Left align text */
+                flex-direction: column;
+            }
+            .hanzi-line {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-end;
+            }
+            .hanzi-group {
+                position: relative;
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 24px;
+                margin: 3px;
+                cursor: pointer;
+                min-width: 1em;
+            }
+            .pinyin {
+                display: none;
+                font-size: 16px;
+                color: gray;
+                line-height: 1;
+            }
+            .show-pinyin .pinyin {
+                display: block;
+            }
+            .pinyin-dictionary {
+                font-size: 20px;
+                margin: 3px;
+                display: inline;
+                vertical-align: baseline;
+                color: gray;
+            }
+            .plain-text {
+                font-size: 24px;
+                margin: 3px;
+                display: inline;
+                vertical-align: baseline;
+            }
+            .plain-text-body {
+                font-size: 24px;
+                margin: 3px;
+                display: inline;
+                color: #444444;
+                vertical-align: baseline;
+            }
+            .plain-text-title {
+                font-size: 24px;
+                font-weight:bold;
+                margin: 3px;
+                display: inline;
+                vertical-align: baseline;
+            }
+            .translation {
+                line-height: 1;
+                display: none;
+                font-size: 18px;
+                color: gray;
+                margin-top: 3px; /* Reduced spacing */
+            }
+            .show-translation .translation {
+                display: block;
+            }
+            .section-markdown-container {
+                background-color: #f1f1f1;
+                padding: 1.2em;
+            }
+        </style>
+    </head>
+  <body>
+    <H3><a href="/">Home</a>&nbsp;&nbsp;<a href="/lessons">Lessons</a>&nbsp;&nbsp;<a href="/readings">Readings</a></H3>
+    <div class="container">
+    <br />
+    <br />
+    <div class="d-flex justify-content-between align-items-center">
+        <h1>HSK 1 - Chapter 4</h1>
+    </div>
+    <p class="plain-text-body">
+</p>
+    <br />
+    <br />
+    <br />
+    <br />
+    
+    <div class="new-words-section"
+        data-dictionary="%7B%22%E5%A5%B9%22%3A%20%22pron.%20she%2C%20her%22%2C%20%22%E8%B0%81%22%3A%20%22pron.%20who%22%2C%20%22%E7%9A%84%22%3A%20%22part.%20possessive%20marker%20%28%27s%29%22%2C%20%22%E6%B1%89%E8%AF%AD%22%3A%20%22n.%20Chinese%20language%22%2C%20%22%E5%93%AA%22%3A%20%22pron.%20which%22%2C%20%22%E5%9B%BD%22%3A%20%22n.%20country%22%2C%20%22%E5%91%A2%22%3A%20%22part.%20question%20marker%22%2C%20%22%E4%BB%96%22%3A%20%22pron.%20he%2C%20him%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E6%9C%8B%E5%8F%8B%22%3A%20%22n.%20friend%22%7D""
+    ></div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="d-flex justify-content-between align-items-center">
+        <h2>Dialogs</h2>
+        <div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="togglePinyin">
+                <label class="form-check-label" for="togglePinyin">Show Pinyin</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="toggleTranslation">
+                <label class="form-check-label" for="toggleTranslation">Show Translation</label>
+            </div>
+        </div>
+    </div>
+
+    
+        <hr />
+        <div class="hanzi-section" 
+            data-title="Dialogue 1: Introducing a Friend"
+            data-hanzi="A: 你好！她是谁？
+B: 她是我的同学。她叫李月。
+A: 她是中国人吗？
+B: 是，她是中国人。你呢？
+A: 我是美国人。" 
+            data-translation="A: Hello! Who is she?
+B: She is my classmate. Her name is Li Yue.
+A: Is she Chinese?
+B: Yes, she is Chinese. What about you?
+A: I am American."
+            data-dictionary="%7B%22%E4%BD%A0%E5%A5%BD%22%3A%20%22phr.%20hello%22%2C%20%22%E5%A5%B9%22%3A%20%22pron.%20she%2C%20her%22%2C%20%22%E8%B0%81%22%3A%20%22pron.%20who%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E7%9A%84%22%3A%20%22part.%20possessive%20marker%20%28%27s%29%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E5%8F%AB%22%3A%20%22v.%20to%20be%20called%22%2C%20%22%E4%B8%AD%E5%9B%BD%E4%BA%BA%22%3A%20%22n.%20Chinese%20person%22%2C%20%22%E7%BE%8E%E5%9B%BD%E4%BA%BA%22%3A%20%22n.%20American%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E4%BD%A0%E5%91%A2%22%3A%20%22phr.%20and%20you%3F%22%7D"
+            data-markdown="%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%201.%20Asking%20%22Who%20is%20%E2%80%A6%3F%22%20with%20%E8%B0%81%20%28Sh%C3%A9i%29%0A-%20%2A%2AStructure%2A%2A%3A%20%5BSubject%5D%20%2B%20%E6%98%AF%20%2B%20%E8%B0%81%EF%BC%9F%0A-%20Used%20to%20inquire%20about%20someone%27s%20identity.%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E5%A5%B9%E6%98%AF%E8%B0%81%EF%BC%9F%20%28T%C4%81%20sh%C3%AC%20sh%C3%A9i%3F%29%20%E2%86%92%20%22Who%20is%20she%3F%22%0A%20%20-%20%E4%BB%96%E6%98%AF%E8%B0%81%EF%BC%9F%20%28T%C4%81%20sh%C3%AC%20sh%C3%A9i%3F%29%20%E2%86%92%20%22Who%20is%20he%3F%22%0A%0A%23%23%23%202.%20Possession%20with%20%E7%9A%84%20%28de%29%0A-%20%2A%2AStructure%2A%2A%3A%20%5BOwner%5D%20%2B%20%E7%9A%84%20%2B%20%5BPossession%5D%0A-%20Used%20to%20indicate%20possession.%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E5%A5%B9%E6%98%AF%E6%88%91%E7%9A%84%E5%90%8C%E5%AD%A6%E3%80%82%20%28T%C4%81%20sh%C3%AC%20w%C7%92%20de%20t%C3%B3ngxu%C3%A9.%29%20%E2%86%92%20%22She%20is%20my%20classmate.%22%0A%0A%23%23%23%203.%20Using%20%E5%90%97%20%28ma%29%20for%20Yes/No%20Questions%0A-%20%2A%2AStructure%2A%2A%3A%20Statement%20%2B%20%E5%90%97%EF%BC%9F%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E5%A5%B9%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%90%97%EF%BC%9F%20%28T%C4%81%20sh%C3%AC%20Zh%C5%8Dnggu%C3%B3%20r%C3%A9n%20ma%3F%29%20%E2%86%92%20%22Is%20she%20Chinese%3F%22%0A">
+        </div>
+    
+        <hr />
+        <div class="hanzi-section" 
+            data-title="Dialogue 2: Talking About Language"
+            data-hanzi="A: 你是学生吗？
+B: 是，我是学生。你呢？
+A: 我也是学生。我学汉语。
+B: 你同学是哪国人？
+A: 他是美国人。" 
+            data-translation="A: Are you a student?
+B: Yes, I am a student. What about you?
+A: I am also a student. I study Chinese.
+B: What nationality is your classmate?
+A: He is American."
+            data-dictionary="%7B%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E5%AD%A6%E7%94%9F%22%3A%20%22n.%20student%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E4%B9%9F%22%3A%20%22adv.%20also%22%2C%20%22%E5%AD%A6%22%3A%20%22v.%20to%20learn%2C%20study%22%2C%20%22%E6%B1%89%E8%AF%AD%22%3A%20%22n.%20Chinese%20language%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E5%93%AA%22%3A%20%22pron.%20which%22%2C%20%22%E5%9B%BD%22%3A%20%22n.%20country%22%2C%20%22%E4%BA%BA%22%3A%20%22n.%20person%22%2C%20%22%E4%BB%96%22%3A%20%22pron.%20he%2C%20him%22%2C%20%22%E7%BE%8E%E5%9B%BD%E4%BA%BA%22%3A%20%22n.%20American%22%7D"
+            data-markdown="%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%201.%20Asking%20About%20Nationality%20with%20%E5%93%AA%E5%9B%BD%E4%BA%BA%20%28N%C7%8E%20gu%C3%B3%20r%C3%A9n%29%0A-%20%2A%2AStructure%2A%2A%3A%20%5BSubject%5D%20%2B%20%E6%98%AF%20%2B%20%E5%93%AA%E5%9B%BD%E4%BA%BA%EF%BC%9F%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E4%BD%A0%E5%90%8C%E5%AD%A6%E6%98%AF%E5%93%AA%E5%9B%BD%E4%BA%BA%EF%BC%9F%20%28N%C7%90%20t%C3%B3ngxu%C3%A9%20sh%C3%AC%20n%C7%8E%20gu%C3%B3%20r%C3%A9n%3F%29%20%E2%86%92%20%22What%20nationality%20is%20your%20classmate%3F%22%0A%0A%23%23%23%202.%20Expressing%20%22Also%22%20with%20%E4%B9%9F%20%28Y%C4%9B%29%0A-%20%2A%2AStructure%2A%2A%3A%20Subject%20%2B%20%E4%B9%9F%20%2B%20Verb%20%2B%20Object.%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E6%88%91%E4%B9%9F%E6%98%AF%E5%AD%A6%E7%94%9F%E3%80%82%20%28W%C7%92%20y%C4%9B%20sh%C3%AC%20xu%C3%A9sh%C4%93ng.%29%20%E2%86%92%20%22I%20am%20also%20a%20student.%22%0A%0A%23%23%23%203.%20Using%20%E5%AD%A6%20%28Xu%C3%A9%29%20to%20Mean%20%22To%20Learn%22%20or%20%22To%20Study%22%0A-%20%2A%2AStructure%2A%2A%3A%20Subject%20%2B%20%E5%AD%A6%20%2B%20Object.%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E6%88%91%E5%AD%A6%E6%B1%89%E8%AF%AD%E3%80%82%20%28W%C7%92%20xu%C3%A9%20H%C3%A0ny%C7%94.%29%20%E2%86%92%20%22I%20study%20Chinese.%22%0A">
+        </div>
+    
+        <hr />
+        <div class="hanzi-section" 
+            data-title="Dialogue 3: Saying Goodbye to a Friend"
+            data-hanzi="A: 你们好！
+B: 你好！你是谁？
+A: 我是李月的朋友。你是她的同学吗？
+B: 是，我是她的同学。
+A: 好的，谢谢！再见！
+B: 不客气，再见！" 
+            data-translation="A: Hello, everyone!
+B: Hello! Who are you?
+A: I am Li Yue's friend. Are you her classmate?
+B: Yes, I am her classmate.
+A: Okay, thanks! Goodbye!
+B: You're welcome, goodbye!"
+            data-dictionary="%7B%22%E4%BD%A0%E4%BB%AC%E5%A5%BD%22%3A%20%22phr.%20hello%20%28to%20a%20group%29%22%2C%20%22%E4%BD%A0%E5%A5%BD%22%3A%20%22phr.%20hello%22%2C%20%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E8%B0%81%22%3A%20%22pron.%20who%22%2C%20%22%E6%9D%8E%E6%9C%88%22%3A%20%22pn.%20Li%20Yue%22%2C%20%22%E7%9A%84%22%3A%20%22part.%20possessive%20marker%20%28%27s%29%22%2C%20%22%E6%9C%8B%E5%8F%8B%22%3A%20%22n.%20friend%22%2C%20%22%E5%A5%B9%22%3A%20%22pron.%20she%2C%20her%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E5%A5%BD%E7%9A%84%22%3A%20%22phr.%20okay%22%2C%20%22%E8%B0%A2%E8%B0%A2%22%3A%20%22phr.%20thank%20you%22%2C%20%22%E4%B8%8D%E5%AE%A2%E6%B0%94%22%3A%20%22phr.%20you%27re%20welcome%22%2C%20%22%E5%86%8D%E8%A7%81%22%3A%20%22phr.%20goodbye%22%7D"
+            data-markdown="%0A%23%23%20Grammar%20Rules%0A%0A%23%23%23%201.%20Asking%20%22Who%20Are%20You%3F%22%20with%20%E4%BD%A0%E6%98%AF%E8%B0%81%EF%BC%9F%28N%C7%90%20sh%C3%AC%20sh%C3%A9i%3F%29%0A-%20%2A%2AStructure%2A%2A%3A%20%E4%BD%A0%20%2B%20%E6%98%AF%20%2B%20%E8%B0%81%EF%BC%9F%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E4%BD%A0%E6%98%AF%E8%B0%81%EF%BC%9F%20%28N%C7%90%20sh%C3%AC%20sh%C3%A9i%3F%29%20%E2%86%92%20%22Who%20are%20you%3F%22%0A%0A%23%23%23%202.%20Saying%20Goodbye%20with%20%E5%86%8D%E8%A7%81%20%28Z%C3%A0iji%C3%A0n%29%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E5%86%8D%E8%A7%81%EF%BC%81%20%28Z%C3%A0iji%C3%A0n%21%29%20%E2%86%92%20%22Goodbye%21%22%0A%0A%23%23%23%203.%20Using%20%E7%9A%84%20%28de%29%20for%20Possession%0A-%20%2A%2AStructure%2A%2A%3A%20%5BOwner%5D%20%2B%20%E7%9A%84%20%2B%20%5BPossession%5D%0A-%20%2A%2AExample%2A%2A%3A%0A%20%20-%20%E6%88%91%E6%98%AF%E6%9D%8E%E6%9C%88%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%82%20%28W%C7%92%20sh%C3%AC%20L%C7%90%20Yu%C3%A8%20de%20p%C3%A9ngy%C7%92u.%29%20%E2%86%92%20%22I%20am%20Li%20Yue%27s%20friend.%22%0A">
+        </div>
+    
+
+    <!-- <hr />
+    <div class="markdown-container"
+        data-markdown="%0A%23%20Markdown%20Title%0AThis%20is%20a%20%2A%2Abold%2A%2A%20text.%20%20%0AHere%20is%20a%20list%3A%0A-%20Item%201%0A-%20Item%202%0A-%20Item%203%0A%0A%5BClick%20here%5D%28https%3A//example.com%29%20for%20a%20link.%0A"
+    ></div> -->
+    <!-- <hr />
+    <div class="hanzi-section" 
+         data-title="Hello 2"
+         data-hanzi="老师：你叫什么名字？\n学生：我叫小明。\n老师：你几岁了？\n学生：我七岁了。" 
+         data-translation="Teacher: What's your name?\nStudent: My name is Xiao Ming.\nTeacher: How old are you?\nStudent: I am seven years old."
+         data-dictionary="%7B%22%5Cu4f60%5Cu597d%22%3A%20%22phr.%20hello%22%2C%20%22%5Cu4eca%5Cu5929%22%3A%20%22n.%20today%22%2C%20%22%5Cu600e%5Cu4e48%5Cu6837%22%3A%20%22phr.%20how%20about%22%2C%20%22%5Cu6211%22%3A%20%22pron.%20I%2C%20me%22%2C%20%22%5Cu5f88%5Cu597d%22%3A%20%22adj.%20very%20good%22%2C%20%22%5Cu8c22%5Cu8c22%22%3A%20%22v.%20thank%20you%22%2C%20%22%5Cu4f60%5Cu5462%22%3A%20%22phr.%20and%20you%3F%22%2C%20%22%5Cu4e5f%22%3A%20%22adv.%20also%22%2C%20%22%5Cu6211%5Cu4eec%22%3A%20%22pron.%20we%2C%20us%22%2C%20%22%5Cu53bb%22%3A%20%22v.%20go%22%2C%20%22%5Cu559d%22%3A%20%22v.%20drink%22%2C%20%22%5Cu5496%5Cu5561%22%3A%20%22n.%20coffee%22%2C%20%22%5Cu5427%22%3A%20%22part.%20suggestion%20particle%22%2C%20%22%5Cu597d%5Cu554a%22%3A%20%22phr.%20okay%21%22%2C%20%22%5Cu5f20%5Cu4f1f%22%3A%20%22n.%20Zhang%20Wei%20%28a%20common%20Chinese%20name%29%22%2C%20%22%5Cu674e%5Cu5a1c%22%3A%20%22n.%20Li%20Na%20%28a%20common%20Chinese%20name%29%22%7D"
+         >
+    </div> -->
+</div>
+  </body>
+  <!-- Bootstrap JS (for Popovers) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+      function isHanzi(char) {
+          return /[\u4e00-\u9fff]/.test(char);
+      }
+
+      function decodeDictionary(encodedString) {
+          return JSON.parse(decodeURIComponent(encodedString));
+      }
+
+      let activePopover = null; // Track the currently open popover
+
+      function generateMarkdowns() {
+          document.querySelectorAll(".markdown-container").forEach(markdownSection => {
+              dataMarkdown = decodeURIComponent(markdownSection.getAttribute("data-markdown"));
+              markdownSection.innerHTML = marked.parse(dataMarkdown);
+          })
+      }
+
+
+      function generateSections() {
+          document.querySelectorAll(".new-words-section").forEach(newWordsSection => {
+              const dataDictionary = decodeDictionary(newWordsSection.getAttribute("data-dictionary"))
+              newWordsSection.innerHTML = "";
+              const newWordsDialog = document.createElement("div");
+              newWordsDialog.classList.add("dialog-new-words");
+
+              const title = document.createElement("p");
+              title.classList.add("hanzi-line")
+
+              const titleSpan = document.createElement("span");
+              titleSpan.classList.add("plain-text-title");
+              titleSpan.textContent = "New Words";
+              title.appendChild(titleSpan);
+              newWordsDialog.appendChild(title);
+
+              for(let word in dataDictionary) {
+                  const entry = document.createElement("p");
+                  entry.classList.add("hanzi-line");
+                  createHanziSpan(entry, word, dataDictionary);
+
+                  const pinyinSpan = document.createElement("span");
+                  pinyinSpan.classList.add("pinyin-dictionary");
+                  pinyinSpan.textContent = "   " + (pinyinPro.pinyin(word, { toneType: "mark" }) || "")
+                  entry.appendChild(pinyinSpan);
+
+
+                  const entrySpan = document.createElement("span");
+                  entrySpan.classList.add("plain-text");
+                  entrySpan.textContent = "  :  " + dataDictionary[word];
+                  entry.appendChild(entrySpan)
+                  newWordsDialog.appendChild(entry)
+              }
+              newWordsSection.replaceWith(newWordsDialog);
+          })
+
+          document.querySelectorAll(".hanzi-section").forEach(section => {
+              const hanziText = section.getAttribute("data-hanzi");
+              const translationText = section.getAttribute("data-translation");
+              const dataDictionary = decodeDictionary(section.getAttribute("data-dictionary"))
+              const dataTitle = section.getAttribute("data-title");
+              const dataMarkdown = section.getAttribute("data-markdown");
+
+              const sectionDiv = document.createElement("div");
+              sectionDiv.classList.add("dialog-container");
+
+              generateDialogFromText(sectionDiv, dataTitle, hanziText, translationText, dataDictionary, dataMarkdown);
+
+              section.replaceWith(sectionDiv);
+          });
+
+          updatePinyinDisplay();
+          updateTranslationDisplay();
+          initializePopovers();
+      }
+
+function generateDialogFromText(contentDiv, dataTitle, text, translationText, dataDictionary, dataMarkdown) {
+  contentDiv.innerHTML = ""; // Clear previous content
+
+  
+  const titleDialog = document.createElement("div");
+  titleDialog.classList.add("dialog")
+
+  const title = document.createElement("p");
+  title.classList.add("hanzi-line")
+
+  const titleSpan = document.createElement("span");
+  titleSpan.classList.add("plain-text-title");
+  titleSpan.textContent = dataTitle;
+
+  title.appendChild(titleSpan);
+  titleDialog.appendChild(title);
+  contentDiv.appendChild(titleDialog);  
+  
+  const hanziLines = text.trim().split("\n");
+  const translationLines = translationText.trim().split("\n");
+
+  hanziLines.forEach((line, index) => {
+      const container = document.createElement("div");
+      container.classList.add("dialog");
+
+      const paragraph = document.createElement("p");
+      paragraph.classList.add("hanzi-line");
+
+      let indexChar = 0;
+      while (indexChar < line.length) {
+          let foundWord = false;
+
+          for (let word in dataDictionary) {
+              if (line.startsWith(word, indexChar)) {
+                  createHanziSpan(paragraph, word, dataDictionary);
+                  indexChar += word.length;
+                  foundWord = true;
+                  break;
+              }
+          }
+
+          if (!foundWord) {
+              let char = line[indexChar];
+
+              if (isHanzi(char)) {
+                  createHanziSpan(paragraph, char, dataDictionary);
+              } else {
+                  createPlainTextSpan(paragraph, char);
+              }
+              indexChar++;
+          }
+      }
+
+      container.appendChild(paragraph);
+
+      // Create translation line
+      if (index < translationLines.length) {
+          const translationPara = document.createElement("p");
+          translationPara.classList.add("translation");
+          translationPara.textContent = translationLines[index].trim();
+          container.appendChild(translationPara);
+      }
+
+      contentDiv.appendChild(container);
+
+  });
+
+  if(dataMarkdown !== null) {
+      markdownContainer = document.createElement("div");
+      markdownContainer.classList.add("section-markdown-container");
+      markdownContent = document.createElement("div");
+      markdownContent.innerHTML = marked.parse(decodeURIComponent(dataMarkdown));
+      markdownContainer.appendChild(markdownContent);
+      contentDiv.appendChild(markdownContainer);
+      
+  }
+
+  // updatePinyinDisplay();
+  // updateTranslationDisplay();
+  // initializePopovers(); // **Fix: Ensure popovers are initialized**
+}
+
+function createHanziSpan(parent, hanziWord, dataDictionary) {
+      const pinyinText = pinyinPro.pinyin(hanziWord, { toneType: "mark" }) || "";
+      const definition = dataDictionary[hanziWord] || "No definition available";
+
+      const span = document.createElement("span");
+      span.classList.add("hanzi-group");
+      span.dataset.pinyin = pinyinText;
+      span.dataset.bsToggle = "popover";
+      span.dataset.bsTrigger = "manual"; 
+      span.dataset.bsPlacement = "top";
+      span.dataset.bsContent = `<strong>${hanziWord}</strong><br>${pinyinText}<br>${definition}`;
+      span.dataset.bsHtml = "true";
+
+      if (pinyinText) {
+          const pinyinSpan = document.createElement("span");
+          pinyinSpan.classList.add("pinyin");
+          pinyinSpan.textContent = pinyinText;
+          span.appendChild(pinyinSpan);
+      }
+
+      span.appendChild(document.createTextNode(hanziWord));
+      parent.appendChild(span);
+  }
+
+      function createPlainTextSpan(parent, text) {
+          const span = document.createElement("span");
+          span.classList.add("plain-text");
+          span.textContent = text;
+          parent.appendChild(span);
+      }
+
+      function updatePinyinDisplay() {
+          const isPinyinEnabled = localStorage.getItem("showPinyin") === "true";
+          document.querySelectorAll(".dialog-container").forEach(section => {
+              section.classList.toggle("show-pinyin", isPinyinEnabled);
+          });
+          document.getElementById("togglePinyin").checked = isPinyinEnabled;
+      }
+
+      function updateTranslationDisplay() {
+          const isTranslationEnabled = localStorage.getItem("showTranslation") === "true";
+          document.querySelectorAll(".dialog-container").forEach(section => {
+              section.classList.toggle("show-translation", isTranslationEnabled);
+          });
+          document.getElementById("toggleTranslation").checked = isTranslationEnabled;
+      }
+
+      document.getElementById("togglePinyin").addEventListener("change", function () {
+          localStorage.setItem("showPinyin", this.checked);
+          updatePinyinDisplay();
+      });
+
+      document.getElementById("toggleTranslation").addEventListener("change", function () {
+          localStorage.setItem("showTranslation", this.checked);
+          updateTranslationDisplay();
+      });
+
+      function initializePopovers() {
+      document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
+          const popover = new bootstrap.Popover(el);
+
+          el.addEventListener("click", function (event) {
+              event.stopPropagation();
+
+              if (activePopover && activePopover !== popover) {
+                  activePopover.hide();
+              }
+
+              if (activePopover === popover) {
+                  activePopover.hide();
+                  activePopover = null;
+              } else {
+                  popover.show();
+                  activePopover = popover;
+              }
+          });
+      });
+
+      // Close popovers when clicking outside
+      document.addEventListener("click", function (event) {
+          if (activePopover && !event.target.closest(".hanzi-group")) {
+              activePopover.hide();
+              activePopover = null;
+          }
+      });
+  }
+
+      // generateDialogFromText(textBlob, translation);
+      generateSections()
+      generateMarkdowns()
+  </script>
+</html>
