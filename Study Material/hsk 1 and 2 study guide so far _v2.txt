@@ -246,6 +246,36 @@
 球	qiu2	n. ball, sphere
 打	da3	v. to hit, to play (sports), to make (a call)
 
+//HSK 2 Study 6
+门	men2	n. door, gate
+外	wai4	n. outer, outside
+自行车	zi4xing2che1	n. bike
+羊肉	yang2rou4	n. mutton
+好吃	hao3chir1	adj. delicious, yummy
+面条	mian4tiao2	n. noodles
+打篮球	da3 lan2qiu2	phr. to play basketball
+因为	yin1wei4	conj. because, since
+所以	suo3yi3	conj.	so, therefore
+游泳	you2 yong3	v. to swim
+经常	jing1chang2	adv. often, frequently
+公斤	gong1jin1	m. kilogram
+姐姐	jie3jie5	n. elder sister
+
+//HSK 2 Study 7
+教室	jiao4shi4	n. classroom
+机场	ji1chang3	n. airport
+路	lu4	n. road, path, way
+离	li2	v. to be away from
+公司	gong1si1	n. company, firm
+远	yuan3	adj. far, distant
+公共汽车	gong1gong4 qi4che1	n. bus
+小时	xiao3shi2	n. hour
+慢	man4	adj. slow
+快	kuai4	adj. quick, fast
+过	guo4	v. to pass (time), to spend (time)
+走	zou3	v. to walk
+到	dao4	v. to arrive, to reach
+
 //Personal Study Words
 真	zhen1	adv. very, more than 很
 真的吗	zhen1de5ma5	phr. Really?
