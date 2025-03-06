@@ -1,6 +1,7 @@
 require 'jieba_rb'
 require 'json'
 require 'erb'
+require 'base64'
 
 dictionary_file = '../_data/cedict_simplified.json'
 lesson_file = '../_data/lessons_input.json'
@@ -44,17 +45,28 @@ def parse_hanzi(hanzi_string, dictionary_entries, seg, tagging)
     end
   end
 
-  encoded_json = ERB::Util.url_encode(local_dictionary.to_json)
+  encoded_json = ERB::Util.url_encode(Base64.strict_encode64(local_dictionary.to_json))
 
   return encoded_json
 end
 
 
 # Iterate through each lesson
-lesson_entries.each do |lesson|
+lesson_entries.each_with_index do |lesson, index|
+  puts "Processing lesson #{index + 1} of #{lesson_entries.length}"
   lesson_slug = lesson['slug']
   lesson['dictionary'] = parse_hanzi(lesson['hanzi'], dictionary_entries, seg, tagging)
-  
+  lesson['dialogs'].each do |dialog|
+    hanzi_lines = dialog['lines'].lines
+    translation_lines = dialog['translation'].lines
+    dialog['dictionary'] = parse_hanzi(dialog['lines'], dictionary_entries, seg, tagging)
+    translations = []
+    hanzi_lines.each_with_index do |line, index|
+      group = [line, translation_lines[index]]
+      translations << group
+    end
+    dialog['translation'] = ERB::Util.url_encode(Base64.strict_encode64(translations.to_json))
+  end
 end
 
 # Optionally, output the results to a JSON file

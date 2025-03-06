@@ -29,7 +29,7 @@ layout: default
 
     <div class="hanzi-section" 
         data-title="{{page.title}}"
-        data-hanzi="{{page.lines}}" 
+        data-hanzi="{{page.hanzi}}" 
         data-translation="{{page.translation}}"
         data-dictionary="{{page.dictionary}}">
     </div>
@@ -42,3 +42,4 @@ layout: default
         data-dictionary="{{page.dictionary}}"
     ></div>
 </div>
+{% include reader_code.html %}

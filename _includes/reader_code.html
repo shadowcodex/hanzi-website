@@ -10,7 +10,18 @@
     }
 
     function decodeDictionary(encodedString) {
-        return JSON.parse(decodeURIComponent(encodedString));
+        
+
+        const urlDecoded = decodeURIComponent(encodedString)
+        const binaryString = atob(urlDecoded);
+        const bytes = new Uint8Array([...binaryString].map(char => char.charCodeAt(0)));
+        const decodedString = new TextDecoder().decode(bytes)
+        const dictionary = JSON.parse(decodedString);
+
+        console.log(dictionary)
+        return dictionary;
+        
+    ;
     }
 
     let activePopover = null; // Track the currently open popover
@@ -61,7 +72,7 @@
 
         document.querySelectorAll(".hanzi-section").forEach(section => {
             const hanziText = section.getAttribute("data-hanzi");
-            const translationText = section.getAttribute("data-translation");
+            const textCouples = section.getAttribute("data-translation");
             const dataDictionary = decodeDictionary(section.getAttribute("data-dictionary"))
             const dataTitle = section.getAttribute("data-title");
             const dataMarkdown = section.getAttribute("data-markdown");
@@ -69,7 +80,7 @@
             const sectionDiv = document.createElement("div");
             sectionDiv.classList.add("dialog-container");
 
-            generateDialogFromText(sectionDiv, dataTitle, hanziText, translationText, dataDictionary, dataMarkdown);
+            generateDialogFromText(sectionDiv, dataTitle, textCouples, dataDictionary, dataMarkdown);
 
             section.replaceWith(sectionDiv);
         });
@@ -79,111 +90,112 @@
         initializePopovers();
     }
 
-function generateDialogFromText(contentDiv, dataTitle, text, translationText, dataDictionary, dataMarkdown) {
-contentDiv.innerHTML = ""; // Clear previous content
+    function generateDialogFromText(contentDiv, dataTitle, textCouples, dataDictionary, dataMarkdown) {
+        contentDiv.innerHTML = ""; // Clear previous content
 
 
-const titleDialog = document.createElement("div");
-titleDialog.classList.add("dialog")
+        const titleDialog = document.createElement("div");
+        titleDialog.classList.add("dialog")
 
-const title = document.createElement("p");
-title.classList.add("hanzi-line")
+        const title = document.createElement("p");
+        title.classList.add("hanzi-line")
 
-const titleSpan = document.createElement("span");
-titleSpan.classList.add("plain-text-title");
-titleSpan.textContent = dataTitle;
+        const titleSpan = document.createElement("span");
+        titleSpan.classList.add("plain-text-title");
+        titleSpan.textContent = dataTitle;
 
-title.appendChild(titleSpan);
-titleDialog.appendChild(title);
-contentDiv.appendChild(titleDialog);  
+        title.appendChild(titleSpan);
+        titleDialog.appendChild(title);
+        contentDiv.appendChild(titleDialog);  
 
-const hanziLines = text.trim().split("\n");
-const translationLines = translationText.trim().split("\n");
+        const urlDecoded = decodeURIComponent(textCouples)
+        const binaryString = atob(urlDecoded);
+        const bytes = new Uint8Array([...binaryString].map(char => char.charCodeAt(0)));
+        const decodedString = new TextDecoder().decode(bytes)
+        const translations = JSON.parse(decodedString);
 
-hanziLines.forEach((line, index) => {
-    const container = document.createElement("div");
-    container.classList.add("dialog");
+        translations.forEach((translationGroup, index) => {
+            const container = document.createElement("div");
+            container.classList.add("dialog");
 
-    const paragraph = document.createElement("p");
-    paragraph.classList.add("hanzi-line");
+            const paragraph = document.createElement("p");
+            paragraph.classList.add("hanzi-line");
 
-    let indexChar = 0;
-    while (indexChar < line.length) {
-        let foundWord = false;
+            line = translationGroup[0] // Hanzi
+            let indexChar = 0;
+            while (indexChar < line.length) {
+                let foundWord = false;
 
-        for (let word in dataDictionary) {
-            if (line.startsWith(word, indexChar)) {
-                createHanziSpan(paragraph, word, dataDictionary);
-                indexChar += word.length;
-                foundWord = true;
-                break;
+                for (let word in dataDictionary) {
+                    if (line.startsWith(word, indexChar)) {
+                        createHanziSpan(paragraph, word, dataDictionary);
+                        indexChar += word.length;
+                        foundWord = true;
+                        break;
+                    }
+                }
+
+                if (!foundWord) {
+                    let char = line[indexChar];
+
+                    if (isHanzi(char)) {
+                        createHanziSpan(paragraph, char, dataDictionary);
+                    } else {
+                        createPlainTextSpan(paragraph, char);
+                    }
+                    indexChar++;
+                }
             }
+            container.appendChild(paragraph);
+
+            // Create translation line
+            const translationPara = document.createElement("p");
+            translationPara.classList.add("translation");
+            translationPara.textContent = translationGroup[1].trim(); // Translation
+            container.appendChild(translationPara);
+            
+
+            contentDiv.appendChild(container);
+        });
+
+        if(dataMarkdown !== null) {
+            markdownContainer = document.createElement("div");
+            markdownContainer.classList.add("section-markdown-container");
+            markdownContent = document.createElement("div");
+            markdownContent.innerHTML = marked.parse(decodeURIComponent(dataMarkdown));
+            markdownContainer.appendChild(markdownContent);
+            contentDiv.appendChild(markdownContainer);
+            
         }
 
-        if (!foundWord) {
-            let char = line[indexChar];
+        // updatePinyinDisplay();
+        // updateTranslationDisplay();
+        // initializePopovers(); // **Fix: Ensure popovers are initialized**
+    }
 
-            if (isHanzi(char)) {
-                createHanziSpan(paragraph, char, dataDictionary);
-            } else {
-                createPlainTextSpan(paragraph, char);
-            }
-            indexChar++;
+    function createHanziSpan(parent, hanziWord, dataDictionary) {
+        const pinyinText = pinyinPro.pinyin(hanziWord, { toneType: "mark" }) || "";
+        const definition = dataDictionary[hanziWord] || "No definition available";
+
+        const span = document.createElement("span");
+        span.classList.add("hanzi-group");
+        span.dataset.pinyin = pinyinText;
+        span.dataset.bsToggle = "popover";
+        span.dataset.bsTrigger = "manual"; 
+        span.dataset.bsPlacement = "top";
+        span.dataset.bsContent = `<strong>${hanziWord}</strong><br>${pinyinText}<br>${definition}`;
+        span.dataset.bsHtml = "true";
+
+        if (pinyinText) {
+            const pinyinSpan = document.createElement("span");
+            pinyinSpan.classList.add("pinyin");
+            pinyinSpan.textContent = pinyinText;
+            span.appendChild(pinyinSpan);
         }
+
+        span.appendChild(document.createTextNode(hanziWord));
+        parent.appendChild(span);
     }
-
-    container.appendChild(paragraph);
-
-    // Create translation line
-    if (index < translationLines.length) {
-        const translationPara = document.createElement("p");
-        translationPara.classList.add("translation");
-        translationPara.textContent = translationLines[index].trim();
-        container.appendChild(translationPara);
-    }
-
-    contentDiv.appendChild(container);
-
-});
-
-if(dataMarkdown !== null) {
-    markdownContainer = document.createElement("div");
-    markdownContainer.classList.add("section-markdown-container");
-    markdownContent = document.createElement("div");
-    markdownContent.innerHTML = marked.parse(decodeURIComponent(dataMarkdown));
-    markdownContainer.appendChild(markdownContent);
-    contentDiv.appendChild(markdownContainer);
-    
-}
-
-// updatePinyinDisplay();
-// updateTranslationDisplay();
-// initializePopovers(); // **Fix: Ensure popovers are initialized**
-}
-
-function createHanziSpan(parent, hanziWord, dataDictionary) {
-    const pinyinText = pinyinPro.pinyin(hanziWord, { toneType: "mark" }) || "";
-    const definition = dataDictionary[hanziWord] || "No definition available";
-
-    const span = document.createElement("span");
-    span.classList.add("hanzi-group");
-    span.dataset.pinyin = pinyinText;
-    span.dataset.bsToggle = "popover";
-    span.dataset.bsTrigger = "manual"; 
-    span.dataset.bsPlacement = "top";
-    span.dataset.bsContent = `<strong>${hanziWord}</strong><br>${pinyinText}<br>${definition}`;
-    span.dataset.bsHtml = "true";
-
-    if (pinyinText) {
-        const pinyinSpan = document.createElement("span");
-        pinyinSpan.classList.add("pinyin");
-        pinyinSpan.textContent = pinyinText;
-        span.appendChild(pinyinSpan);
-    }
-
-    span.appendChild(document.createTextNode(hanziWord));
-    parent.appendChild(span);
-}
 
     function createPlainTextSpan(parent, text) {
         const span = document.createElement("span");
@@ -219,34 +231,34 @@ function createHanziSpan(parent, hanziWord, dataDictionary) {
     });
 
     function initializePopovers() {
-    document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
-        const popover = new bootstrap.Popover(el);
+        document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
+            const popover = new bootstrap.Popover(el);
 
-        el.addEventListener("click", function (event) {
-            event.stopPropagation();
+            el.addEventListener("click", function (event) {
+                event.stopPropagation();
 
-            if (activePopover && activePopover !== popover) {
-                activePopover.hide();
-            }
+                if (activePopover && activePopover !== popover) {
+                    activePopover.hide();
+                }
 
-            if (activePopover === popover) {
+                if (activePopover === popover) {
+                    activePopover.hide();
+                    activePopover = null;
+                } else {
+                    popover.show();
+                    activePopover = popover;
+                }
+            });
+        });
+
+        // Close popovers when clicking outside
+        document.addEventListener("click", function (event) {
+            if (activePopover && !event.target.closest(".hanzi-group")) {
                 activePopover.hide();
                 activePopover = null;
-            } else {
-                popover.show();
-                activePopover = popover;
             }
         });
-    });
-
-    // Close popovers when clicking outside
-    document.addEventListener("click", function (event) {
-        if (activePopover && !event.target.closest(".hanzi-group")) {
-            activePopover.hide();
-            activePopover = null;
-        }
-    });
-}
+    }
 
     // generateDialogFromText(textBlob, translation);
     generateSections()

@@ -6,3 +6,26 @@ This repo is a collection of my personal learning material around Mandarin. See 
 See Study Material for general Chat GPT Prompts I use.
 
 Also if you'd like I have a Mandarin focused ChatGPT bot that helps you learn. Just give it a phrase in english or mandarin surrounded by quotes. It's here: [https://chatgpt.com/g/g-67a2f171c0dc8191a6ba6d87bbc9ee91-mandarin-pronunciation-guide](https://chatgpt.com/g/g-67a2f171c0dc8191a6ba6d87bbc9ee91-mandarin-pronunciation-guide)
+
+
+## Generate Stories
+
+1. Make sure you have your gem dependencies installed (See scripts).
+2. Run `ruby ai_story_generator <x> <f>` where `<x>` is the number of stories you want to generate and `<f>` is your input character set file.
+3. Run `ruby ai_translate_hanzi.rb <f>` where `<f>` is the file of story blocks you want to translate.
+4. Rename the output json `/_data/hanzi_translations.json` to `/_data/readings.json` or add the json entries to your list.
+5. Run `ruby generate_lessons_and_stories.rb` to create all story pages.
+6. Rerun serve to see them
+
+## Generate Lessons
+
+TODO: Create this script that:
+
+1. Takes in list of chapter character sets.
+2. For each chapter generates 3-4 dialogs that MUST use that latest chapters hanzi, and only include the previous hanzi to make stories. (Old prompt is in fluff/Lessons).
+3. Generate Grammar rules for that chapter.
+4. Optionally pass in a integer representing the chapter you want to generate, or `<int>+` for that chapter onward.
+5. Runs the same translation system that stories use (Move into common framework).
+6. Create json docs for each lesson.
+7. Generate dictionaries for Lesson New Words, and each Dialog.
+8. write them out to lesson output file.

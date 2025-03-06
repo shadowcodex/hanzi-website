@@ -2,7 +2,7 @@
     {
         "title": "HSK 1 - Chapter 1",
         "slug": "hsk_1_chapter_1",
-        "hanzi": "你、好、您、你们、对不起、没关系",
+        "hanzi": "%7B%22%E4%BD%A0%22%3A%20%22pron.%20you%22%2C%20%22%E5%A5%BD%22%3A%20%22adj.%20good%22%2C%20%22%E6%82%A8%22%3A%20%22pron.%20you%20%28polite/formal%29%22%2C%20%22%E4%BD%A0%E4%BB%AC%22%3A%20%22pron.%20you%20%28plural%29%20%28you%20all%29%22%2C%20%22%E5%AF%B9%E4%B8%8D%E8%B5%B7%22%3A%20%22phr.%20sorry%2C%20excuse%20me%2C%20apology%22%2C%20%22%E6%B2%A1%E5%85%B3%E7%B3%BB%22%3A%20%22phr.%20it%20doesn%27t%20matter%22%7D",
         "dialogs": [
             {
                 "title": "Dialogue 1: Greeting a Friend",
@@ -30,7 +30,7 @@
     {
         "title": "HSK 1 - Chapter 2",
         "slug": "hsk_1_chapter_2",
-        "hanzi": "谢谢、不、不客气、再见",
+        "hanzi": "%7B%22%E8%B0%A2%E8%B0%A2%22%3A%20%22phr.%20thank%20you%22%2C%20%22%E4%B8%8D%22%3A%20%22adv.%20not%2C%20no%22%2C%20%22%E4%B8%8D%E5%AE%A2%E6%B0%94%22%3A%20%22phr.%20you%27re%20welcome%22%2C%20%22%E5%86%8D%E8%A7%81%22%3A%20%22phr.%20goodbye%22%7D",
         "dialogs": [
             {
                 "title": "Dialogue 1: Polite Greetings",
@@ -58,7 +58,7 @@
     {
         "title": "HSK 1 - Chapter 3",
         "slug": "hsk_1_chapter_3",
-        "hanzi": "叫、什么、名字、我、是、老师、吗、学生、人、李月、中国、美国",
+        "hanzi": "%7B%22%E5%8F%AB%22%3A%20%22v.%20to%20be%20called%2C%20to%20call%22%2C%20%22%E4%BB%80%E4%B9%88%22%3A%20%22pron.%20what%22%2C%20%22%E5%90%8D%E5%AD%97%22%3A%20%22n.%20name%22%2C%20%22%E6%88%91%22%3A%20%22pron.%20I%2C%20me%22%2C%20%22%E6%98%AF%22%3A%20%22v.%20to%20be%22%2C%20%22%E8%80%81%E5%B8%88%22%3A%20%22n.%20teacher%22%2C%20%22%E5%90%97%22%3A%20%22part.%20question%20marker%22%2C%20%22%E5%AD%A6%E7%94%9F%22%3A%20%22n.%20student%22%2C%20%22%E4%BA%BA%22%3A%20%22n.%20person%22%2C%20%22%E6%9D%8E%E6%9C%88%22%3A%20%22pn.%20Li%20Yue%20%28name%29%22%2C%20%22%E4%B8%AD%E5%9B%BD%22%3A%20%22pn.%20China%22%2C%20%22%E7%BE%8E%E5%9B%BD%22%3A%20%22pn.%20United%20States%22%7D",
         "dialogs": [
             {
                 "title": "Dialogue 1: Introducing Yourself",
@@ -86,7 +86,7 @@
     {
         "title": "HSK 1 - Chapter 4",
         "slug": "hsk_1_chapter_4",
-        "hanzi": "她、谁、的、汉语、哪、国、呢、他、同学、朋友",
+        "hanzi": "%7B%22%E5%A5%B9%22%3A%20%22pron.%20she%2C%20her%22%2C%20%22%E8%B0%81%22%3A%20%22pron.%20who%22%2C%20%22%E7%9A%84%22%3A%20%22part.%20possessive%20marker%20%28%27s%29%22%2C%20%22%E6%B1%89%E8%AF%AD%22%3A%20%22n.%20Chinese%20language%22%2C%20%22%E5%93%AA%22%3A%20%22pron.%20which%22%2C%20%22%E5%9B%BD%22%3A%20%22n.%20country%22%2C%20%22%E5%91%A2%22%3A%20%22part.%20question%20marker%22%2C%20%22%E4%BB%96%22%3A%20%22pron.%20he%2C%20him%22%2C%20%22%E5%90%8C%E5%AD%A6%22%3A%20%22n.%20classmate%22%2C%20%22%E6%9C%8B%E5%8F%8B%22%3A%20%22n.%20friend%22%7D",
         "dialogs": [
             {
                 "title": "Dialogue 1: Introducing a Friend",
