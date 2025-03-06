@@ -1,121 +1,35 @@
 <!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HSK 1 - Chapter 4</title>
-        
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        
-        <!-- Pinyin Pro -->
-        <script src="https://cdn.jsdelivr.net/npm/pinyin-pro"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSK 1 - Chapter 4 | Mandarin HSK Study Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css">  
     
-        <!-- Include Marked.js (Markdown parser) -->
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-        
-        <style>
-            h1 {
-                font-size: 48px;
-                font-weight:bolder;
-            }
-            h2 {
-                font-size: 36px;
-                font-weight:bolder;
-            }
-            body {
-                font-family: Arial, sans-serif;
-                padding: 20px;
-            }
-            .dialog-container {
-                margin-top: 20px;
-            }
-            .dialog {
-                margin-bottom: 10px; /* Reduced spacing */
-                line-height: 1.5; /* Reduced line height */
-                display: flex;
-                flex-wrap: wrap;
-                align-items: flex-start; /* Left align text */
-                flex-direction: column;
-            }
-            .dialog-new-words {
-                margin-bottom: 10px; /* Reduced spacing */
-                line-height: 1; /* Reduced line height */
-                display: flex;
-                flex-wrap: wrap;
-                align-items: flex-start; /* Left align text */
-                flex-direction: column;
-            }
-            .hanzi-line {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: flex-end;
-            }
-            .hanzi-group {
-                position: relative;
-                display: inline-flex;
-                flex-direction: column;
-                align-items: center;
-                font-size: 24px;
-                margin: 3px;
-                cursor: pointer;
-                min-width: 1em;
-            }
-            .pinyin {
-                display: none;
-                font-size: 16px;
-                color: gray;
-                line-height: 1;
-            }
-            .show-pinyin .pinyin {
-                display: block;
-            }
-            .pinyin-dictionary {
-                font-size: 20px;
-                margin: 3px;
-                display: inline;
-                vertical-align: baseline;
-                color: gray;
-            }
-            .plain-text {
-                font-size: 24px;
-                margin: 3px;
-                display: inline;
-                vertical-align: baseline;
-            }
-            .plain-text-body {
-                font-size: 24px;
-                margin: 3px;
-                display: inline;
-                color: #444444;
-                vertical-align: baseline;
-            }
-            .plain-text-title {
-                font-size: 24px;
-                font-weight:bold;
-                margin: 3px;
-                display: inline;
-                vertical-align: baseline;
-            }
-            .translation {
-                line-height: 1;
-                display: none;
-                font-size: 18px;
-                color: gray;
-                margin-top: 3px; /* Reduced spacing */
-            }
-            .show-translation .translation {
-                display: block;
-            }
-            .section-markdown-container {
-                background-color: #f1f1f1;
-                padding: 1.2em;
-            }
-        </style>
-    </head>
-  <body>
-    <H3><a href="/">Home</a>&nbsp;&nbsp;<a href="/lessons">Lessons</a>&nbsp;&nbsp;<a href="/readings">Readings</a></H3>
+</head>
+<body>
+    <!-- Bootstrap JS (for Popovers) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">Mandarin HSK Study Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/lessons">Lessons</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/readings">Readings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://chatgpt.com/g/g-67a2f171c0dc8191a6ba6d87bbc9ee91-mandarin-pronunciation-guide"><i class="bi bi-box-arrow-up-right"> ChatGPT 汉字 Coach.</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
+        <div class="container">
     <br />
     <br />
     <div class="d-flex justify-content-between align-items-center">
@@ -217,256 +131,265 @@ B: You're welcome, goodbye!"
          >
     </div> -->
 </div>
-  </body>
-  <!-- Bootstrap JS (for Popovers) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Pinyin Pro -->
+<script src="https://cdn.jsdelivr.net/npm/pinyin-pro"></script>
 
-  <script>
-      function isHanzi(char) {
-          return /[\u4e00-\u9fff]/.test(char);
-      }
+<!-- Include Marked.js (Markdown parser) -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-      function decodeDictionary(encodedString) {
-          return JSON.parse(decodeURIComponent(encodedString));
-      }
+<script>
+    function isHanzi(char) {
+        return /[\u4e00-\u9fff]/.test(char);
+    }
 
-      let activePopover = null; // Track the currently open popover
+    function decodeDictionary(encodedString) {
+        return JSON.parse(decodeURIComponent(encodedString));
+    }
 
-      function generateMarkdowns() {
-          document.querySelectorAll(".markdown-container").forEach(markdownSection => {
-              dataMarkdown = decodeURIComponent(markdownSection.getAttribute("data-markdown"));
-              markdownSection.innerHTML = marked.parse(dataMarkdown);
-          })
-      }
+    let activePopover = null; // Track the currently open popover
 
-
-      function generateSections() {
-          document.querySelectorAll(".new-words-section").forEach(newWordsSection => {
-              const dataDictionary = decodeDictionary(newWordsSection.getAttribute("data-dictionary"))
-              newWordsSection.innerHTML = "";
-              const newWordsDialog = document.createElement("div");
-              newWordsDialog.classList.add("dialog-new-words");
-
-              const title = document.createElement("p");
-              title.classList.add("hanzi-line")
-
-              const titleSpan = document.createElement("span");
-              titleSpan.classList.add("plain-text-title");
-              titleSpan.textContent = "New Words";
-              title.appendChild(titleSpan);
-              newWordsDialog.appendChild(title);
-
-              for(let word in dataDictionary) {
-                  const entry = document.createElement("p");
-                  entry.classList.add("hanzi-line");
-                  createHanziSpan(entry, word, dataDictionary);
-
-                  const pinyinSpan = document.createElement("span");
-                  pinyinSpan.classList.add("pinyin-dictionary");
-                  pinyinSpan.textContent = "   " + (pinyinPro.pinyin(word, { toneType: "mark" }) || "")
-                  entry.appendChild(pinyinSpan);
+    function generateMarkdowns() {
+        document.querySelectorAll(".markdown-container").forEach(markdownSection => {
+            dataMarkdown = decodeURIComponent(markdownSection.getAttribute("data-markdown"));
+            markdownSection.innerHTML = marked.parse(dataMarkdown);
+        })
+    }
 
 
-                  const entrySpan = document.createElement("span");
-                  entrySpan.classList.add("plain-text");
-                  entrySpan.textContent = "  :  " + dataDictionary[word];
-                  entry.appendChild(entrySpan)
-                  newWordsDialog.appendChild(entry)
-              }
-              newWordsSection.replaceWith(newWordsDialog);
-          })
+    function generateSections() {
+        document.querySelectorAll(".new-words-section").forEach(newWordsSection => {
+            const dataDictionary = decodeDictionary(newWordsSection.getAttribute("data-dictionary"))
+            newWordsSection.innerHTML = "";
+            const newWordsDialog = document.createElement("div");
+            newWordsDialog.classList.add("dialog-new-words");
 
-          document.querySelectorAll(".hanzi-section").forEach(section => {
-              const hanziText = section.getAttribute("data-hanzi");
-              const translationText = section.getAttribute("data-translation");
-              const dataDictionary = decodeDictionary(section.getAttribute("data-dictionary"))
-              const dataTitle = section.getAttribute("data-title");
-              const dataMarkdown = section.getAttribute("data-markdown");
+            const title = document.createElement("p");
+            title.classList.add("hanzi-line")
 
-              const sectionDiv = document.createElement("div");
-              sectionDiv.classList.add("dialog-container");
+            const titleSpan = document.createElement("span");
+            titleSpan.classList.add("plain-text-title");
+            titleSpan.textContent = "New Words";
+            title.appendChild(titleSpan);
+            newWordsDialog.appendChild(title);
 
-              generateDialogFromText(sectionDiv, dataTitle, hanziText, translationText, dataDictionary, dataMarkdown);
+            for(let word in dataDictionary) {
+                const entry = document.createElement("p");
+                entry.classList.add("hanzi-line");
+                createHanziSpan(entry, word, dataDictionary);
 
-              section.replaceWith(sectionDiv);
-          });
+                const pinyinSpan = document.createElement("span");
+                pinyinSpan.classList.add("pinyin-dictionary");
+                pinyinSpan.textContent = "   " + (pinyinPro.pinyin(word, { toneType: "mark" }) || "")
+                entry.appendChild(pinyinSpan);
 
-          updatePinyinDisplay();
-          updateTranslationDisplay();
-          initializePopovers();
-      }
+
+                const entrySpan = document.createElement("span");
+                entrySpan.classList.add("plain-text");
+                entrySpan.textContent = "  :  " + dataDictionary[word];
+                entry.appendChild(entrySpan)
+                newWordsDialog.appendChild(entry)
+            }
+            newWordsSection.replaceWith(newWordsDialog);
+        })
+
+        document.querySelectorAll(".hanzi-section").forEach(section => {
+            const hanziText = section.getAttribute("data-hanzi");
+            const translationText = section.getAttribute("data-translation");
+            const dataDictionary = decodeDictionary(section.getAttribute("data-dictionary"))
+            const dataTitle = section.getAttribute("data-title");
+            const dataMarkdown = section.getAttribute("data-markdown");
+
+            const sectionDiv = document.createElement("div");
+            sectionDiv.classList.add("dialog-container");
+
+            generateDialogFromText(sectionDiv, dataTitle, hanziText, translationText, dataDictionary, dataMarkdown);
+
+            section.replaceWith(sectionDiv);
+        });
+
+        updatePinyinDisplay();
+        updateTranslationDisplay();
+        initializePopovers();
+    }
 
 function generateDialogFromText(contentDiv, dataTitle, text, translationText, dataDictionary, dataMarkdown) {
-  contentDiv.innerHTML = ""; // Clear previous content
+contentDiv.innerHTML = ""; // Clear previous content
 
-  
-  const titleDialog = document.createElement("div");
-  titleDialog.classList.add("dialog")
 
-  const title = document.createElement("p");
-  title.classList.add("hanzi-line")
+const titleDialog = document.createElement("div");
+titleDialog.classList.add("dialog")
 
-  const titleSpan = document.createElement("span");
-  titleSpan.classList.add("plain-text-title");
-  titleSpan.textContent = dataTitle;
+const title = document.createElement("p");
+title.classList.add("hanzi-line")
 
-  title.appendChild(titleSpan);
-  titleDialog.appendChild(title);
-  contentDiv.appendChild(titleDialog);  
-  
-  const hanziLines = text.trim().split("\n");
-  const translationLines = translationText.trim().split("\n");
+const titleSpan = document.createElement("span");
+titleSpan.classList.add("plain-text-title");
+titleSpan.textContent = dataTitle;
 
-  hanziLines.forEach((line, index) => {
-      const container = document.createElement("div");
-      container.classList.add("dialog");
+title.appendChild(titleSpan);
+titleDialog.appendChild(title);
+contentDiv.appendChild(titleDialog);  
 
-      const paragraph = document.createElement("p");
-      paragraph.classList.add("hanzi-line");
+const hanziLines = text.trim().split("\n");
+const translationLines = translationText.trim().split("\n");
 
-      let indexChar = 0;
-      while (indexChar < line.length) {
-          let foundWord = false;
+hanziLines.forEach((line, index) => {
+    const container = document.createElement("div");
+    container.classList.add("dialog");
 
-          for (let word in dataDictionary) {
-              if (line.startsWith(word, indexChar)) {
-                  createHanziSpan(paragraph, word, dataDictionary);
-                  indexChar += word.length;
-                  foundWord = true;
-                  break;
-              }
-          }
+    const paragraph = document.createElement("p");
+    paragraph.classList.add("hanzi-line");
 
-          if (!foundWord) {
-              let char = line[indexChar];
+    let indexChar = 0;
+    while (indexChar < line.length) {
+        let foundWord = false;
 
-              if (isHanzi(char)) {
-                  createHanziSpan(paragraph, char, dataDictionary);
-              } else {
-                  createPlainTextSpan(paragraph, char);
-              }
-              indexChar++;
-          }
-      }
+        for (let word in dataDictionary) {
+            if (line.startsWith(word, indexChar)) {
+                createHanziSpan(paragraph, word, dataDictionary);
+                indexChar += word.length;
+                foundWord = true;
+                break;
+            }
+        }
 
-      container.appendChild(paragraph);
+        if (!foundWord) {
+            let char = line[indexChar];
 
-      // Create translation line
-      if (index < translationLines.length) {
-          const translationPara = document.createElement("p");
-          translationPara.classList.add("translation");
-          translationPara.textContent = translationLines[index].trim();
-          container.appendChild(translationPara);
-      }
+            if (isHanzi(char)) {
+                createHanziSpan(paragraph, char, dataDictionary);
+            } else {
+                createPlainTextSpan(paragraph, char);
+            }
+            indexChar++;
+        }
+    }
 
-      contentDiv.appendChild(container);
+    container.appendChild(paragraph);
 
-  });
+    // Create translation line
+    if (index < translationLines.length) {
+        const translationPara = document.createElement("p");
+        translationPara.classList.add("translation");
+        translationPara.textContent = translationLines[index].trim();
+        container.appendChild(translationPara);
+    }
 
-  if(dataMarkdown !== null) {
-      markdownContainer = document.createElement("div");
-      markdownContainer.classList.add("section-markdown-container");
-      markdownContent = document.createElement("div");
-      markdownContent.innerHTML = marked.parse(decodeURIComponent(dataMarkdown));
-      markdownContainer.appendChild(markdownContent);
-      contentDiv.appendChild(markdownContainer);
-      
-  }
+    contentDiv.appendChild(container);
 
-  // updatePinyinDisplay();
-  // updateTranslationDisplay();
-  // initializePopovers(); // **Fix: Ensure popovers are initialized**
+});
+
+if(dataMarkdown !== null) {
+    markdownContainer = document.createElement("div");
+    markdownContainer.classList.add("section-markdown-container");
+    markdownContent = document.createElement("div");
+    markdownContent.innerHTML = marked.parse(decodeURIComponent(dataMarkdown));
+    markdownContainer.appendChild(markdownContent);
+    contentDiv.appendChild(markdownContainer);
+    
+}
+
+// updatePinyinDisplay();
+// updateTranslationDisplay();
+// initializePopovers(); // **Fix: Ensure popovers are initialized**
 }
 
 function createHanziSpan(parent, hanziWord, dataDictionary) {
-      const pinyinText = pinyinPro.pinyin(hanziWord, { toneType: "mark" }) || "";
-      const definition = dataDictionary[hanziWord] || "No definition available";
+    const pinyinText = pinyinPro.pinyin(hanziWord, { toneType: "mark" }) || "";
+    const definition = dataDictionary[hanziWord] || "No definition available";
 
-      const span = document.createElement("span");
-      span.classList.add("hanzi-group");
-      span.dataset.pinyin = pinyinText;
-      span.dataset.bsToggle = "popover";
-      span.dataset.bsTrigger = "manual"; 
-      span.dataset.bsPlacement = "top";
-      span.dataset.bsContent = `<strong>${hanziWord}</strong><br>${pinyinText}<br>${definition}`;
-      span.dataset.bsHtml = "true";
+    const span = document.createElement("span");
+    span.classList.add("hanzi-group");
+    span.dataset.pinyin = pinyinText;
+    span.dataset.bsToggle = "popover";
+    span.dataset.bsTrigger = "manual"; 
+    span.dataset.bsPlacement = "top";
+    span.dataset.bsContent = `<strong>${hanziWord}</strong><br>${pinyinText}<br>${definition}`;
+    span.dataset.bsHtml = "true";
 
-      if (pinyinText) {
-          const pinyinSpan = document.createElement("span");
-          pinyinSpan.classList.add("pinyin");
-          pinyinSpan.textContent = pinyinText;
-          span.appendChild(pinyinSpan);
-      }
+    if (pinyinText) {
+        const pinyinSpan = document.createElement("span");
+        pinyinSpan.classList.add("pinyin");
+        pinyinSpan.textContent = pinyinText;
+        span.appendChild(pinyinSpan);
+    }
 
-      span.appendChild(document.createTextNode(hanziWord));
-      parent.appendChild(span);
-  }
+    span.appendChild(document.createTextNode(hanziWord));
+    parent.appendChild(span);
+}
 
-      function createPlainTextSpan(parent, text) {
-          const span = document.createElement("span");
-          span.classList.add("plain-text");
-          span.textContent = text;
-          parent.appendChild(span);
-      }
+    function createPlainTextSpan(parent, text) {
+        const span = document.createElement("span");
+        span.classList.add("plain-text");
+        span.textContent = text;
+        parent.appendChild(span);
+    }
 
-      function updatePinyinDisplay() {
-          const isPinyinEnabled = localStorage.getItem("showPinyin") === "true";
-          document.querySelectorAll(".dialog-container").forEach(section => {
-              section.classList.toggle("show-pinyin", isPinyinEnabled);
-          });
-          document.getElementById("togglePinyin").checked = isPinyinEnabled;
-      }
+    function updatePinyinDisplay() {
+        const isPinyinEnabled = localStorage.getItem("showPinyin") === "true";
+        document.querySelectorAll(".dialog-container").forEach(section => {
+            section.classList.toggle("show-pinyin", isPinyinEnabled);
+        });
+        document.getElementById("togglePinyin").checked = isPinyinEnabled;
+    }
 
-      function updateTranslationDisplay() {
-          const isTranslationEnabled = localStorage.getItem("showTranslation") === "true";
-          document.querySelectorAll(".dialog-container").forEach(section => {
-              section.classList.toggle("show-translation", isTranslationEnabled);
-          });
-          document.getElementById("toggleTranslation").checked = isTranslationEnabled;
-      }
+    function updateTranslationDisplay() {
+        const isTranslationEnabled = localStorage.getItem("showTranslation") === "true";
+        document.querySelectorAll(".dialog-container").forEach(section => {
+            section.classList.toggle("show-translation", isTranslationEnabled);
+        });
+        document.getElementById("toggleTranslation").checked = isTranslationEnabled;
+    }
 
-      document.getElementById("togglePinyin").addEventListener("change", function () {
-          localStorage.setItem("showPinyin", this.checked);
-          updatePinyinDisplay();
-      });
+    document.getElementById("togglePinyin").addEventListener("change", function () {
+        localStorage.setItem("showPinyin", this.checked);
+        updatePinyinDisplay();
+    });
 
-      document.getElementById("toggleTranslation").addEventListener("change", function () {
-          localStorage.setItem("showTranslation", this.checked);
-          updateTranslationDisplay();
-      });
+    document.getElementById("toggleTranslation").addEventListener("change", function () {
+        localStorage.setItem("showTranslation", this.checked);
+        updateTranslationDisplay();
+    });
 
-      function initializePopovers() {
-      document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
-          const popover = new bootstrap.Popover(el);
+    function initializePopovers() {
+    document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
+        const popover = new bootstrap.Popover(el);
 
-          el.addEventListener("click", function (event) {
-              event.stopPropagation();
+        el.addEventListener("click", function (event) {
+            event.stopPropagation();
 
-              if (activePopover && activePopover !== popover) {
-                  activePopover.hide();
-              }
+            if (activePopover && activePopover !== popover) {
+                activePopover.hide();
+            }
 
-              if (activePopover === popover) {
-                  activePopover.hide();
-                  activePopover = null;
-              } else {
-                  popover.show();
-                  activePopover = popover;
-              }
-          });
-      });
+            if (activePopover === popover) {
+                activePopover.hide();
+                activePopover = null;
+            } else {
+                popover.show();
+                activePopover = popover;
+            }
+        });
+    });
 
-      // Close popovers when clicking outside
-      document.addEventListener("click", function (event) {
-          if (activePopover && !event.target.closest(".hanzi-group")) {
-              activePopover.hide();
-              activePopover = null;
-          }
-      });
-  }
+    // Close popovers when clicking outside
+    document.addEventListener("click", function (event) {
+        if (activePopover && !event.target.closest(".hanzi-group")) {
+            activePopover.hide();
+            activePopover = null;
+        }
+    });
+}
 
-      // generateDialogFromText(textBlob, translation);
-      generateSections()
-      generateMarkdowns()
-  </script>
+    // generateDialogFromText(textBlob, translation);
+    generateSections()
+    generateMarkdowns()
+</script>
+    </div>
+<footer class="bg-light text-center py-3 mt-4">
+    <div class="container">
+        <p>&copy; 2025 Made with 💖 by <a href="https://github.com/shadowcodex">shadowcodex</a></p>
+    </div>
+</footer>
+</body>
 </html>

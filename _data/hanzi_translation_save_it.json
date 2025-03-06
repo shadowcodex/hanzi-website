@@ -1,0 +1,210 @@
+[
+  {
+    "block": 1,
+    "level": "HSK1",
+    "title": "A Busy Day (忙碌的一天)",
+    "slug": "HSK1_a-busy-day-e807aa45",
+    "hanzi": "今天上午，王方去学校。他是学生，学习汉语。他的同学李月问：“请问，现在几点？” 王方看电脑，说：“八点。”\n\n李月说：“我们去看书吧！” 他们去学校前面的书店，买了一本汉字书。\n\n中午，他们去饭店吃饭。李月问：“请问，这些菜多少钱？” 先生说：“一个菜十块，一个米饭三块。” 王方说：“好，我们吃米饭和菜。”\n\n下午，王方想去商店买一个杯子。他问：“请问，这个杯子多少钱？” 先生说：“二十块。” 王方说：“太贵了！那，这个呢？” 先生说：“十五块。” 王方说：“好，我买这个。”\n\n晚上，他们一起看电影。电影很好看。李月问：“你喜欢这个电影吗？” 王方说：“喜欢！我们明天再看吧！”\n\n（完）",
+    "response": {
+      "translations": [
+        [
+          "今天上午，王方去学校。",
+          "This morning, Wang Fang went to school."
+        ],
+        [
+          "他是学生，学习汉语。",
+          "He is a student, studying Chinese."
+        ],
+        [
+          "他的同学李月问：“请问，现在几点？”",
+          "His classmate Li Yue asked: 'Excuse me, what time is it now?'"
+        ],
+        [
+          "王方看电脑，说：“八点。”",
+          "Wang Fang looked at the computer and said: 'Eight o'clock.'"
+        ],
+        [
+          "李月说：“我们去看书吧！”",
+          "Li Yue said: 'Let's go read books!'"
+        ],
+        [
+          "他们去学校前面的书店，买了一本汉字书。",
+          "They went to the bookstore in front of the school and bought a book on Chinese characters."
+        ],
+        [
+          "中午，他们去饭店吃饭。",
+          "At noon, they went to a restaurant to eat."
+        ],
+        [
+          "李月问：“请问，这些菜多少钱？”",
+          "Li Yue asked: 'Excuse me, how much do these dishes cost?'"
+        ],
+        [
+          "先生说：“一个菜十块，一个米饭三块。”",
+          "The gentleman said: 'Ten yuan for a dish, three yuan for a bowl of rice.'"
+        ],
+        [
+          "王方说：“好，我们吃米饭和菜。”",
+          "Wang Fang said: 'Okay, we'll have rice and dishes.'"
+        ],
+        [
+          "下午，王方想去商店买一个杯子。",
+          "In the afternoon, Wang Fang wanted to go to the store to buy a cup."
+        ],
+        [
+          "他问：“请问，这个杯子多少钱？”",
+          "He asked: 'Excuse me, how much is this cup?'"
+        ],
+        [
+          "先生说：“二十块。”",
+          "The gentleman said: 'Twenty yuan.'"
+        ],
+        [
+          "王方说：“太贵了！那，这个呢？”",
+          "Wang Fang said: 'Too expensive! Then, how about this one?'"
+        ],
+        [
+          "先生说：“十五块。”",
+          "The gentleman said: 'Fifteen yuan.'"
+        ],
+        [
+          "王方说：“好，我买这个。”",
+          "Wang Fang said: 'Okay, I'll buy this one.'"
+        ],
+        [
+          "晚上，他们一起看电影。",
+          "In the evening, they watched a movie together."
+        ],
+        [
+          "电影很好看。",
+          "The movie was very good."
+        ],
+        [
+          "李月问：“你喜欢这个电影吗？”",
+          "Li Yue asked: 'Do you like this movie?'"
+        ],
+        [
+          "王方说：“喜欢！我们明天再看吧！”",
+          "Wang Fang said: 'I like it! Let's watch it again tomorrow!'"
+        ],
+        [
+          "（完）",
+          "(The End)"
+        ]
+      ]
+    },
+    "dictionary": "eyLljrsiOiIodikgIHRvIGdvIiwi5a2m5qChIjoiKG4pICBzY2hvb2wiLCLku5YiOiIocikgICh0aGlyZC1wZXJzb24gc2luZ3VsYXIpIChzaW5jZSB0aGUgZWFybHkgMjB0aCBjZW50dXJ5LCB1c3UuIG1hbGUpIGhlOyBoaW07IGhpcyIsIuaYryI6Iih2KSAgdmFyaWFudCBvZiDmmK9bc2hpNF0iLCLlrabnlJ8iOiIobikgIHN0dWRlbnQiLCLlrabkuaAiOiIodikgIHRvIGxlYXJuIiwi5rGJ6K%2BtIjoiKG56KSAgQ2hpbmVzZSBsYW5ndWFnZSIsIueahCI6Iih1aikgIChib3VuZCBmb3JtKSBidWxsJ3MtZXllOyB0YXJnZXQiLCLlkIzlraYiOiIobikgIHRvIHN0dWR5IGF0IHRoZSBzYW1lIHNjaG9vbCIsIuivt%2BmXriI6Iih2KSAgRXhjdXNlIG1lLCBtYXkgSSBhc2suLi4%2FIiwi546w5ZyoIjoiKHQpICBub3ciLCLlh6DngrkiOiIobSkgIHdoYXQgdGltZT8iLCLnnIsiOiIodikgIHRvIHNlZTsgdG8gbG9vayBhdCIsIueUteiEkSI6IihuKSAgY29tcHV0ZXIiLCLor7QiOiIodikgIHZhcmlhbnQgb2Yg6KqqfOivtFtzaHVvMV0iLCLmiJHku6wiOiIocikgIHdlOyB1czsgb3Vyc2VsdmVzOyBvdXIiLCLnnIvkuaYiOiIodikgIHRvIHJlYWQiLCLlkKciOiIoeSkgIChvbm9tLikgc21hY2shIiwi5LuW5LusIjoiKHIpICB0aGV5OyB0aGVtIiwi5YmN6Z2iIjoiKGYpICBhaGVhZCIsIuS5puW6lyI6IihuKSAgYm9va3N0b3JlIiwi5LmwIjoiKHYpICB0byBidXkiLCLkuoYiOiIodWwpICB1bm9mZmljaWFsIHZhcmlhbnQgb2Yg556tW2xpYW80XSIsIuaxieWtlyI6IihueikgIENoaW5lc2UgY2hhcmFjdGVyKHMpIiwi5LmmIjoiKG4pICBib29rIiwi5Lit5Y2IIjoiKHQpICBub29uIiwi6aWt5bqXIjoiKG4pICByZXN0YXVyYW50Iiwi5ZCD6aWtIjoiKHYpICB0byBoYXZlIGEgbWVhbCIsIui%2FmeS6myI6IihyKSAgdGhlc2UiLCLoj5wiOiIobikgIHZlZ2V0YWJsZTsgZ3JlZW5zIChDTDrmo7Vba2UxXSkiLCLlpJrlsJEiOiIobSkgIGhvdyBtdWNoPzsgaG93IG1hbnk%2FIiwi6ZKxIjoiKG4pICBjb2luIiwi5YWI55SfIjoiKG4pICB0ZWFjaGVyIiwi5LiA5LiqIjoiKG0pICBhOyBhbjsgb25lIiwi57Gz6aWtIjoiKG4pICAoY29va2VkKSByaWNlIiwi5aW9IjoiKGEpICB0byBiZSBmb25kIG9mOyB0byBoYXZlIGEgdGVuZGVuY3kgdG87IHRvIGJlIHByb25lIHRvIiwi5ZCDIjoiKHYpICB2YXJpYW50IG9mIOWQg1tjaGkxXSIsIuWSjCI6IihjKSAgKGxpdGVyYXJ5KSBoYXJtb25pb3VzICh2YXJpYW50IG9mIOWSjFtoZTJdKSIsIuS4i%2BWNiCI6Iih0KSAgYWZ0ZXJub29uIiwi5ZWG5bqXIjoiKG4pICBzdG9yZTsgc2hvcCIsIuadr%2BWtkCI6IihuKSAgY3VwIiwi6L%2BZ5LiqIjoiKHIpICAocHJvbm91bikgdGhpcyIsIumCoyI6IihyKSAgKGFyY2hhaWMpIG1hbnkiLCLlkaIiOiIoeSkgIGRlbnNlIHdvb2wgZmFicmljICh1c2VkIGZvciBjb2F0cyBhbmQgamFja2V0cykiLCLmiJEiOiIocikgIEk7IG1lOyBteSIsIuaZmuS4iiI6Iih0KSAgZXZlbmluZyIsIuS4gOi1tyI6IihtKSAgKGluKSB0aGUgc2FtZSBwbGFjZSIsIueUteW9sSI6IihuKSAgbW92aWU7IGZpbG0iLCLlvogiOiIoemcpICB2ZXJ5OyBxdWl0ZSIsIuWlveeciyI6Iih2KSAgZ29vZC1sb29raW5nOyBuaWNlLWxvb2tpbmciLCLkvaAiOiIocikgIHlvdSAoTm90ZTogSW4gVGFpd2FuLCDlprMgaXMgdXNlZCB0byBhZGRyZXNzIGZlbWFsZXMsIGJ1dCBpbiBtYWlubGFuZCBDaGluYSwgaXQgaXMgbm90IGNvbW1vbmx5IHVzZWQuIEluc3RlYWQsIOS9oCBpcyB1c2VkIHRvIGFkZHJlc3MgYm90aCBtYWxlcyBhbmQgZmVtYWxlcy4pIiwi5Zac5qyiIjoiKHYpICB0byBsaWtlOyB0byBiZSBmb25kIG9mIiwi5ZCXIjoiKHkpICAocXVlc3Rpb24gcGFydGljbGUgZm9yIFwieWVzLW5vXCIgcXVlc3Rpb25zKSIsIuaYjuWkqSI6Iih0KSAgdG9tb3Jyb3ciLCLlho0iOiIoZCkgIGFnYWluOyBvbmNlIG1vcmU7IHJlLSIsIuWujCI6Iih2KSAgdG8gZmluaXNoIn0%3D"
+  },
+  {
+    "block": 2,
+    "level": "HSK1",
+    "title": "A Visit to the Hospital (去医院)",
+    "slug": "HSK1_a-visit-to-the-hospital-24176c7a",
+    "hanzi": "今天上午，王方的爸爸生病了。他去医院看医生。\n\n王方问：“爸爸，您的身体怎么样？” 爸爸说：“不太好。”\n\n医生来了，他问：“请问，您怎么了？” 爸爸说：“我今天上午身体不太好。” 医生看了看，说：“没关系，休息一下，多喝水。”\n\n王方问：“爸爸，我们回家吧？” 爸爸说：“好。”\n\n下午，王方去商店买水果。他买了一个苹果和一些水。他回家后，给爸爸说：“爸爸，您吃一点儿水果吧！”\n\n爸爸吃了苹果，说：“很好吃，谢谢！” 王方高兴地说：“不客气！”\n\n（完）",
+    "response": {
+      "result": [
+        [
+          "今天上午，王方的爸爸生病了。他去医院看医生。",
+          "This morning, Wang Fang's father fell ill. He went to the hospital to see a doctor."
+        ],
+        [
+          "王方问：“爸爸，您的身体怎么样？” 爸爸说：“不太好。”",
+          "Wang Fang asked, 'Dad, how is your health?' Dad said, 'Not very good.'"
+        ],
+        [
+          "医生来了，他问：“请问，您怎么了？” 爸爸说：“我今天上午身体不太好。” 医生看了看，说：“没关系，休息一下，多喝水。”",
+          "The doctor came and asked, 'May I ask, what's wrong with you?' Dad said, 'I haven't been feeling well this morning.' The doctor looked and said, 'It's okay, just rest a bit and drink more water.'"
+        ],
+        [
+          "王方问：“爸爸，我们回家吧？” 爸爸说：“好。”",
+          "Wang Fang asked, 'Dad, shall we go home?' Dad said, 'Okay.'"
+        ],
+        [
+          "下午，王方去商店买水果。他买了一个苹果和一些水。他回家后，给爸爸说：“爸爸，您吃一点儿水果吧！”",
+          "In the afternoon, Wang Fang went to the store to buy fruit. He bought an apple and some water. After returning home, he said to his dad, 'Dad, have some fruit!'"
+        ],
+        [
+          "爸爸吃了苹果，说：“很好吃，谢谢！” 王方高兴地说：“不客气！”",
+          "Dad ate the apple and said, 'It's very tasty, thank you!' Wang Fang happily said, 'You're welcome!'"
+        ],
+        [
+          "（完）",
+          "(The End)"
+        ]
+      ]
+    },
+    "dictionary": "eyLnmoQiOiIodWopICAoYm91bmQgZm9ybSkgYnVsbCdzLWV5ZTsgdGFyZ2V0Iiwi54i454i4IjoiKG4pICAoY29sbC4pIGZhdGhlcjsgZGFkIiwi55Sf55eFIjoiKG4pICB0byBmYWxsIGlsbCIsIuS6hiI6Iih1bCkgIHVub2ZmaWNpYWwgdmFyaWFudCBvZiDnnq1bbGlhbzRdIiwi5LuWIjoiKHIpICAodGhpcmQtcGVyc29uIHNpbmd1bGFyKSAoc2luY2UgdGhlIGVhcmx5IDIwdGggY2VudHVyeSwgdXN1LiBtYWxlKSBoZTsgaGltOyBoaXMiLCLljrsiOiIodikgIHRvIGdvIiwi5Yy76ZmiIjoiKG4pICBob3NwaXRhbCIsIueciyI6Iih2KSAgdG8gc2VlOyB0byBsb29rIGF0Iiwi5Yy755SfIjoiKG4pICBkb2N0b3IiLCLmgqgiOiIoemcpICB5b3UgKGNvdXJ0ZW91cywgYXMgb3Bwb3NlZCB0byBpbmZvcm1hbCDkvaBbbmkzXSkiLCLouqvkvZMiOiIobikgIHRoZSBib2R5Iiwi5oCO5LmI5qC3IjoiKHIpICBob3c%2FIiwi6K%2B0IjoiKHYpICB2YXJpYW50IG9mIOiqqnzor7Rbc2h1bzFdIiwi5LiN5aSq5aW9IjoiKHYpICBub3Qgc28gZ29vZCIsIuadpSI6Iih2KSAgdG8gY29tZSIsIuivt%2BmXriI6Iih2KSAgRXhjdXNlIG1lLCBtYXkgSSBhc2suLi4%2FIiwi5oCO5LmIIjoiKHIpICB2YXJpYW50IG9mIOaAjum6vHzmgI7kuYhbemVuMyBtZTVdIiwi5oiRIjoiKHIpICBJOyBtZTsgbXkiLCLmsqHlhbPns7siOiIobCkgIGl0IGRvZXNuJ3QgbWF0dGVyIiwi5LyR5oGvIjoiKHYpICByZXN0Iiwi5LiA5LiLIjoiKG0pICAoYWZ0ZXIgYSB2ZXJiKSBhIGJpdDsgYSBsaXR0bGUgKGluZGljYXRpbmcgYnJpZWYgZHVyYXRpb24sIG9yIHNvZnRlbmluZyB0aGUgdG9uZSwgb3Igc3VnZ2VzdGluZyBnaXZpbmcgc3RoIGEgdHJ5KSIsIuaIkeS7rCI6IihyKSAgd2U7IHVzOyBvdXJzZWx2ZXM7IG91ciIsIuWlvSI6IihhKSAgdG8gYmUgZm9uZCBvZjsgdG8gaGF2ZSBhIHRlbmRlbmN5IHRvOyB0byBiZSBwcm9uZSB0byIsIuS4i%2BWNiCI6Iih0KSAgYWZ0ZXJub29uIiwi5ZWG5bqXIjoiKG4pICBzdG9yZTsgc2hvcCIsIuS5sCI6Iih2KSAgdG8gYnV5Iiwi5rC05p6cIjoiKG4pICBmcnVpdCIsIuS4gOS4qiI6IihtKSAgYTsgYW47IG9uZSIsIuiLueaenCI6IihuKSAgYXBwbGUiLCLlkowiOiIoYykgIChsaXRlcmFyeSkgaGFybW9uaW91cyAodmFyaWFudCBvZiDlkoxbaGUyXSkiLCLkuIDkupsiOiIobSkgIHNvbWUiLCLmsLQiOiIobikgIHdhdGVyIiwi5Zue5a62IjoiKG4pICB0byByZXR1cm4gaG9tZSIsIuWQjiI6IihmKSAgYmFjayIsIue7mSI6IihwKSAgdG8gc3VwcGx5Iiwi5ZCDIjoiKHYpICB2YXJpYW50IG9mIOWQg1tjaGkxXSIsIuS4gOeCueWEvyI6IihtKSAgZXJodWEgdmFyaWFudCBvZiDkuIDpu5585LiA54K5W3lpMSBkaWFuM10iLCLlkKciOiIoeSkgIChvbm9tLikgc21hY2shIiwi5b6IIjoiKHpnKSAgdmVyeTsgcXVpdGUiLCLlpb3lkIMiOiIodikgIHRvIGJlIGZvbmQgb2YgZWF0aW5nOyB0byBiZSBnbHV0dG9ub3VzIiwi6LCi6LCiIjoiKG5yKSAgdG8gdGhhbmsiLCLpq5jlhbQiOiIoYikgIGhhcHB5Iiwi5LiNIjoiKGQpICBubzsgbm90IHNvIiwi5a6i5rCUIjoiKG4pICBwb2xpdGUiLCLlrowiOiIodikgIHRvIGZpbmlzaCJ9"
+  },
+  {
+    "block": 3,
+    "level": "HSK1",
+    "title": "HSK 1 Word List",
+    "slug": "HSK1_hsk-1-word-list-f868d684",
+    "hanzi": "1。你、好、您、你们、对不起、没关系\n\n2。谢谢、不、不客气、再见\n\n3。叫、什么、名字、我、是、老师、吗、学生、人、李月、中国、美国\n\n4。她、谁、的、汉语、哪、国、呢、他、同学、朋友\n\n5。家、有、口、女儿、几、岁、了、今年、多、大\n\n6。会、说、妈妈、菜、很、好吃、做、写、汉字、字、怎么、读\n\n7。请、问、今天、号、月、星期、昨天、明天、去、学校、看、 书\n\n8。想、喝、茶、吃、米饭、下午、商店、买、个、杯子、这、多少、钱、快、那\n\n9。小、猫、在、那儿、那里、狗、椅子、下、哪儿、哪里、工作、儿子、医院、医生、爸爸\n\n10。桌子、上、电脑、和、本、里、前面、后面、王方、谢朋、这儿、没有（没）、能、坐\n\n11。现在、点、分、中午、吃饭、时候、回、我们、电影、住、前、北京\n\n12。天气、怎么样、太（太…了）、热、冷、下雨、下、雨、小姐、来、身体、爱、些、水果、水\n\n13。喂、也、学习、大卫、上午、睡觉、电视、喜欢、给、打电话、吧\n\n14。东西、一点儿、苹果、看见、先生、开、车、回来、分钟、后、张、衣服、漂亮、啊、少、不少、这些、都、\n\n15。认识、年、大学、饭店、出租车、一起、高兴、听、飞机",
+    "response": {
+      "translations": [
+        [
+          "你、好、您、你们、对不起、没关系",
+          "You, hello, you (formal), you (plural), sorry, it's okay"
+        ],
+        [
+          "谢谢、不、不客气、再见",
+          "Thank you, no, you're welcome, goodbye"
+        ],
+        [
+          "叫、什么、名字、我、是、老师、吗、学生、人、李月、中国、美国",
+          "Call, what, name, I, am, teacher, question particle, student, person, Li Yue, China, America"
+        ],
+        [
+          "她、谁、的、汉语、哪、国、呢、他、同学、朋友",
+          "She, who, possessive particle, Chinese language, which, country, question particle, he, classmate, friend"
+        ],
+        [
+          "家、有、口、女儿、几、岁、了、今年、多、大",
+          "Home, have, measure word for family members, daughter, how many, years old, particle indicating change, this year, how, big"
+        ],
+        [
+          "会、说、妈妈、菜、很、好吃、做、写、汉字、字、怎么、读",
+          "Can, speak, mom, dish, very, delicious, make, write, Chinese characters, character, how, read"
+        ],
+        [
+          "请、问、今天、号、月、星期、昨天、明天、去、学校、看、书",
+          "Please, ask, today, date, month, week, yesterday, tomorrow, go, school, read, book"
+        ],
+        [
+          "想、喝、茶、吃、米饭、下午、商店、买、个、杯子、这、多少、钱、快、那",
+          "Want, drink, tea, eat, rice, afternoon, store, buy, a, cup, this, how much, money, fast, that"
+        ],
+        [
+          "小、猫、在、那儿、那里、狗、椅子、下、哪儿、哪里、工作、儿子、医院、医生、爸爸",
+          "Little, cat, at, there, there, dog, chair, under, where, where, work, son, hospital, doctor, dad"
+        ],
+        [
+          "桌子、上、电脑、和、本、里、前面、后面、王方、谢朋、这儿、没有（没）、能、坐",
+          "Table, on, computer, and, notebook, inside, front, back, Wang Fang, Xie Peng, here, not have, can, sit"
+        ],
+        [
+          "现在、点、分、中午、吃饭、时候、回、我们、电影、住、前、北京",
+          "Now, o'clock, minute, noon, eat, time, return, we, movie, live, before, Beijing"
+        ],
+        [
+          "天气、怎么样、太（太…了）、热、冷、下雨、下、雨、小姐、来、身体、爱、些、水果、水",
+          "Weather, how, too (too...much), hot, cold, rain, down, rain, miss, come, body, love, some, fruit, water"
+        ],
+        [
+          "喂、也、学习、大卫、上午、睡觉、电视、喜欢、给、打电话、吧",
+          "Hello, also, study, David, morning, sleep, TV, like, give, make a phone call, suggestion particle"
+        ],
+        [
+          "东西、一点儿、苹果、看见、先生、开、车、回来、分钟、后、张、衣服、漂亮、啊、少、不少、这些、都、",
+          "Thing, a little, apple, see, Mr., drive, car, come back, minute, after, Zhang, clothes, beautiful, ah, few, many, these, all"
+        ],
+        [
+          "认识、年、大学、饭店、出租车、一起、高兴、听、飞机",
+          "Know, year, university, restaurant, taxi, together, happy, listen, airplane"
+        ]
+      ]
+    },
+    "dictionary": "eyLkvaAiOiIocikgIHlvdSAoTm90ZTogSW4gVGFpd2FuLCDlprMgaXMgdXNlZCB0byBhZGRyZXNzIGZlbWFsZXMsIGJ1dCBpbiBtYWlubGFuZCBDaGluYSwgaXQgaXMgbm90IGNvbW1vbmx5IHVzZWQuIEluc3RlYWQsIOS9oCBpcyB1c2VkIHRvIGFkZHJlc3MgYm90aCBtYWxlcyBhbmQgZmVtYWxlcy4pIiwi5aW9IjoiKGEpICB0byBiZSBmb25kIG9mOyB0byBoYXZlIGEgdGVuZGVuY3kgdG87IHRvIGJlIHByb25lIHRvIiwi5oKoIjoiKHpnKSAgeW91IChjb3VydGVvdXMsIGFzIG9wcG9zZWQgdG8gaW5mb3JtYWwg5L2gW25pM10pIiwi5L2g5LusIjoiKHIpICB5b3UgKHBsdXJhbCkiLCLlr7nkuI3otbciOiIobCkgIEknbSBzb3JyeTsgZXhjdXNlIG1lOyBJIGJlZyB5b3VyIHBhcmRvbiIsIuayoeWFs%2BezuyI6IihsKSAgaXQgZG9lc24ndCBtYXR0ZXIiLCLosKLosKIiOiIobnIpICB0byB0aGFuayIsIuS4jSI6IihkKSAgbm87IG5vdCBzbyIsIuWuouawlCI6IihuKSAgcG9saXRlIiwi5YaN6KeBIjoiKHYpICBnb29kYnllIiwi5Y%2BrIjoiKHYpICB2YXJpYW50IG9mIOWPq1tqaWFvNF0iLCLku4DkuYgiOiIocikgIHdoYXQ%2FIiwi5ZCN5a2XIjoiKG4pICBuYW1lIChvZiBhIHBlcnNvbiBvciB0aGluZykiLCLmiJEiOiIocikgIEk7IG1lOyBteSIsIuaYryI6Iih2KSAgdmFyaWFudCBvZiDmmK9bc2hpNF0iLCLogIHluIgiOiIobikgIHRlYWNoZXIiLCLlkJciOiIoeSkgIChxdWVzdGlvbiBwYXJ0aWNsZSBmb3IgXCJ5ZXMtbm9cIiBxdWVzdGlvbnMpIiwi5a2m55SfIjoiKG4pICBzdHVkZW50Iiwi5Lq6IjoiKG4pICBwZXJzb247IHBlb3BsZSIsIuadjiI6IihucikgIHBsdW0iLCLmnIgiOiIobSkgIG1vb24iLCLkuK3lm70iOiIobnMpICBDaGluYSIsIue%2BjuWbvSI6IihucykgIFVuaXRlZCBTdGF0ZXM7IFVTQTsgVVMiLCLlpbkiOiIocikgIHNoZSIsIuiwgSI6IihyKSAgd2hvIiwi55qEIjoiKHVqKSAgKGJvdW5kIGZvcm0pIGJ1bGwncy1leWU7IHRhcmdldCIsIuaxieivrSI6IihueikgIENoaW5lc2UgbGFuZ3VhZ2UiLCLlk6oiOiIocikgIHdoaWNoPyAoaW50ZXJyb2dhdGl2ZSwgZm9sbG93ZWQgYnkgY2xhc3NpZmllciBvciBudW1lcmFsLWNsYXNzaWZpZXIpIiwi5Zu9IjoiKG4pICBjb3VudHJ5OyBuYXRpb247IHN0YXRlIiwi5ZGiIjoiKHkpICBkZW5zZSB3b29sIGZhYnJpYyAodXNlZCBmb3IgY29hdHMgYW5kIGphY2tldHMpIiwi5LuWIjoiKHIpICAodGhpcmQtcGVyc29uIHNpbmd1bGFyKSAoc2luY2UgdGhlIGVhcmx5IDIwdGggY2VudHVyeSwgdXN1LiBtYWxlKSBoZTsgaGltOyBoaXMiLCLlkIzlraYiOiIobikgIHRvIHN0dWR5IGF0IHRoZSBzYW1lIHNjaG9vbCIsIuaci%2BWPiyI6IihuKSAgZnJpZW5kIiwi5a62IjoiKHEpICBob21lIiwi5pyJIjoiKHYpICB0byBoYXZlOyB0aGVyZSBpcyIsIuWPoyI6IihxKSAgbW91dGgiLCLlpbPlhL8iOiIobikgIGRhdWdodGVyIiwi5YegIjoiKG0pICBob3cgbXVjaCIsIuWygSI6IihtKSAgY2xhc3NpZmllciBmb3IgeWVhcnMgKG9mIGFnZSkiLCLkuoYiOiIodWwpICB1bm9mZmljaWFsIHZhcmlhbnQgb2Yg556tW2xpYW80XSIsIuS7iuW5tCI6Iih0KSAgdGhpcyB5ZWFyIiwi5aSaIjoiKG0pICBtYW55OyBtdWNoOyBtb3JlOyBhIGxvdCBvZiIsIuWkpyI6IihhKSAgc2VlIOWkp%2BWkq1tkYWk0IGZ1NV0iLCLkvJoiOiIodikgIChib3VuZCBmb3JtKSB0byByZWNrb24gYWNjb3VudHMiLCLor7QiOiIodikgIHZhcmlhbnQgb2Yg6KqqfOivtFtzaHVvMV0iLCLlpojlpogiOiIobikgIG1hbWEiLCLoj5wiOiIobikgIHZlZ2V0YWJsZTsgZ3JlZW5zIChDTDrmo7Vba2UxXSkiLCLlvogiOiIoemcpICB2ZXJ5OyBxdWl0ZSIsIuWlveWQgyI6Iih2KSAgdG8gYmUgZm9uZCBvZiBlYXRpbmc7IHRvIGJlIGdsdXR0b25vdXMiLCLlgZoiOiIodikgIHRvIG1ha2U7IHRvIHByb2R1Y2UiLCLlhpkiOiIodikgIHVzZWQgaW4g5a%2Br5oSPfOWGmeaEj1t4aWU0eWk0XSIsIuaxieWtlyI6IihueikgIENoaW5lc2UgY2hhcmFjdGVyKHMpIiwi5a2XIjoiKG4pICBsZXR0ZXIiLCLmgI7kuYgiOiIocikgIHZhcmlhbnQgb2Yg5oCO6bq8fOaAjuS5iFt6ZW4zIG1lNV0iLCLor7siOiIodikgIHRvIHJlYWQgb3V0OyB0byByZWFkIGFsb3VkIiwi6K%2B3IjoiKHYpICB0byBhc2siLCLpl64iOiIobikgIHRvIGFzazsgdG8gaW5xdWlyZSIsIuS7iuWkqSI6Iih0KSAgdG9kYXkiLCLlj7ciOiIobSkgIG9yZGluYWwgbnVtYmVyIiwi5pif5pyfIjoiKHQpICB3ZWVrIiwi5pio5aSpIjoiKHQpICB5ZXN0ZXJkYXkiLCLmmI7lpKkiOiIodCkgIHRvbW9ycm93Iiwi5Y67IjoiKHYpICB0byBnbyIsIuWtpuagoSI6IihuKSAgc2Nob29sIiwi55yLIjoiKHYpICB0byBzZWU7IHRvIGxvb2sgYXQiLCLkuaYiOiIobikgIGJvb2siLCLmg7MiOiIodikgIHRvIHRoaW5rIChhYm91dCkiLCLllp0iOiIodmcpICB0byBzaG91dCIsIuiMtiI6IihuKSAgdGVhIiwi5ZCDIjoiKHYpICB2YXJpYW50IG9mIOWQg1tjaGkxXSIsIuexs%2BmlrSI6IihuKSAgKGNvb2tlZCkgcmljZSIsIuS4i%2BWNiCI6Iih0KSAgYWZ0ZXJub29uIiwi5ZWG5bqXIjoiKG4pICBzdG9yZTsgc2hvcCIsIuS5sCI6Iih2KSAgdG8gYnV5Iiwi5LiqIjoiKHEpICB2YXJpYW50IG9mIOWAi3zkuKpbZ2U0XSIsIuadr%2BWtkCI6IihuKSAgY3VwIiwi6L%2BZIjoiKHIpICAoY29sbC4pIHRoaXMiLCLlpJrlsJEiOiIobSkgIGhvdyBtdWNoPzsgaG93IG1hbnk%2FIiwi6ZKxIjoiKG4pICBjb2luIiwi5b%2BrIjoiKGEpICByYXBpZCIsIumCoyI6IihyKSAgKGFyY2hhaWMpIG1hbnkiLCLlsI8iOiIoYSkgIHNtYWxsIiwi54yrIjoiKG4pICB1c2VkIGluIOiyk%2BiFsHznjKvohbBbbWFvMnlhbzFdIiwi5ZyoIjoiKHApICB0byBleGlzdDsgdG8gYmUgYWxpdmUiLCLpgqPlhL8iOiIocikgIHRoZXJlIiwi6YKj6YeMIjoiKHIpICB0aGVyZTsgdGhhdCBwbGFjZSIsIueLlyI6IihuKSAgZG9nIiwi5qSF5a2QIjoiKG4pICBjaGFpciIsIuS4iyI6IihmKSAgZG93biIsIuWTquWEvyI6IihyKSAgd2hlcmU%2FIiwi5ZOq6YeMIjoiKHIpICB3aGVyZT8iLCLlt6XkvZwiOiIodm4pICB0byB3b3JrIiwi5YS%2F5a2QIjoiKG4pICBzb24iLCLljLvpmaIiOiIobikgIGhvc3BpdGFsIiwi5Yy755SfIjoiKG4pICBkb2N0b3IiLCLniLjniLgiOiIobikgIChjb2xsLikgZmF0aGVyOyBkYWQiLCLmoYzlrZAiOiIobikgIHRhYmxlIiwi5LiKIjoiKGYpICAoYm91bmQgZm9ybSkgdXA7IHVwcGVyOyBhYm92ZTsgcHJldmlvdXMiLCLnlLXohJEiOiIobikgIGNvbXB1dGVyIiwi5ZKMIjoiKGMpICAobGl0ZXJhcnkpIGhhcm1vbmlvdXMgKHZhcmlhbnQgb2Yg5ZKMW2hlMl0pIiwi5pysIjoiKHIpICAoYm91bmQgZm9ybSkgcm9vdDsgc3RlbSIsIumHjCI6IihmKSAgbGksIGFuY2llbnQgbWVhc3VyZSBvZiBsZW5ndGgsIGFwcHJveC4gNTAwIG0iLCLliY3pnaIiOiIoZikgIGFoZWFkIiwi5ZCO6Z2iIjoiKGYpICB0aGUgYmFjazsgdGhlIHJlYXI7IHRoZSBsYXN0IGJpdCIsIueOiyI6IihucikgIChsaXRlcmFyeSkgKG9mIGEgbW9uYXJjaCkgdG8gcmVpZ24gb3ZlciAoYSBraW5nZG9tKSIsIuaWuSI6IihuKSAgc3F1YXJlIiwi6LCiIjoiKHYpICB0byB0aGFuayIsIuaciyI6IihuKSAgZnJpZW5kIiwi6L%2BZ5YS%2FIjoiKHIpICBoZXJlIiwi5rKh5pyJIjoiKHYpICBoYXZlbid0Iiwi5rKhIjoiKHYpICBkcm93bmVkIiwi6IO9IjoiKHYpICBjYW4iLCLlnZAiOiIodikgIHRvIHNpdCIsIueOsOWcqCI6Iih0KSAgbm93Iiwi54K5IjoiKG0pICBwb2ludCIsIuWIhiI6Iih2KSAgcGFydCIsIuS4reWNiCI6Iih0KSAgbm9vbiIsIuWQg%2BmlrSI6Iih2KSAgdG8gaGF2ZSBhIG1lYWwiLCLml7blgJkiOiIobikgIHRpbWUiLCLlm54iOiIodikgIHZhcmlhbnQgb2Yg6L%2B0fOWbnltodWkyXSIsIuaIkeS7rCI6IihyKSAgd2U7IHVzOyBvdXJzZWx2ZXM7IG91ciIsIueUteW9sSI6IihuKSAgbW92aWU7IGZpbG0iLCLkvY8iOiIodikgIHRvIGxpdmUiLCLliY0iOiIoZikgIGZyb250Iiwi5YyX5LqsIjoiKG5zKSAgQmVpamluZyBtdW5pY2lwYWxpdHksIGNhcGl0YWwgb2YgdGhlIFBlb3BsZSdzIFJlcHVibGljIG9mIENoaW5hIChhYmJyLiB0byDkuqxbSmluZzFdKSIsIuWkqeawlCI6IihuKSAgd2VhdGhlciIsIuaAjuS5iOagtyI6IihyKSAgaG93PyIsIuWkqiI6IihkKSAgaGlnaGVzdCIsIueDrSI6IihuKSAgdG8gd2FybSB1cCIsIuWGtyI6IihhKSAgY29sZCIsIuS4i%2BmbqCI6Iih2KSAgdG8gcmFpbiIsIumbqCI6IihuKSAgKGxpdGVyYXJ5KSB0byByYWluIiwi5bCP5aeQIjoiKG5yKSAgeW91bmcgbGFkeSIsIuadpSI6Iih2KSAgdG8gY29tZSIsIui6q%2BS9kyI6IihuKSAgdGhlIGJvZHkiLCLniLEiOiIodikgIHRvIGxvdmU7IHRvIGJlIGZvbmQgb2Y7IHRvIGxpa2UiLCLkupsiOiIocSkgIGNsYXNzaWZpZXIgaW5kaWNhdGluZyBhIHNtYWxsIGFtb3VudCBvciBzbWFsbCBudW1iZXIgZ3JlYXRlciB0aGFuIDE6IHNvbWUsIGEgZmV3LCBzZXZlcmFsIiwi5rC05p6cIjoiKG4pICBmcnVpdCIsIuawtCI6IihuKSAgd2F0ZXIiLCLlloIiOiIodikgIHRvIGZlZWQiLCLkuZ8iOiIoZCkgIGFsc287IHRvbzsgYXMgd2VsbDsgKG5vdCAuLi4pIGVpdGhlciIsIuWtpuS5oCI6Iih2KSAgdG8gbGVhcm4iLCLlpKfljasiOiIobikgIERhdmlkIChuYW1lKSIsIuS4iuWNiCI6Iih0KSAgbW9ybmluZyIsIuedoeiniSI6Iih2KSAgdG8gZ28gdG8gYmVkIiwi55S16KeGIjoiKG4pICB0ZWxldmlzaW9uOyBUViIsIuWWnOasoiI6Iih2KSAgdG8gbGlrZTsgdG8gYmUgZm9uZCBvZiIsIue7mSI6IihwKSAgdG8gc3VwcGx5Iiwi5omT55S16K%2BdIjoiKGwpICB0byBtYWtlIGEgdGVsZXBob25lIGNhbGwiLCLlkKciOiIoeSkgIChvbm9tLikgc21hY2shIiwi5Lic6KW%2FIjoiKG5zKSAgdGhpbmciLCLkuIDngrnlhL8iOiIobSkgIGVyaHVhIHZhcmlhbnQgb2Yg5LiA6buefOS4gOeCuVt5aTEgZGlhbjNdIiwi6Iu55p6cIjoiKG4pICBhcHBsZSIsIueci%2BingSI6Iih2KSAgdG8gc2VlIiwi5YWI55SfIjoiKG4pICB0ZWFjaGVyIiwi5byAIjoiKHYpICB0byBvcGVuICh0cmFuc2l0aXZlIG9yIGludHJhbnNpdGl2ZSkiLCLovaYiOiIoemcpICB3YXIgY2hhcmlvdCAoYXJjaGFpYykiLCLlm57mnaUiOiIodikgIHRvIHJldHVybjsgdG8gY29tZSBiYWNrIiwi5YiG6ZKfIjoiKHEpICBtaW51dGUiLCLlkI4iOiIoZikgIGJhY2siLCLlvKAiOiIocSkgIHRvIG9wZW4gdXAiLCLooaPmnI0iOiIobikgIGNsb3RoZXMiLCLmvILkuq4iOiIoYSkgIHByZXR0eTsgYmVhdXRpZnVsIiwi5ZWKIjoiKHpnKSAgbW9kYWwgcGFydGljbGUgZW5kaW5nIHNlbnRlbmNlLCBzaG93aW5nIGFmZmlybWF0aW9uLCBhcHByb3ZhbCwgb3IgY29uc2VudCIsIuWwkSI6IihhKSAgeW91bmciLCLkuI3lsJEiOiIoZCkgIG1hbnkiLCLov5nkupsiOiIocikgIHRoZXNlIiwi6YO9IjoiKGQpICBjYXBpdGFsIGNpdHkiLCLorqTor4YiOiIodikgIHRvIGtub3ciLCLlubQiOiIobSkgIGdyYWluIiwi5aSn5a2mIjoiKG4pICB1bml2ZXJzaXR5Iiwi6aWt5bqXIjoiKG4pICByZXN0YXVyYW50Iiwi5Ye656ef6L2mIjoiKG4pICB0YXhpIiwi5LiA6LW3IjoiKG0pICAoaW4pIHRoZSBzYW1lIHBsYWNlIiwi6auY5YW0IjoiKGIpICBoYXBweSIsIuWQrCI6Iih2KSAgdG8gbGlzdGVuIHRvOyB0byBoZWFyIiwi6aOe5py6IjoiKG4pICBhaXJwbGFuZSJ9"
+  }
+]

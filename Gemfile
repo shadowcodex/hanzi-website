@@ -38,3 +38,11 @@ gem "kramdown-parser-gfm"
 
 
 gem "webrick", "~> 1.9"
+
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+gem 'jieba_rb'
+
+# Use contentful data importer to unlock ENV vars in config.
+gem 'jekyll-contentful-data-import', '~> 1.8', '>= 1.8.3'

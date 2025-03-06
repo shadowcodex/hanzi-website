@@ -1,0 +1,129 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.lead {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.dialog-container {
+    margin-top: 20px;
+}
+.dialog {
+    margin-bottom: 10px; /* Reduced spacing */
+    line-height: 1.5; /* Reduced line height */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Left align text */
+    flex-direction: column;
+}
+.dialog-new-words {
+    margin-bottom: 10px; /* Reduced spacing */
+    line-height: 1; /* Reduced line height */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Left align text */
+    flex-direction: column;
+}
+.hanzi-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.hanzi-group {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    margin: 3px;
+    cursor: pointer;
+    min-width: 1em;
+}
+.pinyin {
+    display: none;
+    font-size: 16px;
+    color: gray;
+    line-height: 1;
+}
+.show-pinyin .pinyin {
+    display: block;
+}
+.pinyin-dictionary {
+    font-size: 20px;
+    margin: 3px;
+    display: inline;
+    vertical-align: baseline;
+    color: gray;
+}
+.plain-text {
+    font-size: 24px;
+    margin: 3px;
+    display: inline;
+    vertical-align: baseline;
+}
+.plain-text-body {
+    font-size: 24px;
+    margin: 3px;
+    display: inline;
+    color: #444444;
+    vertical-align: baseline;
+}
+.plain-text-title {
+    font-size: 24px;
+    font-weight:bold;
+    margin: 3px;
+    display: inline;
+    vertical-align: baseline;
+}
+.translation {
+    line-height: 1;
+    display: none;
+    font-size: 18px;
+    color: gray;
+    margin-top: 3px; /* Reduced spacing */
+}
+.show-translation .translation {
+    display: block;
+}
+.section-markdown-container {
+    background-color: #f1f1f1;
+    padding: 1.2em;
+}

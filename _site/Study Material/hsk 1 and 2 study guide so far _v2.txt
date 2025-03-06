@@ -1,0 +1,277 @@
+//HSK 1 Study
+爱	ai4	n. love
+八	ba1	num. eight
+爸爸	ba4ba5	n. dad
+杯子	bei1zi5	n. cup
+北京	Bei3jing1	n. Beijing
+本	ben3	m. measure word for books
+不	bu4	adv. not
+不客气	bu4ke4qi5	phr. You're welcome (not polite)
+菜	cai4	n. food
+茶	cha2	n. tea
+吃	chi1	v. eat
+出租车	chu1zu1che1	n. taxi
+打电话	da3dian4hua4	v. to call, call up
+大	da4	adj. big
+的	de5	adv. of, possessive particle, really/truly, suffix for self
+点	dian3	n. o'clock, time
+电脑	dian4nao3	n. computer
+电视	dian4shi4	n. TV
+电影	dian4ying3	n. movie
+东西	dong1xi5	n. thing
+都	dou1	adv. all, both, entirely
+读	du2	v. read
+对不起	dui4bu5qi3	phr. sorry, excuse me, apology
+多	duo1	adj. many, much, multi, odd, excessive
+多少	duo1shao5	phr. how much, how many
+儿子	er2zi5	n. son
+二	er4	num. two
+饭店	fan4dian4	n. restaurant
+飞机	fei1ji1	n. airplane
+分钟	fen1zhong1	n. minute
+高兴	gao1xing4	adj. happy
+个	ge4	m. measure word
+工作	gong1zuo4	n. work
+狗	gou3	n. dog
+汉语	Han4yu3	n. Chinese
+好	hao3	adj. good
+号	hao4	n. number
+喝	he1	v. drink
+和	he2	conj. and (e.g., "him and her" → "ta1 he2 ta1")
+很	hen3	adv. very
+后面	hou4mian5	adv. later
+回	hui2	v. back, go back, return
+会	hui4	v. can, able to
+几	ji3	pron. how many (less than 10), several
+家	jia1	n. home
+叫	jiao4	v. call, be called
+今天	jin1tian1	n. today
+九	jiu3	num. nine
+开	kai1	v. open, start
+看	kan4	v. look
+看见	kan4jian5	v. see, sight
+块	kuai4	n. piece, money
+来	lai2	v. come, incoming, arrive
+老师	lao3shi1	n. teacher
+了	le5	part. particle, change in state
+冷	leng3	adj. cold
+里	li3	prep. inside, in
+六	liu4	num. six
+妈妈	ma1ma5	n. mama
+吗	ma5	part. particle, changes to yes/no question
+买	mai3	v. buy, purchase
+猫	mao1	n. cat
+没关系	mei2guan1xi5	phr. it doesn't matter
+没有	mei2you3	v. no, have not
+米饭	mi3fan4	n. rice
+名字	ming2zi5	n. name
+明天	ming2tian1	n. tomorrow
+哪	na3	pron. where, which, what
+哪儿	na3r5	pron. where
+那	na4	pron. that, those
+呢	ne5	part. question particle (e.g., "ni ne?" → "how about you?")
+能	neng2	v. able, can
+你	ni3	pron. you
+年	nian2	n. year
+女儿	nü3er2	n. daughter
+朋友	peng2you5	n. friend
+漂亮	piao4liang5	adj. beautiful
+苹果	ping2guo3	n. apple
+七	qi1	num. seven
+前面	qian2mian5	n. in front
+钱	qian2	n. money, cash, coin
+请	qing3	v. please
+去	qu4	v. go
+热	re4	adj. hot
+人	ren2	n. person
+认识	ren4shi5	v. to know
+三	san1	num. three
+商店	shang1dian4	n. store, shop
+上	shang4	prep. on, upper, previous, above, up, superior
+上午	shang4wu3	n. morning
+少	shao3	adj. small, few
+谁	shei2	pron. who, whose, whoever
+什么	shen2me5	pron. what?
+十	shi2	num. ten
+时候	shi2hou5	n. when, time, moment
+是	shi4	v. be, exist, correct, yes
+书	shu1	n. book
+水	shui3	n. water
+水果	shui3guo3	n. fruit
+睡觉	shui4jiao4	v. sleep, go to bed/sleep
+说	shuo1	v. speak, say, explain, tell, talk
+四	si4	num. four
+岁	sui4	m. years old, age, measure word for years
+他	ta1	pron. he
+她	ta1	pron. she
+太	tai4	adv. too, very, excessive, extremely (e.g., "tai...le")
+天气	tian1qi4	n. weather
+听	ting1	v. listen
+同学	tong2xue2	n. classmate
+喂	wei4	intj. hello (telephone greeting)
+我	wo3	pron. me
+我们	wo3men5	pron. we, us
+五	wu3	num. five
+喜欢	xi3huan5	v. like
+下	xia4	prep. down, under, next, lower, below
+下午	xia4wu3	n. afternoon
+下雨	xia4yu3	v. rain
+先生	xian1sheng5	n. Mr., gentleman, mister
+现在	xian4zai4	adv. now, present, current
+想	xiang3	v. want, to want, think
+小	xiao3	adj. small, little, tiny, young
+小姐	xiao3jie5	n. Miss, young lady
+些	xie1	m. some, few, several
+写	xie3	v. write, draw
+谢谢	xie4xie5	v. thank you
+星期	xing1qi1	n. week
+学生	xue2sheng5	n. student
+学习	xue2xi2	v. study (can just be "xue2")
+学校	xue2xiao4	n. school
+一	yi1	num. one
+一点儿	yi1dian3r5	n. a little, a bit
+衣服	yi1fu5	n. clothing
+医生	yi1sheng1	n. doctor
+医院	yi1yuan4	n. hospital
+椅子	yi3zi5	n. chair
+有	you3	v. to have, be, exist
+月	yue4	n. month (also "moon")
+再见	zai4jian4	phr. goodbye
+在	zai4	v. exist, at, in, be at, remain, dwell
+怎么	zen3me5	adv. how? why?
+怎么样	zen3meyang4	phr. how about it?
+这	zhe4	pron. this
+中国	Zhong1guo2	n. China
+中午	zhong1wu3	n. lunchtime, noon
+住	zhu4	v. live, dwell, stay, reside
+桌子	zhuo1zi5	n. table, desk
+字	zi4	n. character
+昨天	zuo2tian1	n. yesterday
+坐	zuo4	v. sit
+做	zuo4	v. make, create, do
+
+//HSK 2 Study 1
+旅游	lü3you2	v. to travel, to take a trip
+觉得	jue2de5	v. to think, to feel
+最	zui4	adv. most, to the greatest extent (stronger than 好 or 很)
+为什么	wei4shen2me5	adv. why?
+为	wei4	prep. for
+也	ye3	adv. also, too
+运动	yun4dong4	n. sports, exercise, workout
+踢足球	ti1zu2qiu2	v. to play football
+踢	ti1	v. kick
+球	qiu2	n. ball
+一起	yi4qi3	adv. together
+要	yao4	v. to want to, would like to (stronger than 想)
+新	xin1	adj. new
+它	ta1	pron. it
+眼睛	yan3jing5	n. eye
+
+//HSK 2 Study 2
+生病	sheng1bing4	v. to fall ill, to be sick
+每	mei3	adv. every, each
+早上	zao3shang5	n. morning
+跑步	pao3bu4	n. jogging
+跑	pao3	v. run
+步	bu4	n. step
+起床	qi3chuang2	v. to get up, to get out of bed
+药	yao4	n. medicine, drug
+身体	shen1ti3	n. body
+出院	chu1yuan4	v. to leave hospital, to be discharged from hospital
+出	chu1	v. to come/go out
+高	gao1	adj. tall, high
+米	mi3	n. meter
+知道	zhi1dao4	v. to know
+休息	xiu1xi5	v. to have or take a rest
+忙	mang2	adj. busy
+时间	shi2jian1	n. time
+
+//HSK 2 Study 3
+手表	shou3biao3	n. watch
+千	qian1	num. thousand
+报纸	bao4zhi3	n. newspaper
+送	song4	v. to send, to deliver (also can mean free)
+这	zhe4	pron. this
+一下	yi2xia4	part. used after a verb to indicate an act, attempt, or a little
+牛奶	niu2nai3	n. milk
+房间	fang2jian1	n. room
+丈夫	zhang4fu5	n. husband
+旁边	pang2bian1	n. beside
+真	zhen1	adv. really, indeed
+粉色	fen3se4	n. pink
+粉	fen3	n. powder
+颜色	yan2se4	n. color
+左边	zuo3bian1	n. left side
+红色	hong2se4	n. red
+红	hong2	adj. red
+后边	hou4bian1	n. back
+中间	zhong1jian1	n. middle
+右边	you4bian1	n. right side
+旁边	pang2bian1	n. beside
+前边	qian2bian1	n. front
+
+//HSK 2 Study 4
+百	bai3	num. hundred
+生日	sheng1ri4	n. birthday
+快乐	kuai4le4	adj. happy, glad; n. happiness
+给	gei3	v./prep. to, for, give
+接	jie1	v. to receive, to take, to accept, catch
+晚上	wan3shang5	n. evening, night
+问	wen4	v. to ask
+非常	fei1chang2	adv. very, extremely
+开始	kai1shi3	v. to begin, to start
+已经	yi3jing1	adv. already
+长	chang2	adj. long
+两	liang3	num. two
+帮	bang1	v. to help, to assist
+介绍	jie4shao4	v. to introduce, to recommend
+
+//HSK 2 Study 5
+外面	wai4mian4	n. outside
+准备	zhun3bei4	v. to intend, to prepare
+就	jiu4	adv. used to indicate a conclusion or resolution (just, exactly, then, only, right away—depends on context)
+鱼	yu2	n. fish
+吧	ba5	part. used at the end of a sentence to indicate consultation, suggestion, request, or command
+件	jian4	m. piece (used for clothes among other items)
+还	hai2	adv. passably, fairly, rather
+可以	ke3yi3	adj. not bad
+不错	bu2cuo4	adj. not bad, pretty good
+考试	kao3shi4	n. test, exam
+意思	yi4si5	n. meaning, idea, interest
+咖啡	ka1fei1	n. coffee
+对	dui4	prep. to, for (used before a noun or pronoun, e.g., "Shì a, kāfēi hē duō le duì shēntǐ bù hǎo.")
+以后	yi3hou4	adv. after, afterwards, later
+有点儿	you3dian3r5	adv. a little, slightly
+就是	jiu4shi4	adv. just, exactly (used for emphasis)
+球	qiu2	n. ball, sphere
+打	da3	v. to hit, to play (sports), to make (a call)
+
+//Personal Study Words
+真	zhen1	adv. very, more than 很
+真的吗	zhen1de5ma5	phr. Really?
+买一送一	mai3yi1song4yi1	phr. buy one get one free
+这送的	zhe4song4de5	phr. this is given (freebie)
+对	dui4	adj. correct
+新年快乐	xin1nian2kuai4le4	phr. Happy New Year
+接电话	jie1dian4hua4	v. answer phone, pick up phone
+赠品	zeng4pin3	n. freebies
+你的作业	ni3de5zuo4ye4	n. your homework
+早上有人给你打了一个电话。	zao3shang5 you3ren2 gei3 ni3 da3le5 yi1ge4 dian4hua4	phr. Someone called you this morning.
+工程师	gong1cheng2shi1	n. engineer
+蛋糕	dan4gao1	n. cake
+现在我们一起去吃吧。	xian4zai4 wo3men yi1qi3 qu4 chi1 ba5	phr. Right now, let's go eat together. (吧 suggests a suggestion)
+我们给你留了一些糕点。	wo3men gei3 ni3 liu2le5 yi1xie1 gao1dian3	phr. We saved you some pastries. (蛋挞 dàn tǎ refers to egg tarts)
+谁会说汉语？	shei2 hui4 shuo1 Han4yu3	phr. Who can speak Chinese?
+这是谁的书？	zhe4 shi4 shei2de5 shu1	phr. Whose book is this?
+我到家了。祝你周末愉快。	wo3 dao4 jia1 le5. zhu4 ni3 zhou1mo4 yu2kuai4.	phr. I’m home. Have a nice weekend.
+晚上我们去饭馆吃饭，怎么样？	wan3shang5 wo3men qu4 fan4guan3 chi1fan4, zen3me5yang4?	phr. Let's go to a restaurant for dinner. What do you think?
+下星期	xia4xing1qi1	n. next week
+
+
+
+
+
+
+
+
+我

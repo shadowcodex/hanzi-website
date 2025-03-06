@@ -1,0 +1,76 @@
+################ Flash Card Formatting
+################ Flash Card Formatting
+################ Flash Card Formatting
+I will give you a list of flash card definitions in the following format:
+
+<hanzi><tab><pinyin_with_tones><tab><definition>
+
+
+You will modify this to be.
+<hanzi><tab><pinyin_with_corrected_tones><tab><english_part><same_definition_with_spelling_corrections>
+
+
+For english parts you are placing something like one of the following n. adj. adv. m. (measure word) ... etc...
+
+You will give the answer back in code including the correct tab characters where <tab> is.
+
+You will not insert <tab> between <english_part> and <same_definition_with_spelling_corrections>, only a space.
+
+Pinyin should be number tones only, no tone marks.
+
+Pinyin if one word should not have a space between hanzi pinyin.
+
+
+################## Hanzi Extraction
+################## Hanzi Extraction
+################## Hanzi Extraction
+I will give you a blob of text that has hanzi. Typically formatted as <hanzi>\t<pinyin>\t<definition>. You will return this as just the hanzi phrases.
+
+################## HSK Graded Reader - Story Generation
+################## HSK Graded Reader - Story Generation
+################## HSK Graded Reader - Story Generation
+Generate a short story in mandarin hanzi using only the list of hanzi characters I give you. State the title of the story in English.
+
+Here is your first set of characters:
+```
+1。你、好、您、你们、对不起、没关系
+
+2。谢谢、不、不客气、再见
+
+3。叫、什么、名字、我、是、老师、吗、学生、人、李月、中国、美国
+
+4。她、谁、的、汉语、哪、国、呢、他、同学、朋友
+
+5。家、有、口、女儿、几、岁、了、今年、多、大
+
+6。会、说、妈妈、菜、很、好吃、做、写、汉字、字、怎么、读
+
+7。请、问、今天、号、月、星期、昨天、明天、去、学校、看、 书
+
+8。想、喝、茶、吃、米饭、下午、商店、买、个、杯子、这、多少、钱、快、那
+
+9。小、猫、在、那儿、那里、狗、椅子、下、哪儿、哪里、工作、儿子、医院、医生、爸爸
+
+10。桌子、上、电脑、和、本、里、前面、后面、王方、谢朋、这儿、没有（没）、能、坐
+
+11。现在、点、分、中午、吃饭、时候、回、我们、电影、住、前、北京
+
+12。天气、怎么样、太（太…了）、热、冷、下雨、下、雨、小姐、来、身体、爱、些、水果、水
+
+13。喂、也、学习、大卫、上午、睡觉、电视、喜欢、给、打电话、吧
+
+14。东西、一点儿、苹果、看见、先生、开、车、回来、分钟、后、张、衣服、漂亮、啊、少、不少、这些、都、
+
+15。认识、年、大学、饭店、出租车、一起、高兴、听、飞机
+```
+
+
+############## HSK Chapter Dialog Generator
+############## HSK Chapter Dialog Generator
+############## HSK Chapter Dialog Generator
+I will give you a list of hanzi. In that it will be broken down by chapters. Where the number at the beginning of a line indicates the chapter. Your goal is to generate dialog using every hanzi from the latest chapter in the list, and limited to using only hanzi that are available in the current or previous chapters (no external hanzi allowed at this time). You should create 3-4 dialogs for the latest chapter.
+
+Each dialog should be between 3 and 15 lines long. The lines should vary in length. And the content of the dialogs should vary as we generate more chapters, such that content does not become repetitive.
+
+
+
