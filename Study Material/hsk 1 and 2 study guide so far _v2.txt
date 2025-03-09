@@ -277,16 +277,16 @@
 到	dao4	v. to arrive, to reach
 
 //HSK 2 Study 8
-再  zai4    adv. again, once more
-让  rang4  v. to let, to allow
-告诉  gao4su4  v. to tell
-等  deng3  v. to wait, to await
-找  zhao3  v. to look for
-事情  shi4qing  n. thing, matter, affair
-服务员  fu2wu4yuan2  n. attendant, waiter/waitress
-白  bai2  adj. wahite
-黑  hei1  adj. black
-贵  gui4  adj. expensive
+再 	zai4	adv. again, once more
+让	rang4	v. to let, to allow
+告诉	gao4su4	v. to tell
+等	deng3	v. to wait, to await
+找	zhao3	v. to look for
+事情	shi4qing	n. thing, matter, affair
+服务员	fu2wu4yuan2	n. attendant, waiter/waitress
+白	bai2	adj. wahite
+黑	hei1	adj. black
+贵	gui4	adj. expensive
 
 //Personal Study Words
 真	zhen1	adv. very, more than 很
