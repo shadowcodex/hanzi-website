@@ -288,7 +288,47 @@
 黑	hei1	adj. black
 贵	gui4	adj. expensive
 
-//Personal Study Words
+//HSK 2 Study 9
+错	cuo4	adj. wrong, incorrect
+从	cong2	prep. from
+跳舞	tiao4wu3	v. to dance
+第一	di4yi1	num. first
+希望	xi1wang4	v./n. to hope, wish; hope
+问题	wen4ti2	n. question, problem
+欢迎	huan1ying2	v. to welcome
+上班	shang4ban1	v. to go to work, to be on duty, to do job
+懂	dong3	v. to understand, to know
+完	wan2	v. to finish, to complete
+题	ti2	n. question, problem (on a test or exercise)
+
+//Personal Dictionary
+还在	hai2zai4	adv. still at, still (e.g., 还在学习 = still studying)
+好好	hao3hao3	adv. well, properly (e.g., 好好学习 = work hard studying)
+路上	lu4shang5	n. on the road, on the way
+听说	ting1shuo1	v. hear of, be told
+路边	lu4bian1	n. roadside, roadside area
+就	jiu4	adv. just, then, fast, immediate
+到	dao4	v. arrive, reach
+就到	jiu4dao4	phr. arrive soon, almost there
+快	kuai4	adj. fast, quick
+块	kuai4	m. piece, chunk, unit of currency
+期待	qi2dai4	v. look forward to
+一个多	yi1ge4duo1	phr. more than one
+过	guo4	v. to celebrate, to observe (used for holidays, birthdays, etc.)
+过	guo4	v. pass, surpass, spend time
+给	gei3	v./prep. give, for
+还有	hai2you3	phr. still have, there is still
+走	zou3	v. walk, go
+就到了	jiu4dao4le5	phr. arriving soon, almost there
+可是	ke3shi4	conj. but, however
+想想	xiang3xiang3	v. think about, consider
+出去	chu1qu4	v. go out, leave
+等等	deng3deng3	v. wait a moment; part. etc.
+什么事情	shen2me5shi4qing2	phr. what matter, what’s going on
+运动运动	yun4dong4yun4dong4	v. exercise a bit, move around
+看看	kan4kan5	v. take a look, have a look
+这件	zhe4jian4	m. this piece, this item
+这几件	zhe4ji3jian4	m. these few pieces, these several items
 真	zhen1	adv. very, more than 很
 真的吗	zhen1de5ma5	phr. Really?
 买一送一	mai3yi1song4yi1	phr. buy one get one free
@@ -298,13 +338,32 @@
 接电话	jie1dian4hua4	v. answer phone, pick up phone
 赠品	zeng4pin3	n. freebies
 你的作业	ni3de5zuo4ye4	n. your homework
-早上有人给你打了一个电话。	zao3shang5 you3ren2 gei3 ni3 da3le5 yi1ge4 dian4hua4	phr. Someone called you this morning.
+下星期	xia4xing1qi1	n. next week
 工程师	gong1cheng2shi1	n. engineer
 蛋糕	dan4gao1	n. cake
+
+//Personal Phrases
+早上有人给你打了一个电话。	zao3shang5 you3ren2 gei3 ni3 da3le5 yi1ge4 dian4hua4	phr. Someone called you this morning.
 现在我们一起去吃吧。	xian4zai4 wo3men yi1qi3 qu4 chi1 ba5	phr. Right now, let's go eat together. (吧 suggests a suggestion)
 我们给你留了一些糕点。	wo3men gei3 ni3 liu2le5 yi1xie1 gao1dian3	phr. We saved you some pastries. (蛋挞 dàn tǎ refers to egg tarts)
 谁会说汉语？	shei2 hui4 shuo1 Han4yu3	phr. Who can speak Chinese?
 这是谁的书？	zhe4 shi4 shei2de5 shu1	phr. Whose book is this?
 我到家了。祝你周末愉快。	wo3 dao4 jia1 le5. zhu4 ni3 zhou1mo4 yu2kuai4.	phr. I’m home. Have a nice weekend.
 晚上我们去饭馆吃饭，怎么样？	wan3shang5 wo3men qu4 fan4guan3 chi1fan4, zen3me5yang4?	phr. Let's go to a restaurant for dinner. What do you think?
-下星期	xia4xing1qi1	n. next week
+
+//Confusing Pairs
+早上、上午、中午、下午、晚上	zao3shang5, shang4wu3, zhong1wu3, xia4wu3, wan3shang5	n. morning, morning, noon, afternoon, night
+昨天、前边、时候	zuo2tian1, qian2bian1, shi2hou5	n. yesterday, front, time/moment
+中间、问、门、们	zhong1jian1, wen4, men2, men5	n. middle, question, door, plural suffix
+九、几	jiu3, ji3	num./pron. nine, how many/how much
+高、高兴	gao1, gao1xing4	adj. tall, happy (lit. tall mood)
+些、写	xie1, xie3	m./v. some/few, write
+多、都	duo1, dou1	adj./adv. many/much, all/both
+这、送、运	zhe4, song4, yun4	pron./v. this, send/deliver, transport/move
+小、少	xiao3, shao3	adj. small, few
+走、坐、做	zou3, zuo4, zuo4	v. walk/leave, sit, do/make
+就、九	jiu4, jiu3	adv./num. just/then, nine
+在、再	zai4, zai4	prep./adv. at/in, again
+块、快	kuai4, kuai4	m./adj. piece/unit, fast
+她、他、它	ta1, ta1, ta1	pron. she/her, he/him, it
+

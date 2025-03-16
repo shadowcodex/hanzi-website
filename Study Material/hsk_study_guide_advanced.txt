@@ -1,0 +1,28 @@
+//HSK 1 Words
+爱	ài	n. love我爱我的家人。A: 你爱你的家吗？B: 爱，我爱我的家！A: 你的家在哪儿？B: 在北京。
+八	bā	num. eight我有八个杯子。A: 你有多少个杯子？B: 我有八个。A: 这些杯子是你的？B: 对，都是我的。
+爸爸	bàba	n. dad我爸爸是医生。A: 你爸爸做什么工作？B: 他是医生。A: 他在哪儿工作？B: 在医院。
+杯子	bēizi	n. cup这个杯子很大。A: 这个杯子是谁的？B: 是我的。A: 你的杯子很大！B: 是啊，很好用。
+北京	Běijīng	n. Beijing北京是中国的城市。A: 你住在哪儿？B: 我住在北京。A: 北京怎么样？B: 北京很大，很漂亮。
+本	běn	m. measure word for books我有三本书。A: 你有几本书？B: 我有三本书。A: 这些书是你的？B: 对，都是我的。
+不	bù	adv. not我不喜欢喝茶。A: 你喜欢喝茶吗？B: 不，我不喜欢。A: 那你喜欢喝什么？B: 我喜欢喝水。
+不客气	bù kèqi	phr. You're welcome (not polite)谢谢你！不客气。A: 谢谢你！B: 不客气！A: 你真好。B: 没关系。
+菜	cài	n. food这个菜很好吃。A: 这个菜怎么样？B: 很好吃！A: 是你做的吗？B: 是的，我做的。
+茶	chá	n. tea我下午想喝茶。A: 你下午喝什么？B: 我想喝茶。A: 你喜欢什么茶？B: 我喜欢中国茶。
+吃	chī	v. eat我喜欢吃米饭。A: 你喜欢吃什么？B: 我喜欢吃米饭。A: 你会做饭吗？B: 会，我会做菜。
+出租车	chūzūchē	n. taxi我坐出租车去学校。A: 你怎么去学校？B: 我坐出租车去。A: 学校远吗？B: 不远，很快就到。
+
+
+//HSK 1 Phrases
+我爱我的家人。	 wǒ ài wǒ de jiārén。	I love my family.I love my family.
+我有八个杯子。	 wǒ yǒu bā gè bēizi。	I have eight cups.I have eight cups.
+我爸爸是医生。	 wǒ bàba shì yīshēng。	My dad is a doctor.My dad is a doctor.
+这个杯子很大。	 zhè ge bēizi hěn dà。	This cup is very big.This cup is very big.
+北京是中国的城市。	 Běijīng shì Zhōngguó de chéngshì。	Beijing is a city in China.Beijing is a city in China.
+我有三本书。	wǒ yǒu sān běn shū。	I have three books.I have three books.
+我不喜欢喝茶。	wǒ bù xǐhuān hē chá。	I don’t like drinking tea.I don’t like drinking tea.
+谢谢你！不客气。	xièxiè nǐ! bù kèqi。	Thank you! You're welcome.Thank you! You're welcome.
+这个菜很好吃。	zhè ge cài hěn hǎochī。	This dish is very delicious.This dish is very delicious.
+我下午想喝茶。	wǒ xiàwǔ xiǎng hē chá。	I want to drink tea in the afternoon.I want to drink tea in the afternoon.
+我喜欢吃米饭。	wǒ xǐhuān chī mǐfàn。	I like to eat rice.I like to eat rice.
+我坐出租车去学校。	wǒ zuò chūzūchē qù xuéxiào。	I take a taxi to school.I take a taxi to school.
