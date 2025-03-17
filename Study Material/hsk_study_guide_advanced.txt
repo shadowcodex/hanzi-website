@@ -1,28 +1,699 @@
 //HSK 1 Words
-爱	ài	n. love我爱我的家人。A: 你爱你的家吗？B: 爱，我爱我的家！A: 你的家在哪儿？B: 在北京。
-八	bā	num. eight我有八个杯子。A: 你有多少个杯子？B: 我有八个。A: 这些杯子是你的？B: 对，都是我的。
-爸爸	bàba	n. dad我爸爸是医生。A: 你爸爸做什么工作？B: 他是医生。A: 他在哪儿工作？B: 在医院。
-杯子	bēizi	n. cup这个杯子很大。A: 这个杯子是谁的？B: 是我的。A: 你的杯子很大！B: 是啊，很好用。
-北京	Běijīng	n. Beijing北京是中国的城市。A: 你住在哪儿？B: 我住在北京。A: 北京怎么样？B: 北京很大，很漂亮。
-本	běn	m. measure word for books我有三本书。A: 你有几本书？B: 我有三本书。A: 这些书是你的？B: 对，都是我的。
-不	bù	adv. not我不喜欢喝茶。A: 你喜欢喝茶吗？B: 不，我不喜欢。A: 那你喜欢喝什么？B: 我喜欢喝水。
-不客气	bù kèqi	phr. You're welcome (not polite)谢谢你！不客气。A: 谢谢你！B: 不客气！A: 你真好。B: 没关系。
-菜	cài	n. food这个菜很好吃。A: 这个菜怎么样？B: 很好吃！A: 是你做的吗？B: 是的，我做的。
-茶	chá	n. tea我下午想喝茶。A: 你下午喝什么？B: 我想喝茶。A: 你喜欢什么茶？B: 我喜欢中国茶。
-吃	chī	v. eat我喜欢吃米饭。A: 你喜欢吃什么？B: 我喜欢吃米饭。A: 你会做饭吗？B: 会，我会做菜。
-出租车	chūzūchē	n. taxi我坐出租车去学校。A: 你怎么去学校？B: 我坐出租车去。A: 学校远吗？B: 不远，很快就到。
-
+爱	ài	n. love	我爱我的家。	A: 你爱你的家吗？B: 是的，我爱我的家。A: 你的家在哪儿？B: 我的家在北京。
+八	bā	num. eight	我有八个苹果。	A: 你有几个苹果？B: 我有八个苹果。A: 你想吃几个？B: 我想吃两个。
+爸爸	bàba	n. dad	我爸爸是医生。	A: 你爸爸做什么工作？B: 我爸爸是医生。A: 他在医院工作吗？B: 是的，他在医院工作。
+杯子	bēizi	n. cup	这个杯子是我的。	A: 这个杯子是谁的？B: 这个杯子是我的。A: 你的杯子是什么颜色的？B: 我的杯子是红色的。
+北京	Běijīng	n. Beijing	北京是中国的首都。	A: 你去过北京吗？B: 去过，北京很大。A: 北京在哪儿？B: 北京在中国。
+本	běn	m. measure word for books	我有三本书。	A: 你有几本书？B: 我有三本书。A: 你的书是什么？B: 这是汉语书。
+不	bù	adv. not	我不喜欢喝茶。	A: 你喜欢喝茶吗？B: 我不喜欢喝茶。A: 你喜欢喝什么？B: 我喜欢喝水。
+不客气	bù kèqi	phr. You're welcome	A: 谢谢你！B: 不客气。	A: 你帮了我很多！谢谢！B: 不客气，这是小事。A: 你真好。B: 你也是。
+菜	cài	n. food	这个菜很好吃。	A: 这个菜怎么样？B: 这个菜很好吃。A: 你会做这个菜吗？B: 我不会做。
+茶	chá	n. tea	我想喝茶。	A: 你想喝什么？B: 我想喝茶。A: 你喜欢喝红茶还是绿茶？B: 我喜欢绿茶。
+吃	chī	v. eat	我喜欢吃米饭。	A: 你喜欢吃什么？B: 我喜欢吃米饭。A: 你今天吃了什么？B: 我吃了米饭和菜。
+出租车	chūzūchē	n. taxi	我坐出租车去学校。	A: 你怎么去学校？B: 我坐出租车去学校。A: 你每天坐出租车吗？B: 不，我有时候坐公共汽车。
+打电话	dǎ diànhuà	v. to call, call up	我给妈妈打电话。	A: 你在做什么？B: 我在给妈妈打电话。A: 你每天给妈妈打电话吗？B: 是的，每天都打。
+大	dà	adj. big	这个房子很大。	A: 你的房子大吗？B: 这个房子很大。A: 你的学校大吗？B: 也很大。
+的	de	adv. of, possessive particle, really/truly, suffix for self	这是我的书。	A: 这是谁的书？B: 这是我的书。A: 你的书多吗？B: 很多。
+点	diǎn	n. o'clock, time	现在是三点。	A: 现在几点？B: 现在是三点。A: 你几点去学校？B: 我八点去学校。
+电脑	diànnǎo	n. computer	我的电脑在桌子上。	A: 你的电脑在哪儿？B: 我的电脑在桌子上。A: 你的电脑是新的还是旧的？B: 是新的。
+电视	diànshì	n. TV	我在看电视。	A: 你在做什么？B: 我在看电视。A: 你喜欢看什么电视节目？B: 我喜欢看电影。
+电影	diànyǐng	n. movie	我喜欢看电影。	A: 你喜欢看电影吗？B: 是的，我喜欢看电影。A: 你最喜欢什么电影？B: 我喜欢中国电影。
+东西	dōngxi	n. thing	我去商店买东西。	A: 你去哪儿？B: 我去商店买东西。A: 你买什么？B: 我买苹果和水。
+都	dōu	adv. all, both, entirely	我们都是学生。	A: 你们是什么人？B: 我们都是学生。A: 你们都学习汉语吗？B: 是的，我们都学习汉语。
+读	dú	v. read	我喜欢读书。	A: 你喜欢做什么？B: 我喜欢读书。A: 你每天都读书吗？B: 是的，我每天都读书。
+对不起	duìbuqǐ	phr. sorry, excuse me, apology	A: 对不起，我来晚了。B: 没关系。	A: 对不起，我不小心。B: 没关系。A: 你真好。B: 你也是。
+多	duō	adj. many, much, multi, odd, excessive	我有很多书。	A: 你有多少书？B: 我有很多书。A: 你喜欢看书吗？B: 是的，我很喜欢。
+多少	duōshao	phr. how much, how many	这个杯子多少钱？	A: 这个杯子多少钱？B: 20块。A: 太贵了！B: 那个便宜一点。
+儿子	érzi	n. son	我儿子今年五岁。	A: 你的儿子几岁？B: 我儿子今年五岁。A: 他喜欢什么？B: 他喜欢玩儿小汽车。
+二	èr	num. two	我有二个苹果。	A: 你有几个苹果？B: 我有二个苹果。A: 你想吃吗？B: 是的，我想吃。
+饭店	fàndiàn	n. restaurant	这个饭店的菜很好吃。	A: 你去过这个饭店吗？B: 去过，这里的菜很好吃。A: 你最喜欢吃什么？B: 我喜欢吃鱼。
+飞机	fēijī	n. airplane	我坐飞机去北京。	A: 你怎么去北京？B: 我坐飞机去北京。A: 飞机快吗？B: 是的，飞机很快。
+分钟	fēnzhōng	n. minute	请等五分钟。	A: 你什么时候走？B: 请等五分钟。A: 五分钟后走吗？B: 对，五分钟后走。
+高兴	gāoxìng	adj. happy	我很高兴认识你。	A: 你高兴吗？B: 是的，我很高兴。A: 为什么？B: 因为今天是我的生日。
+个	gè	m. measure word	我有一个杯子。	A: 你有几个杯子？B: 我有一个杯子。A: 你的杯子在哪儿？B: 在桌子上。
+工作	gōngzuò	n. work	我爸爸的工作是医生。	A: 你爸爸做什么工作？B: 我爸爸是医生。A: 他每天工作忙吗？B: 是的，很忙。
+狗	gǒu	n. dog	我家有一只狗。	A: 你家有狗吗？B: 是的，我家有一只狗。A: 你的狗叫什么名字？B: 叫小黑。
+汉语	Hànyǔ	n. Chinese	我会说汉语。	A: 你会说汉语吗？B: 是的，我会说汉语。A: 你的汉语很好！B: 谢谢！
+好	hǎo	adj. good	今天的天气很好。	A: 今天天气怎么样？B: 今天天气很好。A: 你喜欢这样的天气吗？B: 是的，我很喜欢。
+号	hào	n. number	今天是三号。	A: 今天几号？B: 今天是三号。A: 明天是几号？B: 明天是四号。
+喝	hē	v. drink	我喜欢喝茶。	A: 你喜欢喝什么？B: 我喜欢喝茶。A: 你喝水吗？B: 是的，我也喝水。
+和	hé	conj. and	我和朋友去学校。	A: 你和谁去学校？B: 我和朋友去学校。A: 你们几点去？B: 我们八点去。
+很	hěn	adv. very	我很高兴。	A: 你高兴吗？B: 是的，我很高兴。A: 为什么？B: 因为今天是我的生日。
+后面	hòumian	adv. later	学校在商店后面。	A: 学校在哪儿？B: 学校在商店后面。A: 你去学校吗？B: 是的，我现在去学校。
+回	huí	v. back, go back, return	我回家了。	A: 你去哪儿？B: 我回家了。A: 你几点回家？B: 我六点回家。
+会	huì	v. can, able to	我会写汉字。	A: 你会写汉字吗？B: 是的，我会写汉字。A: 你写得好吗？B: 还可以。
+几	jǐ	pron. how many (less than 10), several	你有几个苹果？	A: 你有几个苹果？B: 我有三个苹果。A: 你要几个？B: 我要两个。
+家	jiā	n. home	我家在北京。	A: 你家在哪儿？B: 我家在北京。A: 你的家大吗？B: 不大，但很漂亮。
+叫	jiào	v. call, be called	我叫王明。	A: 你叫什么名字？B: 我叫王明。A: 你是学生吗？B: 是的，我是学生。
+今天	jīntiān	n. today	今天是星期三。	A: 今天星期几？B: 今天是星期三。A: 你今天去学校吗？B: 是的，我去学校。
+九	jiǔ	num. nine	我有九个杯子。	A: 你有几个杯子？B: 我有九个杯子。A: 这么多？B: 是的，我喜欢买杯子。
+开	kāi	v. open, start	我开门了。	A: 你开门了吗？B: 是的，我开门了。A: 你几点开门？B: 早上八点开门。
+看	kàn	v. look	请看这本书。	A: 你在看什么？B: 我在看这本书。A: 这本书好看吗？B: 是的，很好看。
+看见	kànjiàn	v. see, sight	我看见了一个朋友。	A: 你看见谁了？B: 我看见了一个朋友。A: 你们在哪里见的？B: 在商店见的。
+块	kuài	n. piece, money	这个苹果三块钱。	A: 这个苹果多少钱？B: 这个苹果三块钱。A: 太贵了！B: 那个便宜一点。
+来	lái	v. come, incoming, arrive	请你来我家。	A: 你今天来我家吗？B: 是的，我会来。A: 你几点来？B: 下午三点。
+老师	lǎoshī	n. teacher	王老师是我的汉语老师。	A: 你的老师是谁？B: 王老师是我的汉语老师。A: 他教什么？B: 他教汉语。
+了	le		part. particle, change in state	我吃饭了。	A: 你吃饭了吗？B: 我吃饭了。A: 你吃了什么？B: 我吃了米饭。
+冷	lěng	adj. cold	今天很冷。	A: 今天天气怎么样？B: 今天很冷。A: 你穿了什么衣服？B: 我穿了大衣。
+里	lǐ	prep. inside, in	书在桌子里。	A: 书在哪儿？B: 书在桌子里。A: 你可以给我吗？B: 可以，给你。
+六	liù	num. six	我有六个杯子。	A: 你有几个杯子？B: 我有六个杯子。A: 这么多！B: 是的，我喜欢买杯子。
+妈妈	māma	n. mama	我妈妈很爱我。	A: 你妈妈好吗？B: 我妈妈很好。A: 她喜欢做什么？B: 她喜欢看书。
+吗	ma	part. particle, changes to yes/no question	你喜欢汉语吗？	A: 你喜欢汉语吗？B: 是的，我喜欢。A: 你会说汉语吗？B: 我会说一点儿。
+买	mǎi	v. buy, purchase	我买了一个杯子。	A: 你买什么了？B: 我买了一个杯子。A: 多少钱？B: 十块钱。
+猫	māo	n. cat	我家有一只猫。	A: 你家有猫吗？B: 是的，我家有一只猫。A: 你的猫叫什么？B: 叫小白。
+没关系	méiguānxi	phr. it doesn't matter	A: 对不起！B: 没关系。	A: 对不起，我迟到了！B: 没关系。A: 你真好。B: 你也是。
+没有	méiyǒu	v. no, have not	我没有电脑。	A: 你有电脑吗？B: 我没有电脑。A: 你想买一个吗？B: 是的，我想买。
+米饭	mǐfàn	n. rice	我喜欢吃米饭。	A: 你喜欢吃什么？B: 我喜欢吃米饭。A: 你今天吃米饭了吗？B: 吃了。
+名字	míngzi	n. name	我的名字是李明。	A: 你的名字是什么？B: 我的名字是李明。A: 你喜欢你的名字吗？B: 是的，我喜欢。
+明天	míngtiān	n. tomorrow	明天是星期五。	A: 明天星期几？B: 明天是星期五。A: 你明天去学校吗？B: 是的，我去学校。
+哪	nǎ	pron. where, which, what	你是哪个国家的人？	A: 你是哪个国家的人？B: 我是中国人。A: 你会说汉语吗？B: 会，我会说汉语。
+哪儿	nǎr	pron. where	你的家在哪儿？	A: 你的家在哪儿？B: 我的家在北京。A: 你家大吗？B: 不大，但很漂亮。
+那	nà	pron. that, those	那是我的书。	A: 那是谁的书？B: 那是我的书。A: 这本书好看吗？B: 是的，很好看。
+呢	ne		part. question particle	我很好，你呢？	A: 你今天好吗？B: 我很好，你呢？A: 我也很好。B: 太好了！
+能	néng	v. able, can	我能说汉语。	A: 你能说汉语吗？B: 是的，我能说汉语。A: 你能写汉字吗？B: 能，我会写。
+你	nǐ	pron. you	你好！	A: 你好！B: 你好！A: 你叫什么名字？B: 我叫王明。
+年	nián	n. year	今年是2025年。	A: 今年是哪一年？B: 今年是2025年。A: 你几岁了？B: 我二十岁。
+女儿	nǚ’ér	n. daughter	我有一个女儿。	A: 你有女儿吗？B: 是的，我有一个女儿。A: 她多大了？B: 她三岁了。
+朋友	péngyou	n. friend	他是我的朋友。	A: 你有很多朋友吗？B: 是的，我有很多朋友。A: 你的朋友在哪儿？B: 他们在学校。
+漂亮	piàoliang	adj. beautiful	这个房子很漂亮。	A: 这个房子怎么样？B: 这个房子很漂亮。A: 你喜欢这里吗？B: 是的，我很喜欢。
+苹果	píngguǒ	n. apple	我买了三个苹果。	A: 你买了什么？B: 我买了三个苹果。A: 多少钱？B: 一共十块钱。
+七	qī	num. seven	我家有七个人。	A: 你家有几个人？B: 我家有七个人。A: 你们住在哪儿？B: 我们住在北京。
+前面	qiánmian	n. in front	学校在商店前面。	A: 学校在哪儿？B: 学校在商店前面。A: 你去学校吗？B: 是的，我现在去。
+钱	qián	n. money, cash, coin	这个苹果三块钱。	A: 这个苹果多少钱？B: 这个苹果三块钱。A: 太贵了！B: 那个便宜一点。
+请	qǐng	v. please	请进。	A: 你好，请进！B: 谢谢！A: 你喝茶吗？B: 好的，谢谢！
+去	qù	v. go	我去学校。	A: 你去哪儿？B: 我去学校。A: 你几点去？B: 我八点去。
+热	rè	adj. hot	今天很热。	A: 今天天气怎么样？B: 今天很热。A: 你喜欢这样的天气吗？B: 不，我喜欢冷一点的天气。
+人	rén	n. person	他是中国人。	A: 他是哪国人？B: 他是中国人。A: 你也是中国人吗？B: 不是，我是美国人。
+认识	rènshi	v. to know	我认识他。	A: 你认识他吗？B: 认识，我们是朋友。A: 你们在哪儿认识的？B: 在学校认识的。
+三	sān	num. three	我有三本书。	A: 你有几本书？B: 我有三本书。A: 你喜欢看书吗？B: 是的，我喜欢。
+商店	shāngdiàn	n. store, shop	我去商店买东西。	A: 你去哪儿？B: 我去商店买东西。A: 你想买什么？B: 我想买水果。
+上	shàng	prep. on, upper, previous, above, up, superior	书在桌子上。	A: 书在哪儿？B: 书在桌子上。A: 你的电脑呢？B: 电脑也在桌子上。
+上午	shàngwǔ	n. morning	我上午去学校。	A: 你什么时候去学校？B: 我上午去学校。A: 你下午做什么？B: 我下午看书。
+少	shǎo	adj. small, few	我有很少的钱。	A: 你有多少钱？B: 我有很少的钱。A: 你想买东西吗？B: 不，我没有足够的钱。
+谁	shéi	pron. who, whose, whoever	他是谁？	A: 他是谁？B: 他是我的朋友。A: 你认识他吗？B: 认识，我们是同学。
+什么	shénme	pron. what?	你喜欢吃什么？	A: 你喜欢吃什么？B: 我喜欢吃米饭。A: 你喜欢喝什么？B: 我喜欢喝水。
+十	shí	num. ten	我有十块钱。	A: 你有多少钱？B: 我有十块钱。A: 够买苹果吗？B: 够，可以买两个。
+时候	shíhou	n. when, time, moment	你什么时候去学校？	A: 你什么时候去学校？B: 我上午去学校。A: 你什么时候回家？B: 下午三点回家。
+是	shì	v. be, exist, correct, yes	我是学生。	A: 你是学生吗？B: 是的，我是学生。A: 你在哪儿学习？B: 我在北京学习。
+书	shū	n. book	我喜欢看书。	A: 你喜欢做什么？B: 我喜欢看书。A: 你每天看书吗？B: 是的，我每天看书。
+水	shuǐ	n. water	我想喝水。	A: 你想喝什么？B: 我想喝水。A: 你喜欢喝茶吗？B: 不，我喜欢喝水。
+水果	shuǐguǒ	n. fruit	我买了很多水果。	A: 你买了什么？B: 我买了很多水果。A: 你喜欢吃什么水果？B: 我喜欢吃苹果。
+睡觉	shuìjiào	v. sleep, go to bed/sleep	我晚上十点睡觉。	A: 你什么时候睡觉？B: 我晚上十点睡觉。A: 你每天都这么早睡吗？B: 是的，我喜欢早睡。
+说	shuō	v. speak, say, explain, tell, talk	我会说汉语。	A: 你会说汉语吗？B: 是的，我会说汉语。A: 你会写汉字吗？B: 也会写一点儿。
+四	sì	num. four	我有四个苹果。	A: 你有几个苹果？B: 我有四个苹果。A: 你能给我一个吗？B: 当然可以！
+岁	suì	m. years old, age, measure word for years	我今年二十岁。	A: 你今年几岁？B: 我今年二十岁。A: 你是学生吗？B: 是的，我是大学生。
+他	tā	pron. he	他是我的朋友。	A: 他是谁？B: 他是我的朋友。A: 你们在哪儿认识的？B: 在学校认识的。
+她	tā	pron. she	她是我的老师。	A: 她是谁？B: 她是我的老师。A: 她教什么？B: 她教汉语。
+太	tài	adv. too, very, excessive, extremely	这个菜太好吃了！	A: 这个菜怎么样？B: 这个菜太好吃了！A: 你想再吃一点吗？B: 好的，谢谢！
+天气	tiānqì	n. weather	今天天气很好。	A: 今天天气怎么样？B: 今天天气很好。A: 你喜欢这样的天气吗？B: 是的，我喜欢。
+听	tīng	v. listen	请听我说。	A: 你听见了吗？B: 听见了。A: 你听什么？B: 我听音乐。
+同学	tóngxué	n. classmate	王明是我的同学。	A: 你认识王明吗？B: 认识，他是我的同学。A: 你们在一个班吗？B: 是的，我们在一个班。
+喂	wèi	intj. hello (telephone greeting)	喂，你好！	A: 喂，你好！B: 你好，你找谁？A: 我找王老师。B: 好的，请等一下。
+我	wǒ	pron. me	我是学生。	A: 你是谁？B: 我是学生。A: 你学什么？B: 我学汉语。
+我们	wǒmen	pron. we, us	我们是朋友。	A: 你们是什么人？B: 我们是朋友。A: 你们常见面吗？B: 是的，我们每天见面。
+五	wǔ	num. five	我有五个苹果。	A: 你有几个苹果？B: 我有五个苹果。A: 你想吃一个吗？B: 好的，谢谢！
+喜欢	xǐhuan	v. like	我喜欢吃米饭。	A: 你喜欢吃什么？B: 我喜欢吃米饭。A: 你喜欢喝茶吗？B: 是的，我喜欢喝茶。
+下	xià	prep. down, under, next, lower, below	书在桌子下。	A: 书在哪儿？B: 书在桌子下。A: 你的电脑呢？B: 电脑在桌子上。
+下午	xiàwǔ	n. afternoon	我下午去商店。	A: 你什么时候去商店？B: 我下午去商店。A: 你买什么？B: 我买水果。
+下雨	xiàyǔ	v. rain	今天下雨了。	A: 今天天气怎么样？B: 今天下雨了。A: 你带伞了吗？B: 带了。
+先生	xiānsheng	n. Mr., gentleman, mister	王先生是我的老师。	A: 这是谁？B: 这是王先生，他是我的老师。A: 他教什么？B: 他教汉语。
+现在	xiànzài	adv. now, present, current	现在是三点。	A: 现在几点？B: 现在是三点。A: 你现在在哪里？B: 我在学校。
+想	xiǎng	v. want, to want, think	我想喝水。	A: 你想喝什么？B: 我想喝水。A: 你想吃苹果吗？B: 是的，我想吃。
+小	xiǎo	adj. small, little, tiny, young	这只猫很小。	A: 你的猫大吗？B: 不，它很小。A: 它几岁了？B: 它一岁了。
+小姐	xiǎojiě	n. Miss, young lady	这位小姐很漂亮。	A: 你认识她吗？B: 认识，这位小姐是我的朋友。A: 她叫什么名字？B: 她叫李月。
+些	xiē	m. some, few, several	我买了一些水果。	A: 你买了什么？B: 我买了一些水果。A: 你买了苹果吗？B: 是的，买了。
+写	xiě	v. write, draw	我会写汉字。	A: 你会写汉字吗？B: 是的，我会写汉字。A: 你写得好吗？B: 还可以。
+谢谢	xièxie	v. thank you	A: 谢谢你！B: 不客气。	A: 你帮了我很多！谢谢！B: 不客气，这是小事。A: 你真好。B: 你也是。
+星期	xīngqī	n. week	今天是星期三。	A: 今天星期几？B: 今天是星期三。A: 明天星期几？B: 明天是星期四。
+学生	xuéshēng	n. student	我是学生。	A: 你是学生吗？B: 是的，我是学生。A: 你学什么？B: 我学汉语。
+学习	xuéxí	v. study (can just be "xué")	我学习汉语。	A: 你学习什么？B: 我学习汉语。A: 你喜欢学习汉语吗？B: 是的，我喜欢。
+学校	xuéxiào	n. school	我去学校。	A: 你去哪儿？B: 我去学校。A: 你几点去学校？B: 我八点去学校。
+一	yī	num. one	我有一个苹果。	A: 你有几个苹果？B: 我有一个苹果。A: 你想吃吗？B: 是的，我想吃。
+一点儿	yīdiǎnr	n. a little, a bit	请给我一点儿水。	A: 你要多少水？B: 请给我一点儿水。A: 够了吗？B: 够了，谢谢。
+衣服	yīfu	n. clothing	这件衣服很漂亮。	A: 你喜欢这件衣服吗？B: 喜欢，很漂亮。A: 你想买吗？B: 想，但是太贵了。
+医生	yīshēng	n. doctor	王医生在医院工作。	A: 你认识王医生吗？B: 认识，他在医院工作。A: 他是好医生吗？B: 是的，他很好。
+医院	yīyuàn	n. hospital	医院在学校前面。	A: 医院在哪儿？B: 医院在学校前面。A: 你去过医院吗？B: 去过，我生病的时候去过。
+椅子	yǐzi	n. chair	椅子在桌子下。	A: 椅子在哪儿？B: 椅子在桌子下。A: 这是谁的椅子？B: 这是我的椅子。
+有	yǒu	v. to have, be, exist	我有一本书。	A: 你有书吗？B: 有，我有一本书。A: 你喜欢看书吗？B: 是的，我喜欢。
+月	yuè	n. month (also "moon")	今年是三月。	A: 现在是几月？B: 现在是三月。A: 你的生日是几月？B: 我的生日是六月。
+再见	zàijiàn	phr. goodbye	A: 再见！B: 再见，明天见！	A: 你要走了吗？B: 是的，再见！A: 好的，再见！
+在	zài	v. exist, at, in, be at, remain, dwell	我在学校。	A: 你在哪儿？B: 我在学校。A: 你几点回家？B: 下午五点回家。
+怎么	zěnme	adv. how? why?	你怎么去学校？	A: 你怎么去学校？B: 我坐出租车去学校。A: 你也坐公共汽车吗？B: 有时候坐公共汽车。
+怎么样	zěnmeyàng	phr. how about it?	今天天气怎么样？	A: 今天天气怎么样？B: 今天天气很好。A: 你出去玩吗？B: 好的，我们一起去。
+这	zhè	pron. this	这是我的书。	A: 这是谁的书？B: 这是我的书。A: 你的书多吗？B: 是的，我有很多书。
+中国	zhōngguó	n. China	我住在中国。	A: 你住在哪儿？B: 我住在中国。A: 你喜欢中国吗？B: 是的，我喜欢。
+中午	zhōngwǔ	n. lunchtime, noon	我中午吃米饭。	A: 你中午吃什么？B: 我中午吃米饭。A: 你喝水吗？B: 是的，我喝水。
+住	zhù	v. live, dwell, stay, reside	我住在北京。	A: 你住在哪儿？B: 我住在北京。A: 你的家大吗？B: 不大，但很漂亮。
+桌子	zhuōzi	n. table, desk	书在桌子上。	A: 书在哪儿？B: 书在桌子上。A: 你的电脑呢？B: 电脑也在桌子上。
+字	zì	n. character	这个字怎么读？	A: 这个字怎么读？B: 这个字读“汉”。A: 你会写这个字吗？B: 会，我会写。
+昨天	zuótiān	n. yesterday	昨天是星期三。	A: 昨天星期几？B: 昨天是星期三。A: 你昨天做什么了？B: 我昨天去学校了。
+坐	zuò	v. sit	请坐。	A: 你好，请坐！B: 谢谢！A: 你想喝茶吗？B: 好的，谢谢！
+做	zuò	v. make, create, do	我会做饭。	A: 你会做饭吗？B: 是的，我会做饭。A: 你喜欢做什么菜？B: 我喜欢做中国菜。
 
 //HSK 1 Phrases
-我爱我的家人。	 wǒ ài wǒ de jiārén。	I love my family.I love my family.
-我有八个杯子。	 wǒ yǒu bā gè bēizi。	I have eight cups.I have eight cups.
-我爸爸是医生。	 wǒ bàba shì yīshēng。	My dad is a doctor.My dad is a doctor.
-这个杯子很大。	 zhè ge bēizi hěn dà。	This cup is very big.This cup is very big.
-北京是中国的城市。	 Běijīng shì Zhōngguó de chéngshì。	Beijing is a city in China.Beijing is a city in China.
-我有三本书。	wǒ yǒu sān běn shū。	I have three books.I have three books.
-我不喜欢喝茶。	wǒ bù xǐhuān hē chá。	I don’t like drinking tea.I don’t like drinking tea.
-谢谢你！不客气。	xièxiè nǐ! bù kèqi。	Thank you! You're welcome.Thank you! You're welcome.
-这个菜很好吃。	zhè ge cài hěn hǎochī。	This dish is very delicious.This dish is very delicious.
-我下午想喝茶。	wǒ xiàwǔ xiǎng hē chá。	I want to drink tea in the afternoon.I want to drink tea in the afternoon.
-我喜欢吃米饭。	wǒ xǐhuān chī mǐfàn。	I like to eat rice.I like to eat rice.
-我坐出租车去学校。	wǒ zuò chūzūchē qù xuéxiào。	I take a taxi to school.I take a taxi to school.
+我爱我的家。	wǒ ài wǒ de jiā。	I love my home.	I love my home.
+我有八个苹果。	wǒ yǒu bā gè píngguǒ。	I have eight apples.	I have eight apples.
+我爸爸是医生。	wǒ bàba shì yīshēng。	My dad is a doctor.	My dad is a doctor.
+这个杯子是我的。	zhège bēizi shì wǒ de。	This cup is mine.	This cup is mine.
+北京是中国的首都。	Běijīng shì Zhōngguó de shǒudū。	Beijing is China's capital.	Beijing is the capital of China.
+我有三本书。	wǒ yǒu sān běn shū。	I have three books.	I have three books.
+我不喜欢喝茶。	wǒ bù xǐhuan hē chá。	I don't like drinking tea.	I don’t like tea.
+这个菜很好吃。	zhège cài hěn hǎochī。	This dish is very delicious.	This dish is very tasty.
+我想喝茶。	wǒ xiǎng hē chá。	I want to drink tea.	I want tea.
+我喜欢吃米饭。	wǒ xǐhuan chī mǐfàn。	I like to eat rice.	I like eating rice.
+我坐出租车去学校。	wǒ zuò chūzūchē qù xuéxiào。	I take a taxi to school.	I take a taxi to school.
+我给妈妈打电话。	wǒ gěi māma dǎ diànhuà。	I give mom a phone call.	I call my mom.
+这个房子很大。	zhège fángzi hěn dà。	This house is very big.	This house is big.
+这是我的书。	zhè shì wǒ de shū。	This is my book.	This is my book.
+现在是三点。	xiànzài shì sān diǎn。	Now it is three o’clock.	It is three o’clock.
+我的电脑在桌子上。	wǒ de diànnǎo zài zhuōzi shàng。	My computer is on the table.	My computer is on the desk.
+我在看电视。	wǒ zài kàn diànshì。	I am watching TV.	I am watching television.
+我喜欢看电影。	wǒ xǐhuan kàn diànyǐng。	I like watching movies.	I like watching films.
+我去商店买东西。	wǒ qù shāngdiàn mǎi dōngxi。	I go to the store to buy things.	I go shopping.
+我们都是学生。	wǒmen dōu shì xuéshēng。	We all are students.	We are all students.
+我喜欢读书。	wǒ xǐhuan dú shū。	I like reading books.	I like reading.
+我有很多书。	wǒ yǒu hěn duō shū。	I have many books.	I have a lot of books.
+这个杯子多少钱？	zhège bēizi duōshao qián？	How much is this cup?	How much is this cup?
+我儿子今年五岁。	wǒ érzi jīnnián wǔ suì。	My son is five years old this year.	My son is five years old.
+我有二个苹果。	wǒ yǒu èr gè píngguǒ。	I have two apples.	I have two apples.
+这个饭店的菜很好吃。	zhège fàndiàn de cài hěn hǎochī。	This restaurant’s food is very delicious.	This restaurant’s food is very tasty.
+我坐飞机去北京。	wǒ zuò fēijī qù Běijīng。	I take an airplane to Beijing.	I go to Beijing by airplane.
+请等五分钟。	qǐng děng wǔ fēnzhōng。	Please wait five minutes.	Please wait for five minutes.
+我很高兴认识你。	wǒ hěn gāoxìng rènshi nǐ。	I am very happy to meet you.	Nice to meet you.
+我有一个杯子。	wǒ yǒu yí gè bēizi。	I have one cup.	I have a cup.
+我爸爸的工作是医生。	wǒ bàba de gōngzuò shì yīshēng。	My dad’s job is a doctor.	My dad is a doctor.
+我家有一只狗。	wǒ jiā yǒu yì zhī gǒu。	My family has a dog.	I have a dog at home.
+我会说汉语。	wǒ huì shuō Hànyǔ。	I can speak Chinese.	I can speak Chinese.
+今天的天气很好。	jīntiān de tiānqì hěn hǎo。	Today's weather is very good.	The weather is nice today.
+今天是三号。	jīntiān shì sān hào。	Today is the third (day of the month).	Today is the third.
+我喜欢喝茶。	wǒ xǐhuan hē chá。	I like drinking tea.	I like tea.
+我和朋友去学校。	wǒ hé péngyǒu qù xuéxiào。	My friend and I go to school.	I go to school with my friend.
+我很高兴。	wǒ hěn gāoxìng。	I am very happy.	I am happy.
+学校在商店后面。	xuéxiào zài shāngdiàn hòumian。	The school is behind the store.	The school is behind the store.
+我回家了。	wǒ huí jiā le。	I went home.	I went home.
+我会写汉字。	wǒ huì xiě hànzì。	I can write Chinese characters.	I can write Chinese characters.
+你有几个苹果？	nǐ yǒu jǐ gè píngguǒ？	How many apples do you have?	How many apples do you have?
+我家在北京。	wǒ jiā zài Běijīng。	My home is in Beijing.	My home is in Beijing.
+我叫王明。	wǒ jiào Wáng Míng。	My name is Wang Ming.	I am called Wang Ming.
+今天是星期三。	jīntiān shì xīngqīsān。	Today is Wednesday.	Today is Wednesday.
+我有九个杯子。	wǒ yǒu jiǔ gè bēizi。	I have nine cups.	I have nine cups.
+我开门了。	wǒ kāi mén le。	I opened the door.	I opened the door.
+请看这本书。	qǐng kàn zhè běn shū。	Please look at this book.	Look at this book.
+我看见了一个朋友。	wǒ kànjiàn le yí gè péngyǒu。	I saw a friend.	I saw a friend.
+这个苹果三块钱。	zhège píngguǒ sān kuài qián。	This apple costs three yuan.	This apple is three yuan.
+请你来我家。	qǐng nǐ lái wǒ jiā。	Please come to my home.	Please come to my home.
+王老师是我的汉语老师。	wáng lǎoshī shì wǒ de Hànyǔ lǎoshī。	Teacher Wang is my Chinese teacher.	Teacher Wang is my Chinese teacher.
+我吃饭了。	wǒ chīfàn le。	I have eaten.	I have eaten.
+今天很冷。	jīntiān hěn lěng。	Today is very cold.	It is cold today.
+书在桌子里。	shū zài zhuōzi lǐ。	The book is inside the desk.	The book is in the desk.
+我有六个杯子。	wǒ yǒu liù gè bēizi。	I have six cups.	I have six cups.
+我妈妈很爱我。	wǒ māma hěn ài wǒ。	My mom loves me very much.	My mom loves me.
+你喜欢汉语吗？	nǐ xǐhuan Hànyǔ ma？	Do you like Chinese?	Do you like Chinese?
+我买了一个杯子。	wǒ mǎi le yí gè bēizi。	I bought a cup.	I bought a cup.
+我家有一只猫。	wǒ jiā yǒu yì zhī māo。	My family has a cat.	I have a cat at home.
+我没有电脑。	wǒ méiyǒu diànnǎo。	I do not have a computer.	I don’t have a computer.
+我喜欢吃米饭。	wǒ xǐhuan chī mǐfàn。	I like eating rice.	I like rice.
+我的名字是李明。	wǒ de míngzi shì Lǐ Míng。	My name is Li Ming.	My name is Li Ming.
+明天是星期五。	míngtiān shì xīngqīwǔ。	Tomorrow is Friday.	Tomorrow is Friday.
+你是哪个国家的人？	nǐ shì nǎ gè guójiā de rén？	Which country are you from?	Which country are you from?
+你的家在哪儿？	nǐ de jiā zài nǎr？	Where is your home?	Where is your home?
+那是我的书。	nà shì wǒ de shū。	That is my book.	That is my book.
+我很好，你呢？	wǒ hěn hǎo，nǐ ne？	I'm very well, and you?	I’m good, how about you?
+我能说汉语。	wǒ néng shuō Hànyǔ。	I can speak Chinese.	I can speak Chinese.
+你好！	nǐ hǎo！	Hello!	Hello!
+今年是2025年。	jīnnián shì èr líng èr wǔ nián。	This year is 2025.	This year is 2025.
+我有一个女儿。	wǒ yǒu yí gè nǚ’ér。	I have a daughter.	I have a daughter.
+他是我的朋友。	tā shì wǒ de péngyou。	He is my friend.	He is my friend.
+这个房子很漂亮。	zhège fángzi hěn piàoliang。	This house is very beautiful.	This house is beautiful.
+我买了三个苹果。	wǒ mǎi le sān gè píngguǒ。	I bought three apples.	I bought three apples.
+我家有七个人。	wǒ jiā yǒu qī gè rén。	My family has seven people.	There are seven people in my family.
+学校在商店前面。	xuéxiào zài shāngdiàn qiánmian。	The school is in front of the store.	The school is in front of the store.
+这个苹果三块钱。	zhège píngguǒ sān kuài qián。	This apple costs three yuan.	This apple is three yuan.
+请进。	qǐng jìn。	Please come in.	Please come in.
+我去学校。	wǒ qù xuéxiào。	I go to school.	I go to school.
+今天很热。	jīntiān hěn rè。	Today is very hot.	It is hot today.
+他是中国人。	tā shì Zhōngguó rén。	He is Chinese.	He is Chinese.
+我认识他。	wǒ rènshi tā。	I know him.	I know him.
+我有三本书。	wǒ yǒu sān běn shū。	I have three books.	I have three books.
+我去商店买东西。	wǒ qù shāngdiàn mǎi dōngxi。	I go to the store to buy things.	I go shopping.
+书在桌子上。	shū zài zhuōzi shàng。	The book is on the desk.	The book is on the table.
+我上午去学校。	wǒ shàngwǔ qù xuéxiào。	I go to school in the morning.	I go to school in the morning.
+我有很少的钱。	wǒ yǒu hěn shǎo de qián。	I have very little money.	I don’t have much money.
+他是谁？	tā shì shéi？	Who is he?	Who is he?
+你喜欢吃什么？	nǐ xǐhuan chī shénme？	What do you like to eat?	What do you like to eat?
+我有十块钱。	wǒ yǒu shí kuài qián。	I have ten yuan.	I have ten yuan.
+你什么时候去学校？	nǐ shénme shíhou qù xuéxiào？	When do you go to school?	When do you go to school?
+我是学生。	wǒ shì xuéshēng。	I am a student.	I am a student.
+我喜欢看书。	wǒ xǐhuan kàn shū。	I like to read books.	I like reading books.
+我想喝水。	wǒ xiǎng hē shuǐ。	I want to drink water.	I want water.
+我买了很多水果。	wǒ mǎi le hěn duō shuǐguǒ。	I bought a lot of fruit.	I bought a lot of fruit.
+我晚上十点睡觉。	wǒ wǎnshàng shí diǎn shuìjiào。	I go to sleep at ten o’clock at night.	I go to bed at ten.
+我会说汉语。	wǒ huì shuō Hànyǔ。	I can speak Chinese.	I can speak Chinese.
+我有四个苹果。	wǒ yǒu sì gè píngguǒ。	I have four apples.	I have four apples.
+我今年二十岁。	wǒ jīnnián èrshí suì。	I am twenty years old this year.	I am twenty years old.
+他是我的朋友。	tā shì wǒ de péngyou。	He is my friend.	He is my friend.
+她是我的老师。	tā shì wǒ de lǎoshī。	She is my teacher.	She is my teacher.
+这个菜太好吃了！	zhège cài tài hǎochī le！	This dish is too delicious!	This dish is really delicious!
+今天天气很好。	jīntiān tiānqì hěn hǎo。	Today's weather is very good.	The weather is nice today.
+请听我说。	qǐng tīng wǒ shuō。	Please listen to me.	Listen to me, please.
+王明是我的同学。	wáng míng shì wǒ de tóngxué。	Wang Ming is my classmate.	Wang Ming is my classmate.
+喂，你好！	wèi, nǐ hǎo！	Hello! (on the phone)	Hello!
+我是学生。	wǒ shì xuéshēng。	I am a student.	I am a student.
+我们是朋友。	wǒmen shì péngyou。	We are friends.	We are friends.
+我有五个苹果。	wǒ yǒu wǔ gè píngguǒ。	I have five apples.	I have five apples.
+我喜欢吃米饭。	wǒ xǐhuan chī mǐfàn。	I like eating rice.	I like rice.
+书在桌子下。	shū zài zhuōzi xià。	The book is under the desk.	The book is under the desk.
+我下午去商店。	wǒ xiàwǔ qù shāngdiàn。	I go to the store in the afternoon.	I go to the store in the afternoon.
+今天下雨了。	jīntiān xiàyǔ le。	It rained today.	It is raining today.
+王先生是我的老师。	wáng xiānsheng shì wǒ de lǎoshī。	Mr. Wang is my teacher.	Mr. Wang is my teacher.
+现在是三点。	xiànzài shì sān diǎn。	It is three o’clock now.	It is three o’clock.
+我想喝水。	wǒ xiǎng hē shuǐ。	I want to drink water.	I want water.
+这只猫很小。	zhè zhī māo hěn xiǎo。	This cat is very small.	This cat is small.
+这位小姐很漂亮。	zhè wèi xiǎojiě hěn piàoliang。	This young lady is very beautiful.	This young lady is beautiful.
+我买了一些水果。	wǒ mǎi le yīxiē shuǐguǒ。	I bought some fruit.	I bought some fruit.
+我会写汉字。	wǒ huì xiě hànzì。	I can write Chinese characters.	I can write Chinese characters.
+今天是星期三。	jīntiān shì xīngqīsān。	Today is Wednesday.	Today is Wednesday.
+我是学生。	wǒ shì xuéshēng。	I am a student.	I am a student.
+我学习汉语。	wǒ xuéxí Hànyǔ。	I study Chinese.	I study Chinese.
+我去学校。	wǒ qù xuéxiào。	I go to school.	I go to school.
+我有一个苹果。	wǒ yǒu yí gè píngguǒ。	I have one apple.	I have one apple.
+请给我一点儿水。	qǐng gěi wǒ yīdiǎnr shuǐ。	Please give me a little water.	Give me a little water, please.
+这件衣服很漂亮。	zhè jiàn yīfu hěn piàoliang。	This piece of clothing is very beautiful.	This clothing is beautiful.
+王医生在医院工作。	wáng yīshēng zài yīyuàn gōngzuò。	Doctor Wang works at the hospital.	Dr. Wang works in the hospital.
+医院在学校前面。	yīyuàn zài xuéxiào qiánmian。	The hospital is in front of the school.	The hospital is in front of the school.
+椅子在桌子下。	yǐzi zài zhuōzi xià。	The chair is under the table.	The chair is under the desk.
+我有一本书。	wǒ yǒu yī běn shū。	I have a book.	I have a book.
+今年是三月。	jīnnián shì sān yuè。	This year is March.	It is March this year.
+再见！	zàijiàn！	Goodbye!	Goodbye!
+我在学校。	wǒ zài xuéxiào。	I am at school.	I am at school.
+你怎么去学校？	nǐ zěnme qù xuéxiào？	How do you go to school?	How do you go to school?
+今天天气怎么样？	jīntiān tiānqì zěnmeyàng？	How is the weather today?	How is the weather today?
+这是我的书。	zhè shì wǒ de shū。	This is my book.	This is my book.
+我住在中国。	wǒ zhù zài zhōngguó。	I live in China.	I live in China.
+我中午吃米饭。	wǒ zhōngwǔ chī mǐfàn。	I eat rice at noon.	I eat rice for lunch.
+我住在北京。	wǒ zhù zài běijīng。	I live in Beijing.	I live in Beijing.
+书在桌子上。	shū zài zhuōzi shàng。	The book is on the table.	The book is on the table.
+这个字怎么读？	zhège zì zěnme dú？	How do you read this character?	How do you read this character?
+昨天是星期三。	zuótiān shì xīngqīsān。	Yesterday was Wednesday.	Yesterday was Wednesday.
+请坐。	qǐng zuò。	Please sit.	Please sit.
+我会做饭。	wǒ huì zuòfàn。	I can cook.	I can cook.
+
+//HSK 2 CH 1 - Words
+旅游	lǚyóu	v. to travel, to take a trip	我想去中国旅游。	A: 你喜欢旅游吗？B: 是的，我喜欢旅游。A: 你想去哪儿？B: 我想去中国旅游。
+觉得	juéde	v. to think, to feel	我觉得这个电影很好看。	A: 你觉得这个电影怎么样？B: 我觉得很好看。A: 你想再看一次吗？B: 想，我很喜欢。
+最	zuì	adv. most, to the greatest extent	我最喜欢吃米饭。	A: 你最喜欢吃什么？B: 我最喜欢吃米饭。A: 你喜欢吃面条吗？B: 也喜欢。
+为什么	wèishénme	adv. why?	你为什么学习汉语？	A: 你为什么学习汉语？B: 因为我想去中国。A: 你学了多久了？B: 一年了。
+为	wèi	prep. for	这本书是为你的。	A: 这本书是谁的？B: 这本书是为你的。A: 谢谢！B: 不客气！
+也	yě	adv. also, too	我会说汉语，他也会。	A: 你会说汉语吗？B: 会，我会说汉语。A: 他呢？B: 他也会说。
+运动	yùndòng	n. sports, exercise, workout	我每天做运动。	A: 你喜欢运动吗？B: 喜欢，我每天做运动。A: 你喜欢什么运动？B: 我喜欢踢足球。
+踢足球	tī zúqiú	v. to play football	我和朋友一起踢足球。	A: 你喜欢踢足球吗？B: 喜欢，我和朋友一起踢足球。A: 你们常常踢吗？B: 是的，每个星期都踢。
+踢	tī	v. kick	他踢了一个球。	A: 你看见他了吗？B: 看见了，他踢了一个球。A: 他踢得好吗？B: 很好！
+球	qiú	n. ball	这个球是新的。	A: 这是谁的球？B: 这个球是新的，我刚买的。A: 多少钱？B: 五十块。
+一起	yìqǐ	adv. together	我们一起去商店。	A: 你要去商店吗？B: 是的，你要一起去吗？A: 好啊，我们一起去！
+要	yào	v. to want to, would like to	我要买一本书。	A: 你要买什么？B: 我要买一本书。A: 多少钱？B: 二十块。
+新	xīn	adj. new	我买了一辆新车。	A: 你买了什么？B: 我买了一辆新车。A: 你的车是什么颜色的？B: 红色的。
+它	tā	pron. it	它是一只猫。	A: 这是什么？B: 它是一只猫。A: 你喜欢它吗？B: 喜欢，它很可爱。
+眼睛	yǎnjing	n. eye	她的眼睛很大。	A: 她长得怎么样？B: 她的眼睛很大，很漂亮。A: 你认识她吗？B: 认识，她是我的同学。
+
+//HSK 2 CH 2 - Words
+生病	shēngbìng	v. to fall ill, to be sick	我生病了，不能去学校。	A: 你今天怎么没去学校？B: 我生病了，不能去。A: 你去看医生了吗？B: 去了，医生给了我药。
+每	měi	adv. every, each	我每天都学习汉语。	A: 你学习汉语多久了？B: 我每天都学习。A: 你觉得汉语难吗？B: 还可以，不太难。
+早上	zǎoshang	n. morning	我早上七点起床。	A: 你早上几点起床？B: 我早上七点起床。A: 你起床后做什么？B: 我跑步，然后吃早饭。
+跑步	pǎobù	n. jogging	我每天早上跑步。	A: 你喜欢运动吗？B: 喜欢，我每天早上跑步。A: 你跑多久？B: 半个小时。
+跑	pǎo	v. run	他跑得很快。	A: 你会跑得快吗？B: 不太快。A: 你喜欢跑步吗？B: 喜欢，但不常跑。
+步	bù	n. step	请慢一步。	A: 你走太快了！B: 好，我慢一步。A: 你喜欢走路吗？B: 还可以，有时候走走。
+起床	qǐchuáng	v. to get up, to get out of bed	我早上六点起床。	A: 你每天几点起床？B: 早上六点。A: 这么早？你不累吗？B: 习惯了。
+药	yào	n. medicine, drug	医生给了我一些药。	A: 你生病了吗？B: 是的，医生给了我一些药。A: 你吃药了吗？B: 吃了，现在好点了。
+身体	shēntǐ	n. body	你的身体怎么样？	A: 你的身体好吗？B: 还可以，但有点累。A: 你要多休息。B: 好的，谢谢。
+出院	chūyuàn	v. to leave hospital, to be discharged from hospital	他明天出院。	A: 你朋友好了吗？B: 好了，他明天出院。A: 太好了！B: 是的，我们可以一起去看他。
+出	chū	v. to come/go out	我出门去学校了。	A: 你在家吗？B: 不，我出门去学校了。A: 你什么时候回来？B: 下午五点。
+高	gāo	adj. tall, high	他很高，有一米八。	A: 你觉得他高吗？B: 是的，他很高，有一米八。A: 你有多高？B: 我一米七五。
+米	mǐ	n. meter	这张桌子有两米长。	A: 这张桌子多长？B: 两米长。A: 这么长！B: 是的，很大。
+知道	zhīdào	v. to know	你知道他的名字吗？	A: 你知道他的名字吗？B: 知道，他叫王明。A: 他是哪国人？B: 他是中国人。
+休息	xiūxi	v. to have or take a rest	你应该多休息。	A: 你看起来很累。B: 是的，我需要休息一下。A: 好的，你好好休息。B: 谢谢！
+忙	máng	adj. busy	我今天很忙。	A: 你今天有时间吗？B: 没有，我今天很忙。A: 你在做什么？B: 我在工作。
+时间	shíjiān	n. time	你有时间吗？	A: 你今天有时间吗？B: 没有，我很忙。A: 那你明天呢？B: 明天有一点时间。
+
+//HSK 2 CH 3 - Words
+手表	shǒubiǎo	n. watch	我的手表是新的。	A: 你的手表好看吗？B: 是的，我的手表是新的。A: 多少钱？B: 一千块。
+千	qiān	num. thousand	这个手机要三千块。	A: 这个手机多少钱？B: 三千块。A: 太贵了！B: 是的，但很好用。
+报纸	bàozhǐ	n. newspaper	爸爸每天看报纸。	A: 你爸爸喜欢看什么？B: 他每天看报纸。A: 他看电视吗？B: 也看。
+送	sòng	v. to send, to deliver (also can mean free)	我送你一本书。	A: 这本书多少钱？B: 我送你的，不要钱。A: 谢谢！B: 不客气！
+这	zhè	pron. this	这是什么？	A: 这是什么？B: 这是我的手机。A: 你的手机好用吗？B: 很好用。
+一下	yīxià	part. used after a verb to indicate an act, attempt, or a little	请等一下。	A: 你现在有时间吗？B: 请等一下，我马上来。A: 好的，我等你。
+牛奶	niúnǎi	n. milk	我每天喝牛奶。	A: 你喜欢喝什么？B: 我喜欢喝牛奶。A: 你早上喝咖啡吗？B: 不，我喝牛奶。
+房间	fángjiān	n. room	我的房间很大。	A: 你的房间怎么样？B: 我的房间很大，很干净。A: 你一个人住吗？B: 是的。
+丈夫	zhàngfu	n. husband	我丈夫是工程师。	A: 你丈夫做什么工作？B: 他是工程师。A: 他在哪儿工作？B: 在公司。
+旁边	pángbiān	n. beside	学校在商店旁边。	A: 学校在哪儿？B: 学校在商店旁边。A: 你住得远吗？B: 不远，很近。
+真	zhēn	adv. really, indeed	这个电影真好看。	A: 你喜欢这个电影吗？B: 是的，真好看。A: 你想再看一次吗？B: 想。
+粉色	fěnsè	n. pink	这件衣服是粉色的。	A: 这件衣服是什么颜色？B: 粉色的。A: 你喜欢粉色吗？B: 喜欢。
+粉	fěn	n. powder	这个粉很香。	A: 这是什么？B: 这是花粉，很香。A: 你喜欢这个味道吗？B: 喜欢。
+颜色	yánsè	n. color	你喜欢什么颜色？	A: 你喜欢什么颜色？B: 我喜欢蓝色。A: 你喜欢红色吗？B: 也喜欢。
+左边	zuǒbiān	n. left side	商店在学校左边。	A: 商店在哪儿？B: 商店在学校左边。A: 你住在学校旁边吗？B: 不是，我住得远一点。
+红色	hóngsè	n. red	我喜欢红色的衣服。	A: 你喜欢什么颜色的衣服？B: 红色的。A: 你有红色的衣服吗？B: 有。
+红	hóng	adj. red	这朵花很红。	A: 这朵花什么颜色？B: 很红。A: 你喜欢这种颜色吗？B: 喜欢。
+后边	hòubiān	n. back	商店在学校后边。	A: 商店在哪儿？B: 商店在学校后边。A: 远不远？B: 不远，很近。
+中间	zhōngjiān	n. middle	桌子在房间中间。	A: 桌子在哪儿？B: 桌子在房间中间。A: 你的房间大吗？B: 很大。
+右边	yòubiān	n. right side	椅子在桌子右边。	A: 椅子在哪儿？B: 椅子在桌子右边。A: 你喜欢这个桌子吗？B: 喜欢。
+前边	qiánbiān	n. front	学校在商店前边。	A: 学校在哪儿？B: 学校在商店前边。A: 你去学校吗？B: 是的，我现在去。
+
+//HSK 2 CH 4 - Words
+百	bǎi	num. hundred	这本书一百块。	A: 这本书多少钱？B: 一百块。A: 你买了吗？B: 还在想想。
+生日	shēngrì	n. birthday	今天是我的生日。	A: 你什么时候过生日？B: 今天是我的生日。A: 生日快乐！B: 谢谢！
+快乐	kuàilè	adj. happy, glad; n. happiness	祝你新年快乐！	A: 明天是新年！B: 祝你新年快乐！A: 你也快乐！B: 谢谢！
+给	gěi	v./prep. to, for, give	我给你一本书。	A: 这本书是谁的？B: 这是我给你的书。A: 谢谢！B: 不客气！
+接	jiē	v. to receive, to take, to accept, catch	我去接朋友。	A: 你去哪儿？B: 我去机场接朋友。A: 他什么时候到？B: 下午三点。
+晚上	wǎnshang	n. evening, night	我晚上看电影。	A: 你晚上做什么？B: 我看电影。A: 你一个人看吗？B: 不是，和朋友一起。
+问	wèn	v. to ask	我问老师一个问题。	A: 你在做什么？B: 我在问老师一个问题。A: 老师回答了吗？B: 还没有。
+非常	fēicháng	adv. very, extremely	我非常喜欢学习汉语。	A: 你喜欢学习汉语吗？B: 是的，我非常喜欢！A: 你学了多久？B: 一年多。
+开始	kāishǐ	v. to begin, to start	电影开始了。	A: 电影几点开始？B: 电影已经开始了！A: 我们快进去吧！B: 好！
+已经	yǐjīng	adv. already	我已经吃饭了。	A: 你吃饭了吗？B: 我已经吃饭了。A: 吃了什么？B: 米饭和菜。
+长	cháng	adj. long	这条路很长。	A: 这条路长吗？B: 很长，走路要一个小时。A: 那我们快点走吧！B: 好的。
+两	liǎng	num. two	我有两本书。	A: 你有几本书？B: 我有两本书。A: 你喜欢看书吗？B: 是的，很喜欢。
+帮	bāng	v. to help, to assist	请帮我看一下。	A: 你能帮我吗？B: 可以，怎么帮？A: 帮我看一下这个问题。B: 好的。
+介绍	jièshào	v. to introduce, to recommend	我来介绍一下我的朋友。	A: 你认识他吗？B: 认识，我来介绍一下。A: 你们是怎么认识的？B: 在学校认识的。
+
+//HSK 2 CH 5 - Words
+外面	wàimiàn	n. outside	外面下雨了。	A: 你要出去吗？B: 不，外面下雨了。A: 那我们等一下吧。B: 好的。
+准备	zhǔnbèi	v. to intend, to prepare	我准备去旅游。	A: 你假期做什么？B: 我准备去旅游。A: 你去哪儿？B: 我想去中国。
+就	jiù	adv. used to indicate a conclusion or resolution	我们快走，就到家了。	A: 我们到了吗？B: 快了，就到家了。A: 太好了！B: 是的。
+鱼	yú	n. fish	我喜欢吃鱼。	A: 你喜欢吃什么？B: 我喜欢吃鱼。A: 你会做鱼吗？B: 不会，我妈妈做得很好吃。
+吧	ba	part. used at the end of a sentence to indicate consultation, suggestion, request, or command	我们一起去吧。	A: 你要去商店吗？B: 是的，一起去吧！A: 好的，我们走吧。B: 走！
+件	jiàn	m. piece (used for clothes among other items)	这件衣服很漂亮。	A: 你喜欢这件衣服吗？B: 喜欢，很漂亮。A: 多少钱？B: 三百块。
+还	hái	adv. passably, fairly, rather	这个饭店还可以。	A: 你觉得这个饭店怎么样？B: 还可以，不错。A: 你还想来吗？B: 可以啊。
+可以	kěyǐ	adj. not bad	这家咖啡店的咖啡可以。	A: 这家咖啡店的咖啡好喝吗？B: 还可以。A: 你喜欢喝咖啡吗？B: 喜欢。
+不错	búcuò	adj. not bad, pretty good	这本书不错。	A: 你觉得这本书怎么样？B: 不错，很好看。A: 你推荐吗？B: 推荐！
+考试	kǎoshì	n. test, exam	明天有考试。	A: 你明天有考试吗？B: 是的，汉语考试。A: 你准备好了吗？B: 还在学习。
+意思	yìsi	n. meaning, idea, interest	这个词是什么意思？	A: 你知道这个词的意思吗？B: 不知道，你知道吗？A: 我去问老师。B: 好的。
+咖啡	kāfēi	n. coffee	我每天早上喝咖啡。	A: 你喜欢喝什么？B: 我喜欢喝咖啡。A: 你喝几杯？B: 一杯就够了。
+对	duì	prep. to, for	喝太多咖啡对身体不好。	A: 你喜欢喝咖啡吗？B: 喜欢，但是喝太多对身体不好。A: 那你每天喝多少？B: 一杯。
+以后	yǐhòu	adv. after, afterwards, later	吃饭以后，我去学校。	A: 你什么时候去学校？B: 吃饭以后。A: 你几点吃饭？B: 七点。
+有点儿	yǒudiǎnr	adv. a little, slightly	今天有点儿冷。	A: 今天天气怎么样？B: 有点儿冷。A: 你带外套了吗？B: 带了。
+就是	jiùshì	adv. just, exactly (used for emphasis)	我就是你的朋友。	A: 你认识他吗？B: 当然认识，我就是他的朋友！A: 你们怎么认识的？B: 在学校认识的。
+球	qiú	n. ball, sphere	这个球很大。	A: 这是谁的球？B: 这是我的球，很大。A: 你喜欢踢球吗？B: 喜欢。
+打	dǎ	v. to hit, to play (sports), to make (a call)	我喜欢打篮球。	A: 你喜欢什么运动？B: 我喜欢打篮球。A: 你打得好吗？B: 还可以。
+
+//HSK 2 CH 6 - Words
+门	mén	n. door, gate	请关门。	A: 你可以关门吗？B: 好的，我关门。A: 谢谢！B: 不客气。
+外	wài	n. outer, outside	我喜欢在外吃饭。	A: 你喜欢在家吃饭吗？B: 不，我喜欢在外吃饭。A: 你最喜欢哪家饭店？B: 那家面馆不错。
+自行车	zìxíngchē	n. bike	我骑自行车去学校。	A: 你怎么去学校？B: 我骑自行车去。A: 远吗？B: 不远，十分钟就到了。
+羊肉	yángròu	n. mutton	我喜欢吃羊肉。	A: 你喜欢吃什么肉？B: 我喜欢吃羊肉。A: 你会做羊肉吗？B: 不会，我只会吃。
+好吃	hǎochī	adj. delicious, yummy	这家店的菜很好吃。	A: 这家饭店的菜怎么样？B: 很好吃！A: 你最喜欢吃什么？B: 我最喜欢吃面条。
+面条	miàntiáo	n. noodles	我中午吃面条。	A: 你今天午饭吃什么？B: 我吃面条。A: 你喜欢什么面条？B: 我喜欢牛肉面。
+打篮球	dǎ lánqiú	phr. to play basketball	我喜欢打篮球。	A: 你喜欢什么运动？B: 我喜欢打篮球。A: 你经常打篮球吗？B: 是的，每个星期都打。
+因为	yīnwèi	conj. because, since	我学汉语，因为我喜欢中国文化。	A: 你为什么学汉语？B: 因为我喜欢中国文化。A: 你学了多久了？B: 一年多了。
+所以	suǒyǐ	conj. so, therefore	今天下雨，所以我没去公园。	A: 你今天怎么没去公园？B: 今天下雨，所以我没去。A: 那你做什么了？B: 我在家看书。
+游泳	yóuyǒng	v. to swim	夏天我喜欢游泳。	A: 你喜欢什么运动？B: 我喜欢游泳。A: 你游得好吗？B: 还可以。
+经常	jīngcháng	adv. often, frequently	我经常去公园。	A: 你周末做什么？B: 我经常去公园。A: 你在公园做什么？B: 有时候跑步，有时候散步。
+公斤	gōngjīn	m. kilogram	这个西瓜有两公斤。	A: 这个西瓜多重？B: 两公斤。A: 这么重！B: 是的，很大。
+姐姐	jiějie	n. elder sister	我姐姐是医生。	A: 你姐姐做什么工作？B: 她是医生。A: 她在哪儿工作？B: 她在医院工作。
+
+//HSK 2 CH 7 - Words
+教室	jiàoshì	n. classroom	我们的教室很大。	A: 你的教室大吗？B: 是的，我们的教室很大。A: 你们在教室里做什么？B: 学习汉语。
+机场	jīchǎng	n. airport	我去机场接朋友。	A: 你去哪儿？B: 我去机场接朋友。A: 你的朋友什么时候到？B: 下午三点。
+路	lù	n. road, path, way	这条路很长。	A: 这条路长吗？B: 很长，要走一个小时。A: 那我们快点走吧！B: 好的。
+离	lí	v. to be away from	学校离我家很近。	A: 你的学校离家远吗？B: 不远，离我家很近。A: 你怎么去学校？B: 我走路去。
+公司	gōngsī	n. company, firm	我在公司工作。	A: 你在哪儿工作？B: 我在公司工作。A: 你的公司大吗？B: 还可以，不太大。
+远	yuǎn	adj. far, distant	我的家离学校很远。	A: 你的家离学校远吗？B: 是的，很远。A: 你怎么去学校？B: 我坐公共汽车去。
+公共汽车	gōnggòng qìchē	n. bus	我每天坐公共汽车上班。	A: 你怎么去公司？B: 我每天坐公共汽车上班。A: 远吗？B: 有点远，要四十分钟。
+小时	xiǎoshí	n. hour	我每天学习两个小时。	A: 你每天学习多久？B: 我每天学习两个小时。A: 你觉得累吗？B: 还好，我喜欢学习。
+慢	màn	adj. slow	这辆公共汽车很慢。	A: 这辆公共汽车快吗？B: 不快，很慢。A: 那你为什么坐？B: 因为便宜。
+快	kuài	adj. quick, fast	你的电脑很快。	A: 你的电脑怎么样？B: 很快，运行很好。A: 你在哪里买的？B: 在商店买的。
+过	guò	v. to pass (time), to spend (time)	时间过得真快！	A: 你来中国多久了？B: 一年了，时间过得真快！A: 你喜欢中国吗？B: 喜欢，很喜欢。
+走	zǒu	v. to walk	我走路去学校。	A: 你怎么去学校？B: 我走路去。A: 远吗？B: 不远，很近。
+到	dào	v. to arrive, to reach	我到学校了。	A: 你到学校了吗？B: 到了，我刚到。A: 你走了多久？B: 十分钟。
+
+//HSK 2 CH 8 - Words
+再	zài	adv. again, once more	请再说一遍。	A: 你能再说一遍吗？B: 好的，我再说一遍。A: 谢谢！B: 不客气。
+让	ràng	v. to let, to allow	妈妈让我早点回家。	A: 你怎么这么早回家？B: 妈妈让我早点回家。A: 你明天也早点回家吗？B: 可能吧。
+告诉	gàosu	v. to tell	请告诉我你的名字。	A: 你叫什么名字？B: 你想知道吗？A: 是的，请告诉我。B: 我叫李明。
+等	děng	v. to wait, to await	请等一下。	A: 你能等我一下吗？B: 好的，我在这里等你。A: 谢谢！B: 不客气。
+找	zhǎo	v. to look for	我在找我的手机。	A: 你在做什么？B: 我在找我的手机。A: 你找到了吗？B: 还没有。
+事情	shìqing	n. thing, matter, affair	这是一件重要的事情。	A: 你为什么这么忙？B: 因为有一件重要的事情。A: 什么事情？B: 工作上的事情。
+服务员	fúwùyuán	n. attendant, waiter/waitress	请叫一下服务员。	A: 我们要点菜了。B: 请叫一下服务员。A: 好的，服务员！B: 你好，欢迎光临！
+白	bái	adj. white	我喜欢白色的衣服。	A: 你喜欢什么颜色的衣服？B: 我喜欢白色的。A: 你有白色的衣服吗？B: 有很多。
+黑	hēi	adj. black	他穿了一件黑色的衣服。	A: 你喜欢黑色的衣服吗？B: 喜欢，我觉得很酷。A: 你今天穿的衣服是黑色的吗？B: 是的。
+贵	guì	adj. expensive	这件衣服太贵了！	A: 你觉得这件衣服怎么样？B: 太贵了！A: 多少钱？B: 五百块。
+
+//HSK 2 CH 9 - Words
+错	cuò	adj. wrong, incorrect	你说错了。	A: 这个答案对吗？B: 不对，你说错了。A: 那正确答案是什么？B: 是“北京”。
+从	cóng	prep. from	我从北京来。	A: 你是哪里人？B: 我从北京来。A: 你来这儿多久了？B: 一年了。
+跳舞	tiàowǔ	v. to dance	我喜欢跳舞。	A: 你有什么爱好？B: 我喜欢跳舞。A: 你跳得好吗？B: 还可以。
+第一	dìyī	num. first	他是第一名。	A: 这次考试你考得怎么样？B: 我是第一名！A: 太棒了！B: 谢谢！
+希望	xīwàng	v./n. to hope, wish; hope	我希望明天天气好。	A: 你希望明天做什么？B: 我希望天气好，我们可以出去玩。A: 是的，希望明天不下雨。B: 对。
+问题	wèntí	n. question, problem	我有一个问题。	A: 你有什么问题吗？B: 是的，我有一个问题。A: 你问吧。B: 这个汉字怎么读？
+欢迎	huānyíng	v. to welcome	欢迎你来中国！	A: 你好，欢迎你来中国！B: 谢谢！我很高兴。A: 你喜欢中国吗？B: 喜欢，很喜欢。
+上班	shàngbān	v. to go to work, to be on duty, to do job	我每天八点上班。	A: 你每天几点上班？B: 我每天八点上班。A: 你几点下班？B: 下午五点。
+懂	dǒng	v. to understand, to know	你听懂了吗？	A: 你听懂老师说的话了吗？B: 听懂了。A: 太好了！B: 是的，谢谢老师。
+完	wán	v. to finish, to complete	我做完作业了。	A: 你做完作业了吗？B: 做完了。A: 太好了！B: 是的，我可以出去玩了。
+题	tí	n. question, problem (on a test or exercise)	这道题很难。	A: 这道题你会做吗？B: 很难，我不会。A: 你要不要问老师？B: 好的，我去问。
+
+//HSK 2 CH 1 - Phrases
+我想去中国旅游。	wǒ xiǎng qù zhōngguó lǚyóu。	I want to travel to China.	I want to travel to China.
+我觉得这个电影很好看。	wǒ juéde zhège diànyǐng hěn hǎokàn。	I think this movie is very good.	I think this movie is great.
+我最喜欢吃米饭。	wǒ zuì xǐhuan chī mǐfàn。	I like eating rice the most.	Rice is my favorite food.
+你为什么学习汉语？	nǐ wèishénme xuéxí Hànyǔ？	Why do you study Chinese?	Why are you learning Chinese?
+这本书是为你的。	zhè běn shū shì wèi nǐ de。	This book is for you.	This book is for you.
+我会说汉语，他也会。	wǒ huì shuō Hànyǔ，tā yě huì。	I can speak Chinese, and he can too.	I can speak Chinese, and so can he.
+我每天做运动。	wǒ měitiān zuò yùndòng。	I exercise every day.	I do sports every day.
+我和朋友一起踢足球。	wǒ hé péngyou yìqǐ tī zúqiú。	My friends and I play football together.	My friends and I play soccer together.
+他踢了一个球。	tā tī le yí gè qiú。	He kicked a ball.	He kicked the ball.
+这个球是新的。	zhège qiú shì xīn de。	This ball is new.	This ball is new.
+我们一起去商店。	wǒmen yìqǐ qù shāngdiàn。	We go to the store together.	We go shopping together.
+我要买一本书。	wǒ yào mǎi yì běn shū。	I want to buy a book.	I want to buy a book.
+我买了一辆新车。	wǒ mǎi le yí liàng xīn chē。	I bought a new car.	I bought a new car.
+它是一只猫。	tā shì yì zhī māo。	It is a cat.	It’s a cat.
+她的眼睛很大。	tā de yǎnjing hěn dà。	Her eyes are very big.	She has big eyes.
+
+//HSK 2 CH 2 - Phrases
+我生病了，不能去学校。	wǒ shēngbìng le，bùnéng qù xuéxiào。	I am sick and can't go to school.	I am sick and can't go to school.
+我每天都学习汉语。	wǒ měitiān dōu xuéxí Hànyǔ。	I study Chinese every day.	I study Chinese every day.
+我早上七点起床。	wǒ zǎoshang qī diǎn qǐchuáng。	I get up at seven in the morning.	I wake up at seven in the morning.
+我每天早上跑步。	wǒ měitiān zǎoshang pǎobù。	I go jogging every morning.	I go jogging every morning.
+他跑得很快。	tā pǎo de hěn kuài。	He runs very fast.	He runs fast.
+请慢一步。	qǐng màn yí bù。	Please take a slower step.	Please slow down.
+我早上六点起床。	wǒ zǎoshang liù diǎn qǐchuáng。	I get up at six in the morning.	I wake up at six in the morning.
+医生给了我一些药。	yīshēng gěi le wǒ yìxiē yào。	The doctor gave me some medicine.	The doctor gave me some medicine.
+你的身体怎么样？	nǐ de shēntǐ zěnmeyàng？	How is your health?	How is your health?
+他明天出院。	tā míngtiān chūyuàn。	He will leave the hospital tomorrow.	He is getting discharged tomorrow.
+我出门去学校了。	wǒ chūmén qù xuéxiào le。	I went out to school.	I left for school.
+他很高，有一米八。	tā hěn gāo，yǒu yì mǐ bā。	He is very tall, 1.8 meters.	He is 1.8 meters tall.
+这张桌子有两米长。	zhè zhāng zhuōzi yǒu liǎng mǐ cháng。	This table is two meters long.	This table is two meters long.
+你知道他的名字吗？	nǐ zhīdào tā de míngzi ma？	Do you know his name?	Do you know his name?
+你应该多休息。	nǐ yīnggāi duō xiūxi。	You should rest more.	You should take more rest.
+我今天很忙。	wǒ jīntiān hěn máng。	I am very busy today.	I am busy today.
+你有时间吗？	nǐ yǒu shíjiān ma？	Do you have time?	Do you have time?
+
+//HSK 2 CH 3 - Phrases
+我的手表是新的。	wǒ de shǒubiǎo shì xīn de。	My watch is new.	My watch is new.
+这个手机要三千块。	zhège shǒujī yào sān qiān kuài。	This phone costs three thousand yuan.	This phone costs three thousand yuan.
+爸爸每天看报纸。	bàba měitiān kàn bàozhǐ。	Dad reads the newspaper every day.	Dad reads the newspaper every day.
+我送你一本书。	wǒ sòng nǐ yì běn shū。	I am giving you a book.	I am giving you a book.
+这是什么？	zhè shì shénme？	What is this?	What is this?
+请等一下。	qǐng děng yíxià。	Please wait a moment.	Please wait a moment.
+我每天喝牛奶。	wǒ měitiān hē niúnǎi。	I drink milk every day.	I drink milk every day.
+我的房间很大。	wǒ de fángjiān hěn dà。	My room is very big.	My room is big.
+我丈夫是工程师。	wǒ zhàngfu shì gōngchéngshī。	My husband is an engineer.	My husband is an engineer.
+学校在商店旁边。	xuéxiào zài shāngdiàn pángbiān。	The school is next to the shop.	The school is next to the shop.
+这个电影真好看。	zhège diànyǐng zhēn hǎokàn。	This movie is really good.	This movie is great.
+这件衣服是粉色的。	zhè jiàn yīfu shì fěnsè de。	This piece of clothing is pink.	This clothing is pink.
+你喜欢什么颜色？	nǐ xǐhuan shénme yánsè？	What color do you like?	What color do you like?
+桌子在房间中间。	zhuōzi zài fángjiān zhōngjiān。	The table is in the middle of the room.	The table is in the middle of the room.
+
+//HSK 2 CH 4 - Phrases
+这本书一百块。	zhè běn shū yì bǎi kuài。	This book is one hundred yuan.	This book costs one hundred yuan.
+今天是我的生日。	jīntiān shì wǒ de shēngrì。	Today is my birthday.	Today is my birthday.
+祝你新年快乐！	zhù nǐ xīnnián kuàilè！	Wish you a happy new year!	Happy New Year to you!
+我给你一本书。	wǒ gěi nǐ yì běn shū。	I am giving you a book.	I give you a book.
+我去接朋友。	wǒ qù jiē péngyou。	I am going to pick up a friend.	I am going to pick up my friend.
+我晚上看电影。	wǒ wǎnshang kàn diànyǐng。	I watch movies at night.	I watch movies in the evening.
+我问老师一个问题。	wǒ wèn lǎoshī yí gè wèntí。	I ask the teacher a question.	I asked the teacher a question.
+我非常喜欢学习汉语。	wǒ fēicháng xǐhuan xuéxí Hànyǔ。	I really like studying Chinese.	I love learning Chinese.
+电影开始了。	diànyǐng kāishǐ le。	The movie has started.	The movie has started.
+我已经吃饭了。	wǒ yǐjīng chīfàn le。	I have already eaten.	I have already eaten.
+这条路很长。	zhè tiáo lù hěn cháng。	This road is very long.	This road is long.
+我有两本书。	wǒ yǒu liǎng běn shū。	I have two books.	I have two books.
+请帮我看一下。	qǐng bāng wǒ kàn yíxià。	Please help me take a look.	Please help me check this.
+我来介绍一下我的朋友。	wǒ lái jièshào yíxià wǒ de péngyou。	Let me introduce my friend.	Let me introduce my friend.
+
+//HSK 2 CH 5 - Phrases
+外面下雨了。	wàimiàn xiàyǔ le。	It is raining outside.	It’s raining outside.
+我准备去旅游。	wǒ zhǔnbèi qù lǚyóu。	I am preparing to travel.	I am planning a trip.
+我们快走，就到家了。	wǒmen kuài zǒu，jiù dào jiā le。	Let’s hurry, we’re almost home.	We are almost home.
+我喜欢吃鱼。	wǒ xǐhuan chī yú。	I like eating fish.	I like fish.
+我们一起去吧。	wǒmen yìqǐ qù ba。	Let’s go together.	Let’s go together.
+这件衣服很漂亮。	zhè jiàn yīfu hěn piàoliang。	This piece of clothing is beautiful.	This clothing is beautiful.
+这个饭店还可以。	zhège fàndiàn hái kěyǐ。	This restaurant is passable.	This restaurant is okay.
+这家咖啡店的咖啡可以。	zhè jiā kāfēidiàn de kāfēi kěyǐ。	The coffee in this café is not bad.	This coffee shop is okay.
+这本书不错。	zhè běn shū búcuò。	This book is pretty good.	This book is good.
+明天有考试。	míngtiān yǒu kǎoshì。	There is an exam tomorrow.	There is a test tomorrow.
+这个词是什么意思？	zhège cí shì shénme yìsi？	What does this word mean?	What does this word mean?
+我每天早上喝咖啡。	wǒ měitiān zǎoshang hē kāfēi。	I drink coffee every morning.	I drink coffee every morning.
+喝太多咖啡对身体不好。	hē tài duō kāfēi duì shēntǐ bù hǎo。	Drinking too much coffee is bad for your health.	Too much coffee is bad for health.
+吃饭以后，我去学校。	chīfàn yǐhòu，wǒ qù xuéxiào。	After eating, I go to school.	I go to school after eating.
+今天有点儿冷。	jīntiān yǒudiǎnr lěng。	Today is a bit cold.	It is a little cold today.
+我就是你的朋友。	wǒ jiùshì nǐ de péngyou。	I am exactly your friend.	I am your friend.
+这个球很大。	zhège qiú hěn dà。	This ball is very big.	This ball is big.
+我喜欢打篮球。	wǒ xǐhuan dǎ lánqiú。	I like playing basketball.	I like to play basketball.
+
+//HSK 2 CH 6 - Phrases
+请关门。	qǐng guān mén。	Please close the door.	Close the door, please.
+我喜欢在外吃饭。	wǒ xǐhuan zài wài chīfàn。	I like eating outside.	I like eating out.
+我骑自行车去学校。	wǒ qí zìxíngchē qù xuéxiào。	I ride a bicycle to school.	I go to school by bike.
+我喜欢吃羊肉。	wǒ xǐhuan chī yángròu。	I like eating mutton.	I like mutton.
+这家店的菜很好吃。	zhè jiā diàn de cài hěn hǎochī。	The food in this restaurant is very delicious.	This restaurant's food is delicious.
+我中午吃面条。	wǒ zhōngwǔ chī miàntiáo。	I eat noodles at noon.	I eat noodles for lunch.
+我喜欢打篮球。	wǒ xǐhuan dǎ lánqiú。	I like playing basketball.	I like to play basketball.
+我学汉语，因为我喜欢中国文化。	wǒ xué Hànyǔ, yīnwèi wǒ xǐhuan Zhōngguó wénhuà。	I study Chinese because I like Chinese culture.	I study Chinese because I like Chinese culture.
+今天下雨，所以我没去公园。	jīntiān xiàyǔ, suǒyǐ wǒ méi qù gōngyuán。	It rained today, so I didn't go to the park.	I didn’t go to the park because it rained.
+夏天我喜欢游泳。	xiàtiān wǒ xǐhuan yóuyǒng。	I like swimming in summer.	I like swimming in the summer.
+我经常去公园。	wǒ jīngcháng qù gōngyuán。	I often go to the park.	I often go to the park.
+这个西瓜有两公斤。	zhège xīguā yǒu liǎng gōngjīn。	This watermelon weighs two kilograms.	This watermelon is two kilograms.
+我姐姐是医生。	wǒ jiějie shì yīshēng。	My older sister is a doctor.	My older sister is a doctor.
+
+//HSK 2 CH 7 - Phrases
+我们的教室很大。	wǒmen de jiàoshì hěn dà。	Our classroom is very big.	Our classroom is big.
+我去机场接朋友。	wǒ qù jīchǎng jiē péngyou。	I am going to the airport to pick up my friend.	I am picking up my friend at the airport.
+这条路很长。	zhè tiáo lù hěn cháng。	This road is very long.	This road is long.
+学校离我家很近。	xuéxiào lí wǒ jiā hěn jìn。	The school is very close to my home.	My school is near my home.
+我在公司工作。	wǒ zài gōngsī gōngzuò。	I work at a company.	I work at a company.
+我的家离学校很远。	wǒ de jiā lí xuéxiào hěn yuǎn。	My home is far from the school.	My house is far from my school.
+我每天坐公共汽车上班。	wǒ měitiān zuò gōnggòng qìchē shàngbān。	I take the bus to work every day.	I go to work by bus every day.
+我每天学习两个小时。	wǒ měitiān xuéxí liǎng gè xiǎoshí。	I study for two hours every day.	I study for two hours a day.
+这辆公共汽车很慢。	zhè liàng gōnggòng qìchē hěn màn。	This bus is very slow.	This bus is slow.
+你的电脑很快。	nǐ de diànnǎo hěn kuài。	Your computer is very fast.	Your computer is fast.
+时间过得真快！	shíjiān guò de zhēn kuài！	Time passes so quickly!	Time flies so fast!
+我走路去学校。	wǒ zǒulù qù xuéxiào。	I walk to school.	I go to school on foot.
+我到学校了。	wǒ dào xuéxiào le。	I have arrived at school.	I have arrived at school.
+
+//HSK 2 CH 8 - Phrases
+请再说一遍。	qǐng zài shuō yí biàn。	Please say it again.	Say it again, please.
+妈妈让我早点回家。	māma ràng wǒ zǎodiǎn huíjiā。	Mom asked me to come home early.	Mom told me to come home early.
+请告诉我你的名字。	qǐng gàosu wǒ nǐ de míngzi。	Please tell me your name.	Tell me your name, please.
+请等一下。	qǐng děng yíxià。	Please wait a moment.	Wait a moment, please.
+我在找我的手机。	wǒ zài zhǎo wǒ de shǒujī。	I am looking for my phone.	I am searching for my phone.
+这是一件重要的事情。	zhè shì yí jiàn zhòngyào de shìqing。	This is an important matter.	This is an important thing.
+请叫一下服务员。	qǐng jiào yíxià fúwùyuán。	Please call the waiter.	Call the waiter, please.
+我喜欢白色的衣服。	wǒ xǐhuan báisè de yīfu。	I like white clothes.	I like white clothes.
+他穿了一件黑色的衣服。	tā chuān le yí jiàn hēisè de yīfu。	He is wearing a black piece of clothing.	He is wearing black clothes.
+这件衣服太贵了！	zhè jiàn yīfu tài guì le！	This piece of clothing is too expensive!	This clothing is too expensive!
+
+//HSK 2 CH 9 - Phrases
+你说错了。	nǐ shuō cuò le。	You said it wrong.	You made a mistake.
+我从北京来。	wǒ cóng Běijīng lái。	I am from Beijing.	I come from Beijing.
+我喜欢跳舞。	wǒ xǐhuan tiàowǔ。	I like dancing.	I like to dance.
+他是第一名。	tā shì dìyī míng。	He is in first place.	He is number one.
+我希望明天天气好。	wǒ xīwàng míngtiān tiānqì hǎo。	I hope the weather is good tomorrow.	I hope tomorrow’s weather is nice.
+我有一个问题。	wǒ yǒu yí gè wèntí。	I have a question.	I have a question.
+欢迎你来中国！	huānyíng nǐ lái Zhōngguó！	Welcome to China!	Welcome to China!
+我每天八点上班。	wǒ měitiān bā diǎn shàngbān。	I go to work at eight every day.	I start work at eight every day.
+你听懂了吗？	nǐ tīng dǒng le ma？	Did you understand?	Did you understand?
+我做完作业了。	wǒ zuò wán zuòyè le。	I have finished my homework.	I finished my homework.
+这道题很难。	zhè dào tí hěn nán。	This question is difficult.	This problem is hard.
+
+//Personal Dictionary
+还在	háizài	adv. still at, still	我还在学习汉语。	A: 你学汉语多久了？B: 我还在学习，已经一年了。A: 你觉得汉语难吗？B: 还可以，有点儿难。
+好好	hǎohǎo	adv. well, properly	你要好好休息。	A: 你今天看起来很累。B: 是的，昨晚睡得不好。A: 你今天要好好休息。B: 好的，谢谢。
+路上	lùshang	n. on the road, on the way	我在路上，马上到。	A: 你到哪儿了？B: 我还在路上，马上就到。A: 好的，我在门口等你。B: 好。
+听说	tīngshuō	v. hear of, be told	我听说你要去北京。	A: 你要去北京吗？B: 是的，你怎么知道？A: 我听说的。B: 对，我下个月去。
+路边	lùbiān	n. roadside, roadside area	我在路边等你。	A: 你在哪儿？B: 我在路边等你。A: 你穿什么衣服？B: 蓝色的外套。
+就	jiù	adv. just, then, fast, immediate	你来，我就走。	A: 你什么时候走？B: 你来了，我就走。A: 好的，我马上到。B: 好，我等你。
+到	dào	v. arrive, reach	我到学校了。	A: 你到学校了吗？B: 是的，我刚到。A: 今天的路上顺利吗？B: 还可以，没有堵车。
+就到	jiùdào	phr. arrive soon, almost there	我快到了，就到。	A: 你现在在哪儿？B: 我快到了，就到。A: 好的，我在门口等你。B: 马上见！
+快	kuài	adj. fast, quick	这辆车很快。	A: 这辆车怎么样？B: 很快，开得很好。A: 你喜欢开快车吗？B: 还好，不太快。
+块	kuài	m. piece, chunk, unit of currency	我买了一块蛋糕。	A: 你买了什么？B: 我买了一块蛋糕。A: 多少钱？B: 十块钱。
+期待	qīdài	v. look forward to	我很期待明天的旅行。	A: 你明天去哪里？B: 我去北京旅行。A: 你期待吗？B: 是的，很期待！
+一个多	yí gè duō	phr. more than one	我学汉语一个多月了。	A: 你学汉语多久了？B: 一个多月了。A: 你觉得怎么样？B: 很有意思。
+过	guò	v. to celebrate, to observe (used for holidays, birthdays, etc.)	我们一起过生日吧！	A: 你的生日快到了！B: 是的，我们一起过吧！A: 好啊，吃蛋糕！B: 对！
+过	guò	v. pass, surpass, spend time	时间过得真快。	A: 你来这儿多久了？B: 三年了，时间过得真快！A: 是的，好像昨天才见面。B: 哈哈，对。
+给	gěi	v./prep. give, for	请给我一杯水。	A: 你要喝什么？B: 请给我一杯水。A: 好的，马上来。B: 谢谢！
+还有	háiyǒu	phr. still have, there is still	还有问题吗？	A: 你明白了吗？B: 还不完全明白。A: 还有问题吗？B: 有，我再问一下。
+走	zǒu	v. walk, go	我们走吧！	A: 电影要开始了！B: 走吧！A: 快点！B: 好的！
+就到了	jiùdàole	phr. arriving soon, almost there	快了，就到了！	A: 还要多久？B: 快了，就到了！A: 好的，我等你。B: 马上！
+可是	kěshì	conj. but, however	我想出去，可是下雨了。	A: 我们出去玩吗？B: 我想，可是下雨了。A: 那下次吧。B: 好的。
+想想	xiǎngxiǎng	v. think about, consider	让我想想。	A: 你要不要去？B: 让我想想。A: 好的，你慢慢想。B: 谢谢！
+出去	chūqù	v. go out, leave	我想出去走走。	A: 你在家吗？B: 是的，我想出去走走。A: 走吧，一起去。B: 好！
+等等	děngděng	v. wait a moment; part. etc.	请等等我。	A: 我们要走了吗？B: 等等我，我还没准备好。A: 好的，快点。B: 好！
+什么事情	shénme shìqing	phr. what matter, what’s going on	你有什么事情吗？	A: 你看起来不太高兴，发生了什么事情？B: 没什么特别的事情，只是有点累。A: 那你要好好休息。B: 谢谢。
+运动运动	yùndòng yùndòng	v. exercise a bit, move around	我们去运动运动吧！	A: 你今天有什么安排？B: 没什么特别的，我们去运动运动吧！A: 好啊，我们去跑步吧。B: 走吧！
+看看	kànkàn	v. take a look, have a look	你看看这个！	A: 你看看这个衣服好看吗？B: 让我看看。A: 你觉得怎么样？B: 还不错，很漂亮！
+这件	zhèjiàn	m. this piece, this item	这件衣服很好看。	A: 你喜欢这件衣服吗？B: 喜欢，颜色很好看。A: 多少钱？B: 三百块。
+这几件	zhè jǐjiàn	m. these few pieces, these several items	这几件衣服都很好看。	A: 你买了什么？B: 我买了这几件衣服。A: 你最喜欢哪一件？B: 这件红色的。
+真	zhēn	adv. very, more than 很	这个蛋糕真好吃！	A: 你觉得这个蛋糕怎么样？B: 真好吃！A: 你还想吃吗？B: 想！
+真的吗	zhēn de ma	phr. Really?	真的吗？我不相信！	A: 我们明天不用上课了。B: 真的？我不相信！A: 真的，老师刚刚说的。B: 太好了！
+买一送一	mǎi yī sòng yī	phr. buy one get one free	这家店的蛋糕买一送一。	A: 我们去那家店吧。B: 为什么？A: 因为蛋糕买一送一。B: 太好了！我们去吧！
+这送的	zhè sòng de	phr. this is given (freebie)	这个杯子是买一送一的，这送的。	A: 你买了两个杯子？B: 不是，这送的，买一送一。A: 真的？B: 是的，很划算！
+对	duì	adj. correct	你的答案是对的。	A: 这道题我的答案对吗？B: 对，你做对了！A: 太好了！B: 继续加油！
+新年快乐	xīnnián kuàilè	phr. Happy New Year	祝你新年快乐！	A: 明天就是新年了！B: 是的，祝你新年快乐！A: 你也是！B: 谢谢！
+接电话	jiē diànhuà	v. answer phone, pick up phone	请接电话。	A: 你的手机在响！B: 是吗？让我接电话。A: 可能是妈妈打来的。B: 好，我看看。
+赠品	zèngpǐn	n. freebies	这个赠品不错。	A: 这是什么？B: 这是买衣服送的赠品。A: 还挺好看的！B: 是的，免费的。
+你的作业	nǐ de zuòyè	n. your homework	你的作业做完了吗？	A: 你的作业做完了吗？B: 还没有，我还在写。A: 要不要一起做？B: 好的！
+下星期	xià xīngqī	n. next week	下星期我们有考试。	A: 下星期你有时间吗？B: 可能没有，我们有考试。A: 那我们考试后见面吧！B: 好！
+工程师	gōngchéngshī	n. engineer	我哥哥是工程师。	A: 你哥哥做什么工作？B: 他是工程师，在公司工作。A: 很厉害啊！B: 谢谢！
+蛋糕	dàngāo	n. cake	这个蛋糕很好吃。	A: 你喜欢吃蛋糕吗？B: 喜欢，尤其是巧克力蛋糕！A: 那我们去买一个吧！B: 走！
+
+//Personal Dictionary - Phrases
+我还在学习汉语。	wǒ háizài xuéxí Hànyǔ。	I am still studying Chinese.	I am still learning Chinese.
+你要好好休息。	nǐ yào hǎohǎo xiūxi。	You should rest well.	You should rest properly.
+我在路上，马上到。	wǒ zài lùshang，mǎshàng dào。	I am on the way, arriving soon.	I am on my way and will be there soon.
+我听说你要去北京。	wǒ tīngshuō nǐ yào qù Běijīng。	I heard that you are going to Beijing.	I heard you are going to Beijing.
+我在路边等你。	wǒ zài lùbiān děng nǐ。	I am waiting for you by the roadside.	I am waiting for you at the roadside.
+你来，我就走。	nǐ lái，wǒ jiù zǒu。	When you come, I will leave.	I will leave once you arrive.
+我到学校了。	wǒ dào xuéxiào le。	I have arrived at school.	I am at school now.
+我快到了，就到。	wǒ kuài dào le，jiù dào。	I am arriving soon.	I am almost there.
+这辆车很快。	zhè liàng chē hěn kuài。	This car is very fast.	This car is fast.
+我买了一块蛋糕。	wǒ mǎi le yí kuài dàngāo。	I bought a piece of cake.	I bought a cake slice.
+我很期待明天的旅行。	wǒ hěn qīdài míngtiān de lǚxíng。	I am looking forward to tomorrow’s trip.	I am excited about the trip tomorrow.
+我学汉语一个多月了。	wǒ xué Hànyǔ yí gè duō yuè le。	I have been learning Chinese for more than a month.	I have been studying Chinese for over a month.
+我们一起过生日吧！	wǒmen yìqǐ guò shēngrì ba！	Let’s celebrate the birthday together!	Let's celebrate together!
+时间过得真快。	shíjiān guò de zhēn kuài。	Time passes so quickly.	Time flies so fast!
+请给我一杯水。	qǐng gěi wǒ yì bēi shuǐ。	Please give me a glass of water.	Give me a cup of water, please.
+还有问题吗？	háiyǒu wèntí ma？	Are there still any questions?	Do you have any more questions?
+我们走吧！	wǒmen zǒu ba！	Let’s go!	Let's go!
+快了，就到了！	kuài le，jiù dào le！	Almost there!	We are almost there.
+我想出去，可是下雨了。	wǒ xiǎng chūqù，kěshì xiàyǔ le。	I want to go out, but it's raining.	I wanted to go out, but it’s raining.
+让我想想。	ràng wǒ xiǎngxiǎng。	Let me think about it.	Let me think.
+我想出去走走。	wǒ xiǎng chūqù zǒuzǒu。	I want to go out for a walk.	I want to go out for a bit.
+请等等我。	qǐng děngděng wǒ。	Please wait for me.	Wait a moment, please.
+你有什么事情吗？	nǐ yǒu shénme shìqing ma？	Is something wrong?	What’s going on?
+我们去运动运动吧！	wǒmen qù yùndòng yùndòng ba！	Let’s go exercise a bit!	Let’s go do some exercise!
+你看看这个！	nǐ kànkàn zhège！	Take a look at this!	Look at this!
+这件衣服很好看。	zhè jiàn yīfu hěn hǎokàn。	This piece of clothing looks great.	This clothing is really nice.
+这几件衣服都很好看。	zhè jǐ jiàn yīfu dōu hěn hǎokàn。	These pieces of clothing all look nice.	These clothes look nice.
+这个蛋糕真好吃！	zhè gè dàngāo zhēn hǎochī！	This cake is really delicious!	This cake is so tasty!
+真的吗？我不相信！	zhēn de ma？wǒ bù xiāngxìn！	Really? I don’t believe it!	Is that true? I don’t believe it!
+这家店的蛋糕买一送一。	zhè jiā diàn de dàngāo mǎi yī sòng yī。	This store’s cakes are buy one get one free.	This shop has a buy-one-get-one-free cake deal.
+这个杯子是买一送一的，这送的。	zhège bēizi shì mǎi yī sòng yī de，zhè sòng de。	This cup was a buy-one-get-one-free deal.	This is a freebie.
+你的答案是对的。	nǐ de dá'àn shì duì de。	Your answer is correct.	Your answer is right.
+祝你新年快乐！	zhù nǐ xīnnián kuàilè！	Wish you a Happy New Year!	Happy New Year to you!
+请接电话。	qǐng jiē diànhuà。	Please pick up the phone.	Answer the phone, please.
+这个赠品不错。	zhège zèngpǐn búcuò。	This free gift is nice.	This freebie is pretty good.
+你的作业做完了吗？	nǐ de zuòyè zuò wán le ma？	Have you finished your homework?	Did you finish your homework?
+下星期我们有考试。	xià xīngqī wǒmen yǒu kǎoshì。	We have an exam next week.	We have a test next week.
+我哥哥是工程师。	wǒ gēge shì gōngchéngshī。	My older brother is an engineer.	My brother is an engineer.
+这个蛋糕很好吃。	zhège dàngāo hěn hǎochī。	This cake is delicious.	This cake is tasty.
+
+//Personal Phrases
+早上有人给你打了一个电话。	zao3shang5 you3ren2 gei3 ni3 da3le5 yi1ge4 dian4hua4	phr. Someone called you this morning.
+现在我们一起去吃吧。	xian4zai4 wo3men yi1qi3 qu4 chi1 ba5	phr. Right now, let's go eat together. (吧 suggests a suggestion)
+我们给你留了一些糕点。	wo3men gei3 ni3 liu2le5 yi1xie1 gao1dian3	phr. We saved you some pastries. (蛋挞 dàn tǎ refers to egg tarts)
+谁会说汉语？	shei2 hui4 shuo1 Han4yu3	phr. Who can speak Chinese?
+这是谁的书？	zhe4 shi4 shei2de5 shu1	phr. Whose book is this?
+我到家了。祝你周末愉快。	wo3 dao4 jia1 le5. zhu4 ni3 zhou1mo4 yu2kuai4.	phr. I’m home. Have a nice weekend.
+晚上我们去饭馆吃饭，怎么样？	wan3shang5 wo3men qu4 fan4guan3 chi1fan4, zen3me5yang4?	phr. Let's go to a restaurant for dinner. What do you think?
+
+//Confusing Pairs
+早上、上午、中午、下午、晚上	zao3shang5, shang4wu3, zhong1wu3, xia4wu3, wan3shang5	n. morning, morning, noon, afternoon, night
+昨天、前边、时候	zuo2tian1, qian2bian1, shi2hou5	n. yesterday, front, time/moment
+中间、问、门、们	zhong1jian1, wen4, men2, men5	n. middle, question, door, plural suffix
+九、几	jiu3, ji3	num./pron. nine, how many/how much
+高、高兴	gao1, gao1xing4	adj. tall, happy (lit. tall mood)
+些、写	xie1, xie3	m./v. some/few, write
+多、都	duo1, dou1	adj./adv. many/much, all/both
+这、送、运	zhe4, song4, yun4	pron./v. this, send/deliver, transport/move
+小、少	xiao3, shao3	adj. small, few
+走、坐、做	zou3, zuo4, zuo4	v. walk/leave, sit, do/make
+就、九	jiu4, jiu3	adv./num. just/then, nine
+在、再	zai4, zai4	prep./adv. at/in, again
+块、快	kuai4, kuai4	m./adj. piece/unit, fast
+她、他、它	ta1, ta1, ta1	pron. she/her, he/him, it
