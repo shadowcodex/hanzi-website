@@ -1,3 +1,34 @@
+# ////////////////
+# HSK Study Guide
+# Author: Shannon Duncan <shadowcodex>
+# This studyguide is built for use with pleco: https://www.pleco.com/
+# 
+# I am personally on a journey to learn mandarin via HSK levels. 
+# I use flash cards built into Pleco for most of my studying
+# outside of the textbooks and other resources. 
+#
+# To support this, I didn't like the built in definitions that gave many meanings etc, or
+# the pre-loaded flashcards. Since they didn't line up with my style of learning.
+#
+# In this file you will find several sections. "Words", "Phrases", "Personal", and "Confusing".
+# Words.. are simply flash cards to learn a single word. They are supported by (Pinyin, Definition, Single Phrase, ABAB Dialog)
+# Phrases.. are extracted from the words to use by themselves if you wish. I also have some personal phrases not listed in books.
+#       Important Note: Phrases have two translations. Literal and General. 
+#       Where Literal is word for word translation (This helps me learn) and general 
+#       is what the message conveys in a more natural english way.
+# Personal.. are definitions not explicitly defined in course books, or came up in conversation with my 老师。
+# Confusing.. are collections of characters that can be confusing to beginners due to either their 汉子 looking similar or their pronunciation being similar.
+#
+# Formatting:
+# Words: `<hanzi>[tab]<pinyin with tones>[tab]<english part><simple few word definition><newline_special_character><sample sentence with this word or phrase from hanzi, in hanzi><newline_special_character><sample dialog ABAB reinforcing this word>`
+# Phrases: `<sample sentence with this word or phrase from hanzi, in hanzi>[tab]<pinyin with tones>[tab]<literal word for word translation><newline_special_character><general phrase translation>`
+#
+# ////////////////
+
+
+# ////////////////
+# I started building this in HSK 2. As such my HSK 1 word list is not broken up by chapter. This is a todo for me later.
+# ////////////////
 //HSK 1 Words
 爱	ài	n. love	我爱我的家。	A: 你爱你的家吗？B: 是的，我爱我的家。A: 你的家在哪儿？B: 我的家在北京。
 八	bā	num. eight	我有八个苹果。	A: 你有几个苹果？B: 我有八个苹果。A: 你想吃几个？B: 我想吃两个。
@@ -591,6 +622,9 @@
 我做完作业了。	wǒ zuò wán zuòyè le。	I have finished my homework.	I finished my homework.
 这道题很难。	zhè dào tí hěn nán。	This question is difficult.	This problem is hard.
 
+# ////////////////
+# This is a collection of dictionary words from my classes, or in text books that were not explicitly defined
+# ////////////////
 //Personal Dictionary
 还在	háizài	adv. still at, still	我还在学习汉语。	A: 你学汉语多久了？B: 我还在学习，已经一年了。A: 你觉得汉语难吗？B: 还可以，有点儿难。
 好好	hǎohǎo	adv. well, properly	你要好好休息。	A: 你今天看起来很累。B: 是的，昨晚睡得不好。A: 你今天要好好休息。B: 好的，谢谢。
@@ -673,6 +707,9 @@
 我哥哥是工程师。	wǒ gēge shì gōngchéngshī。	My older brother is an engineer.	My brother is an engineer.
 这个蛋糕很好吃。	zhège dàngāo hěn hǎochī。	This cake is delicious.	This cake is tasty.
 
+# ////////////////
+# This is a collection of phrases I have used in real life, but were not in books formally. 
+# ////////////////
 //Personal Phrases
 早上有人给你打了一个电话。	zao3shang5 you3ren2 gei3 ni3 da3le5 yi1ge4 dian4hua4	phr. Someone called you this morning.
 现在我们一起去吃吧。	xian4zai4 wo3men yi1qi3 qu4 chi1 ba5	phr. Right now, let's go eat together. (吧 suggests a suggestion)
@@ -682,6 +719,9 @@
 我到家了。祝你周末愉快。	wo3 dao4 jia1 le5. zhu4 ni3 zhou1mo4 yu2kuai4.	phr. I’m home. Have a nice weekend.
 晚上我们去饭馆吃饭，怎么样？	wan3shang5 wo3men qu4 fan4guan3 chi1fan4, zen3me5yang4?	phr. Let's go to a restaurant for dinner. What do you think?
 
+# ////////////////
+# These are groups of hanzi or pinyin based words that can be confusing for beginners to separate meanings or see differences for.
+# ////////////////
 //Confusing Pairs
 早上、上午、中午、下午、晚上	zao3shang5, shang4wu3, zhong1wu3, xia4wu3, wan3shang5	n. morning, morning, noon, afternoon, night
 昨天、前边、时候	zuo2tian1, qian2bian1, shi2hou5	n. yesterday, front, time/moment
